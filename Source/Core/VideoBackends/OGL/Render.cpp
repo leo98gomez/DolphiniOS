@@ -532,7 +532,8 @@ Renderer::Renderer()
 		}
 		else
 		{
-			g_ogl_config.eSupportedGLSLVersion = GLSL_400;
+            //g_ogl_config.eSupportedGLSLVersion = GLSL_400;
+			g_ogl_config.eSupportedGLSLVersion = GLSLES_300; //Will Edited
 			g_Config.backend_info.bSupportsSSAA = true;
 		}
 
