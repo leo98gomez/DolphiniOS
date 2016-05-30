@@ -1,0 +1,1137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		02F7A175A0A941CEB10F2294 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B0E253E688CE4D5B94B05F1A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2E054EE6DBDB468C925270B8 /* CMake Rules */,
+			);
+			dependencies = (
+				6BB2620697EA40F6BA3DEF0E /* PBXTargetDependency */,
+				B341337A5D8340BEB9000109 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		202811A490E94A96935FA242 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C4AFFB360284422BB5C9C54E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D39A088BD9D34F91A91FAB36 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		5C8C9F124E314483B3B1440E /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E0D14178008D43DE85553703 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				846F76FA440A420CA256ADFF /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				977F714E16D746E0B93F418E /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		AE16CEE739A74EDB9135B9F0 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 017EAD57D0A145608182EE46 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				643D15F5DEB24AEAAAC19D91 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		BBC4381C235542F482DEE9FF /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B9F61E503D5450184FE0F56 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				1CE55315AC764BC695FA012C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				29A6EF781C5C4C58839FAC28 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6674C7070724498C8C6BA8F5 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 55067ABABCC74459B7FE4100 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		C4F33D1453204D488EAD192E /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/xxhash.c */ = {isa = PBXBuildFile; fileRef = E9C6D77619B342AFB5DC59B8 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/xxhash.c */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		16E486AC00644496AB7EE7FE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		508609C7058D4B5D8BE51423 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5C81877BA31F44E69B413890 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		74820DC2F0324FAD9ADBD86F = {
+			isa = PBXBuildStyle;
+		};
+		74E337877DD84FE997EBF033 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		180E586071184998949753A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C66A0503341F990DDD90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F7A175A0A941CEB10F2294;
+			remoteInfo = ALL_BUILD;
+		};
+		A5899CA1364843B8B1923BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C66A0503341F990DDD90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B0B5AED3C44C7E89D63516;
+			remoteInfo = xxhash;
+		};
+		FB6F76364E4A41D88CB761DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C66A0503341F990DDD90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02F7A175A0A941CEB10F2294;
+			remoteInfo = ALL_BUILD;
+		};
+		FEFDD52A38754C51939A1139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C66A0503341F990DDD90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202811A490E94A96935FA242;
+			remoteInfo = ZERO_CHECK;
+		};
+		FF619CC5D52B4413A9BF2BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499C66A0503341F990DDD90C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 202811A490E94A96935FA242;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09BF116DB5B24176800C1E9D /* xxhash */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libxxhash.a; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CD5DC774CD549488AABD7DD /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		55067ABABCC74459B7FE4100 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E9C6D77619B342AFB5DC59B8 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/xxhash.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = xxhash.c; path = xxhash.c; sourceTree = SOURCE_ROOT; };
+		ECDF844692654C3DB22AD9A3 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D1FF65948524234B5E2929A = {
+			isa = PBXGroup;
+			children = (
+				CBAF8D00ECEE4064AC011E35 /* Sources */,
+				D49DE0559F704BB190AA3C39 /* Resources */,
+				52F0CCD57D8B4F5DA08E59C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3005CA6DF5DF465AB0D3FF82 /* xxhash */ = {
+			isa = PBXGroup;
+			children = (
+				B639922EFA58454FA23E6351 /* Source Files */,
+				55067ABABCC74459B7FE4100 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */,
+			);
+			name = xxhash;
+			sourceTree = "<group>";
+		};
+		4AB0A905662240F9A0823CBE /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				6CD653467C8F44559E33ABB5 /* CMake Rules */,
+				1CD5DC774CD549488AABD7DD /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		52F0CCD57D8B4F5DA08E59C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09BF116DB5B24176800C1E9D /* xxhash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CD653467C8F44559E33ABB5 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		81DE3E738D514D36934C1C44 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		ABD603BF41514AC88BED8BB1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				81DE3E738D514D36934C1C44 /* CMake Rules */,
+				ECDF844692654C3DB22AD9A3 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B639922EFA58454FA23E6351 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9C6D77619B342AFB5DC59B8 /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/xxhash.c */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CBAF8D00ECEE4064AC011E35 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3005CA6DF5DF465AB0D3FF82 /* xxhash */,
+				ABD603BF41514AC88BED8BB1 /* ALL_BUILD */,
+				4AB0A905662240F9A0823CBE /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		D49DE0559F704BB190AA3C39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B0B5AED3C44C7E89D63516 /* xxhash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21CC77F184E5441F9D231E06 /* Build configuration list for PBXNativeTarget "xxhash" */;
+			buildPhases = (
+				0C76A7A6D29A4DA789B36071 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91DBCEB297454D7D8BAEE2C2 /* PBXTargetDependency */,
+			);
+			name = xxhash;
+			productName = xxhash;
+			productReference = 09BF116DB5B24176800C1E9D /* xxhash */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499C66A0503341F990DDD90C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = 796EB555F81642B3A298747E /* Build configuration list for PBXProject "xxhash" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				16E486AC00644496AB7EE7FE /* Debug */,
+				508609C7058D4B5D8BE51423 /* Release */,
+				5C81877BA31F44E69B413890 /* MinSizeRel */,
+				74E337877DD84FE997EBF033 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1D1FF65948524234B5E2929A;
+			projectDirPath = ../../../Externals/xxhash;
+			projectRoot = "";
+			targets = (
+				02F7A175A0A941CEB10F2294 /* ALL_BUILD */,
+				AE16CEE739A74EDB9135B9F0 /* RUN_TESTS */,
+				202811A490E94A96935FA242 /* ZERO_CHECK */,
+				BBC4381C235542F482DEE9FF /* install */,
+				5C8C9F124E314483B3B1440E /* package */,
+				17B0B5AED3C44C7E89D63516 /* xxhash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0857B2EF5BF04A5F974E137C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		1CE55315AC764BC695FA012C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash -f /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2E054EE6DBDB468C925270B8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash -f /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3B6CC1C5BC5F4D1BA729DEF1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		445BD49B31A643158158BEA3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		643D15F5DEB24AEAAAC19D91 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash -f /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/CMakeScripts/RUN_TESTS_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		846F76FA440A420CA256ADFF /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash -f /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/CMakeScripts/package_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B53C02C61F7C4AD4A5980E15 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D1723FBDAF9447D18473C16D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D39A088BD9D34F91A91FAB36 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash -f /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C76A7A6D29A4DA789B36071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F33D1453204D488EAD192E /* /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/xxhash/xxhash.c */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29A6EF781C5C4C58839FAC28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F7A175A0A941CEB10F2294 /* ALL_BUILD */;
+			targetProxy = FB6F76364E4A41D88CB761DC /* PBXContainerItemProxy */;
+		};
+		6BB2620697EA40F6BA3DEF0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B0B5AED3C44C7E89D63516 /* xxhash */;
+			targetProxy = A5899CA1364843B8B1923BA8 /* PBXContainerItemProxy */;
+		};
+		91DBCEB297454D7D8BAEE2C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202811A490E94A96935FA242 /* ZERO_CHECK */;
+			targetProxy = FF619CC5D52B4413A9BF2BA9 /* PBXContainerItemProxy */;
+		};
+		977F714E16D746E0B93F418E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02F7A175A0A941CEB10F2294 /* ALL_BUILD */;
+			targetProxy = 180E586071184998949753A6 /* PBXContainerItemProxy */;
+		};
+		B341337A5D8340BEB9000109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 202811A490E94A96935FA242 /* ZERO_CHECK */;
+			targetProxy = FEFDD52A38754C51939A1139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07ABF0AF219A441B80899D9A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		0D1DBEC3007C4468A0011FD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'", "'_ARCH_32=1'", "'_M_ARM=1'", "'_M_ARM_64=1'", ANDROID, "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_PORTAUDIO=0'", "'USE_EGL=1'", "'USE_PIPES=1'", "'USE_MEMORYWATCHER=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -Wall -fno-strict-aliasing -fno-exceptions -fomit-frame-pointer";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2E2E37F5103E419F9F8F16B1 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		3B7387041F7E40FFBD6689EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		43407292B4E240C895F3FE55 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		476825853FF34017BD67BA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		47F16FE123DC446DB2719B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		4B88A41ED8E34DC8B2F7C982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		4FB863ABF3CA433D982AD2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/build";
+			};
+			name = Release;
+		};
+		61AA39A1F8C84D48AB83A960 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		65B325845E354CF388732181 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		749A49CED7C0404587CB000C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		7EBDE97CD61A4EE1ABC1C0CB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		860D8C0326E944B2A29EB949 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/build";
+			};
+			name = MinSizeRel;
+		};
+		87D425B4EB574B9A91F684C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		92AB126804814F71B2B7FA37 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		9A2F647C7A404A2CB96E23B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		A46F1FA1AC084FCDA1BCF09D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		A894F269944643DB85437F71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B3ABFE66DD384CC392F78CAD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		C626AE0606DC4772A5521AE5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		CA2B4E89B34641D9B37A96D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		D181D7A0A52D41C5826FA35C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'", "'_ARCH_32=1'", "'_M_ARM=1'", "'_M_ARM_64=1'", ANDROID, "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_PORTAUDIO=0'", "'USE_EGL=1'", "'USE_PIPES=1'", "'USE_MEMORYWATCHER=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -Wall -fno-strict-aliasing -fno-exceptions -fomit-frame-pointer";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		D7EEACD5C3F74962B94D8EA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'", "'_ARCH_32=1'", "'_M_ARM=1'", "'_M_ARM_64=1'", ANDROID, "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_PORTAUDIO=0'", "'USE_EGL=1'", "'USE_PIPES=1'", "'USE_MEMORYWATCHER=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -Wall -fno-strict-aliasing -fno-exceptions -fomit-frame-pointer";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		E88225887B154A0CB81A5060 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		EA1ACF44616E46BF9D9B0BEC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/build";
+			};
+			name = RelWithDebInfo;
+		};
+		F5171970D82B494B9F0D7291 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "armv7 armv7s arm64";
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk;
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash/build";
+			};
+			name = Debug;
+		};
+		F737E97D5F0F4BEDAF59514C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (armv7, armv7s, arm64, );
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", "'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'", "'_ARCH_32=1'", "'_M_ARM=1'", "'_M_ARM_64=1'", ANDROID, "'_FILE_OFFSET_BITS=64'", _LARGEFILE_SOURCE, "'HAVE_ALSA=0'", "'HAVE_AO=0'", "'HAVE_BLUEZ=0'", "'HAVE_PULSEAUDIO=0'", "'HAVE_OPENAL=1'", "'HAVE_PORTAUDIO=0'", "'USE_EGL=1'", "'USE_PIPES=1'", "'USE_MEMORYWATCHER=1'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/OpenAL.framework/Headers, "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Android", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/Bochs_disasm", "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/enet/include", );
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "   -Wall -fno-strict-aliasing -fno-exceptions -fomit-frame-pointer";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = xxhash;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/xxhash";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017EAD57D0A145608182EE46 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7387041F7E40FFBD6689EE /* Debug */,
+				CA2B4E89B34641D9B37A96D4 /* Release */,
+				65B325845E354CF388732181 /* MinSizeRel */,
+				B3ABFE66DD384CC392F78CAD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		21CC77F184E5441F9D231E06 /* Build configuration list for PBXNativeTarget "xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D1DBEC3007C4468A0011FD8 /* Debug */,
+				D7EEACD5C3F74962B94D8EA5 /* Release */,
+				D181D7A0A52D41C5826FA35C /* MinSizeRel */,
+				F737E97D5F0F4BEDAF59514C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		796EB555F81642B3A298747E /* Build configuration list for PBXProject "xxhash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5171970D82B494B9F0D7291 /* Debug */,
+				4FB863ABF3CA433D982AD2D6 /* Release */,
+				860D8C0326E944B2A29EB949 /* MinSizeRel */,
+				EA1ACF44616E46BF9D9B0BEC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B9F61E503D5450184FE0F56 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749A49CED7C0404587CB000C /* Debug */,
+				476825853FF34017BD67BA80 /* Release */,
+				7EBDE97CD61A4EE1ABC1C0CB /* MinSizeRel */,
+				E88225887B154A0CB81A5060 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B0E253E688CE4D5B94B05F1A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A2F647C7A404A2CB96E23B8 /* Debug */,
+				47F16FE123DC446DB2719B5D /* Release */,
+				A46F1FA1AC084FCDA1BCF09D /* MinSizeRel */,
+				43407292B4E240C895F3FE55 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4AFFB360284422BB5C9C54E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B88A41ED8E34DC8B2F7C982 /* Debug */,
+				61AA39A1F8C84D48AB83A960 /* Release */,
+				07ABF0AF219A441B80899D9A /* MinSizeRel */,
+				C626AE0606DC4772A5521AE5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0D14178008D43DE85553703 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A894F269944643DB85437F71 /* Debug */,
+				87D425B4EB574B9A91F684C0 /* Release */,
+				2E2E37F5103E419F9F8F16B1 /* MinSizeRel */,
+				92AB126804814F71B2B7FA37 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499C66A0503341F990DDD90C /* Project object */;
+}

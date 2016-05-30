@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-all.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-internal.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-port.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-port-arch.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/custom/gtest-port.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-tuple.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-message.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-string.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-filepath.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-type-util.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-death-test.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-death-test-internal.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-param-test.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-param-util.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-linked_ptr.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-printers.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/custom/gtest-printers.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/gtest-param-util-generated.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest_prod.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-test-part.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-typed-test.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest_pred_impl.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/internal/custom/gtest.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/include/gtest/gtest-spi.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-internal-inl.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-death-test.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-filepath.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-port.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-printers.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-test-part.cc \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/gtest/src/gtest-typed-test.cc

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "234AA76B9C1EFB382E477D7096BC5CE8109775C3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9A047C158727B80F588F7722FD3120E4E5B96C4C" : 0,
+    "234AA76B9C1EFB382E477D7096BC5CE8109775C3" : 0,
+    "C7DC9E1ADB94BF2575F2F5B432B79C6868B15858" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0DA9BC19-7D59-4A2F-87BA-181740D3BCDF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9A047C158727B80F588F7722FD3120E4E5B96C4C" : "dolphin-emu\/",
+    "234AA76B9C1EFB382E477D7096BC5CE8109775C3" : "DolphiniOS\/",
+    "C7DC9E1ADB94BF2575F2F5B432B79C6868B15858" : "GC4iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dolphin-emu",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Build\/dolphin-emu.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilliamLCobb\/DolphiniOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "234AA76B9C1EFB382E477D7096BC5CE8109775C3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dolphin-emu\/dolphin",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A047C158727B80F588F7722FD3120E4E5B96C4C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/WilliamLCobb\/GC4iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C7DC9E1ADB94BF2575F2F5B432B79C6868B15858"
+    }
+  ]
+}

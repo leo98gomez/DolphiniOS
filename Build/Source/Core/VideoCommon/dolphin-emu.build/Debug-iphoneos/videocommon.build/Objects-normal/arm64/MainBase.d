@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/MainBase.cpp \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/ChunkFile.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Assert.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Common.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonFuncs.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonTypes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/MsgHandler.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Logging/Log.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/FileUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/NonCopyable.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Flag.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Event.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/AsyncRequests.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/BPStructs.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/Fifo.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/RenderBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/MathUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/BPMemory.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/BitField.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/FPSCounter.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Timer.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VideoBackendBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/PerfQueryBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VideoCommon.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/TextureCacheBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/TextureDecoder.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VertexLoaderManager.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VideoConfig.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VideoState.h

@@ -1,0 +1,508 @@
+Performing C++ SOURCE FILE Test FLAG_TYPE_LIMITS failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ea0ba" "-configuration" "Debug"
+=== BUILD TARGET cmTC_ea0ba OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_SIGN_COMPARE failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d231b" "-configuration" "Debug"
+=== BUILD TARGET cmTC_d231b OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_IGNORED_QUALIFIERS failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_17b0f" "-configuration" "Debug"
+=== BUILD TARGET cmTC_17b0f OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_UNINITIALIZED failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b2f17" "-configuration" "Debug"
+=== BUILD TARGET cmTC_b2f17 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_LOGICAL_OP failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_a2213" "-configuration" "Debug"
+=== BUILD TARGET cmTC_a2213 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_SHADOW failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_2d6f9" "-configuration" "Debug"
+=== BUILD TARGET cmTC_2d6f9 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_INIT_SELF failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_9aa66" "-configuration" "Debug"
+=== BUILD TARGET cmTC_9aa66 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_MISSING_DECLARATIONS failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_007c7" "-configuration" "Debug"
+=== BUILD TARGET cmTC_007c7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_MISSING_VARIABLE_DECLARATIONS failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8f2ff" "-configuration" "Debug"
+=== BUILD TARGET cmTC_8f2ff OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_VISIBILITY_INLINES_HIDDEN failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_8c2e0" "-configuration" "Debug"
+=== BUILD TARGET cmTC_8c2e0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test FLAG_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_6ccbb" "-configuration" "Debug"
+=== BUILD TARGET cmTC_6ccbb OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+int main() { return 0; }
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7c166" "-configuration" "Debug"
+=== BUILD TARGET cmTC_7c166 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Performing C++ SOURCE FILE Test LIBAV_FOUND failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e8602" "-configuration" "Debug"
+=== BUILD TARGET cmTC_e8602 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+extern "C" {
+			#include <libavcodec/avcodec.h>
+			#include <libavformat/avformat.h>
+			#include <libavutil/mathematics.h>
+			#include <libswscale/swscale.h>
+			}
+			int main(int argc, char **argv)
+			{
+				av_register_all();
+				return 0;
+			}
+Performing C++ SOURCE FILE Test PORTAUDIO failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f1be6" "-configuration" "Debug"
+=== BUILD TARGET cmTC_f1be6 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Return value: 1
+Source file was:
+#include <portaudio.h>
+	int main(int argc, char **argv)
+	{ if(Pa_GetVersion() >= 1890) return 0; else return 1; }
+Determining if the function fcntl exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_56ae3" "-configuration" "Debug"
+=== BUILD TARGET cmTC_56ae3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function poll exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_fa695" "-configuration" "Debug"
+=== BUILD TARGET cmTC_fa695 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_31734" "-configuration" "Debug"
+=== BUILD TARGET cmTC_31734 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function getnameinfo exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_49320" "-configuration" "Debug"
+=== BUILD TARGET cmTC_49320 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_17c7d" "-configuration" "Debug"
+=== BUILD TARGET cmTC_17c7d OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c3aa7" "-configuration" "Debug"
+=== BUILD TARGET cmTC_c3aa7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function inet_pton exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_88599" "-configuration" "Debug"
+=== BUILD TARGET cmTC_88599 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Determining if the function inet_ntop exists failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_15605" "-configuration" "Debug"
+=== BUILD TARGET cmTC_15605 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+
+Performing C SOURCE FILE Test HAS_MSGHDR_FLAGS failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d2885" "-configuration" "Debug"
+=== BUILD TARGET cmTC_d2885 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/socket.h>
+
+int main()
+{
+   (void)sizeof(((struct msghdr *)0)->msg_flags);
+   return 0;
+}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ec716" "-configuration" "Debug"
+=== BUILD TARGET cmTC_ec716 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CheckTypeSize/HAS_SOCKLEN_T.c:
+#include "sys/types.h"
+#include "sys/socket.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test MBEDTLS_VERSION_OK failed with the following output:
+Change Dir: /Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3a006" "-configuration" "Debug"
+=== BUILD TARGET cmTC_3a006 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+target specifies product type 'com.apple.product-type.tool', but there's no such product type for the 'iphoneos' platform
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Check dependencies
+(1 failure)
+
+Source file was:
+
+	#include <mbedtls/version.h>
+	#if MBEDTLS_VERSION_NUMBER < 0x02010100
+	#error "Your mbed TLS version is too old."
+	#endif
+	int main() {}

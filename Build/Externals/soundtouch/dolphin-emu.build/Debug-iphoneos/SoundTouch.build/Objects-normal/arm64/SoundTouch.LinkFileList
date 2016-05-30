@@ -1,0 +1,14 @@
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/AAFilter.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/BPMDetect.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/FIFOSampleBuffer.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/FIRFilter.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/InterpolateCubic.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/InterpolateLinear.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/InterpolateShannon.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/PeakFinder.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/RateTransposer.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/SoundTouch.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/TDStretch.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/cpu_detect_x86.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/mmx_optimized.o
+/Users/willcobb/Dropbox/Xcode/dolphin-emu/Build/Externals/soundtouch/dolphin-emu.build/Debug-iphoneos/SoundTouch.build/Objects-normal/arm64/sse_optimized.o

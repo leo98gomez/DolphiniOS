@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/OpenALStream.cpp \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/aldlist.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonTypes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/DPL2Decoder.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/OpenALStream.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/SoundStream.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/Mixer.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/AudioCommon/WaveFile.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/FileUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/NonCopyable.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Logging/Log.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Event.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Flag.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/Core.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/AudioInterface.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/SystemTimers.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/soundtouch/SoundTouch.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/soundtouch/FIFOSamplePipe.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Externals/soundtouch/STTypes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Thread.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/ConfigManager.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/IniFile.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonFuncs.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/StringUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/SysConf.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/MsgHandler.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/EXI_Device.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/SI_Device.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/DiscIO/Volume.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/DiscIO/Blob.h

@@ -1,0 +1,4 @@
+*.a
+*.DS_Store
+Build/Libraries/
+Build/build/

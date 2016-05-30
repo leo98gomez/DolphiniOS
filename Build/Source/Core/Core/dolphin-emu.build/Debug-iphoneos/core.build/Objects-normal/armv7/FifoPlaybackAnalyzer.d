@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/FifoPlayer/FifoPlaybackAnalyzer.cpp \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Assert.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Common.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonFuncs.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonTypes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/MsgHandler.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Logging/Log.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/FifoPlayer/FifoAnalyzer.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/BPMemory.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/BitField.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/CPMemory.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/BitSet.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/FifoPlayer/FifoDataFile.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/FifoPlayer/FifoPlaybackAnalyzer.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/OpcodeDecoding.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/TextureDecoder.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VertexLoader.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VertexLoaderBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/NativeVertexFormat.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Hash.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/NonCopyable.h

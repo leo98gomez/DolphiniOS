@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/DSPHLE/DSPHLE.cpp \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/ChunkFile.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Assert.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Common.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonFuncs.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonTypes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/MsgHandler.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Logging/Log.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/FileUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/NonCopyable.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Flag.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/Core.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/SystemTimers.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/DSPHLE/DSPHLE.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/DSPEmulator.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/DSP.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/DSPHLE/MailHandler.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/DSPHLE/UCodes/UCodes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/Memmap.h

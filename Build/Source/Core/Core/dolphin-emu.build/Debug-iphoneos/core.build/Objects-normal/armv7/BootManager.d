@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/BootManager.cpp \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonTypes.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/FileUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/NonCopyable.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/IniFile.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/CommonFuncs.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/StringUtil.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/SysConf.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/MsgHandler.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Logging/Log.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/BootManager.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/ConfigManager.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/EXI_Device.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/SI_Device.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/DiscIO/Volume.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/DiscIO/Blob.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/Core.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/Host.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/Movie.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/NetPlayProto.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/EXI.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/SI.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/Sram.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/WiimoteReal/WiimoteReal.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/Common.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Common/FifoQueue.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/Wiimote.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/Core/HW/WiimoteReal/WiimoteRealBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/VideoBackendBase.h \
+  /Users/willcobb/Dropbox/Xcode/dolphin-emu/Source/Core/VideoCommon/PerfQueryBase.h
