@@ -124,7 +124,7 @@ void SWOGLWindow::ShowImage(u8* data, int stride, int width, int height, float a
     
     //Will Edited heavily
     // Added Draw(...) funtion to GLInterfaceBase.h
-    GLInterface->Draw(data, stride, width, height, aspect);
+    GLInterface->Draw(data, width, height);
                       
 // TODO: implement OSD
 //	for (TextData& text : m_text)

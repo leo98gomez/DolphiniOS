@@ -3,6 +3,10 @@
 // Licensed under GPLv2+
 // Refer to the license.txt file included.
 
+// From what I can tell, GLKView requires drawing to the framebuffer to be done in
+// glkView:drawInRect:. Instead of drawing in the video backend, it instead compies
+// over texture data in Draw(). GLDraw() will be called by the GLKView callback.
+
 #include <array>
 #include <cstdlib>
 #include <sstream>
@@ -71,10 +75,11 @@ GLint attribPos;
 GLint attribTexCoord;
 GLint texUniform;
 bool initiated = false;
+int framenum = 0;
 // Show the current FPS
 void cInterfaceIGL::Swap()
 {
-    NSLog(@"Frame");
+    NSLog(@"Frame: %d", framenum++);
 }
 void cInterfaceIGL::SwapInterval(int Interval)
 {
@@ -86,9 +91,6 @@ void cInterfaceIGL::DetectMode()
     s_opengl_mode = GLInterfaceMode::MODE_OPENGLES3;
 }
 
-int stride; int width; int height; float aspect;
-
-
 bool cInterfaceIGL::Create(void *window_handle, bool core)
 {
     initiated = true;
@@ -97,11 +99,11 @@ bool cInterfaceIGL::Create(void *window_handle, bool core)
     context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES3];
     [EAGLContext setCurrentContext: context];
     NSLog(@"Context: %@", context);
-    glkView = (GLKView *)window_handle; //[[GLKView alloc] initWithFrame:CGRectMake(27, 214, 320, 240) context:context];//
+    glkView = (GLKView *)window_handle;
     glkView.context = context;
     
-    //CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
-    //eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
+    CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
+    eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
     
     NSLog(@"GLK View: %@", glkView); 
     
@@ -159,20 +161,16 @@ void cInterfaceIGL::GLDraw()
     glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 }
 
-void cInterfaceIGL::Draw(u8* data, int stridea, int widtha, int heighta, float aspecta)
+void cInterfaceIGL::Draw(u8* data, int width, int height)
 {
-    stride = stridea; width = widtha; height = heighta; aspect = aspecta;
-    
-    for (int i = 0; i < 1000; i++) {
-        data[i * 3] = 200;
-    }
-    
-    size_t bufferSize;
+//    for (int i = 0; i < 1000; i++) {
+//        data[i * 3] = 200;
+//    }
     
     init();
     
-    glBindTexture(GL_TEXTURE_2D, texHandle[0]);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
+    glBindTexture(GL_TEXTURE_2D, width);//texHandle[0]);
+    //glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
     
     [glkView display]; // This will automatically throttle to 60 fps
 }
@@ -229,7 +227,6 @@ void cInterfaceIGL::UpdateSurface()
 
 bool cInterfaceIGL::ClearCurrent()
 {
-    [glkView display];
     return true;
 }
 

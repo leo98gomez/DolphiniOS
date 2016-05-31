@@ -53,7 +53,6 @@ GLKView *v;
         [bridge copyResources];
         [bridge saveDefaultPreferences];
     }
-    
     [bridge startEmulation];
 
 }

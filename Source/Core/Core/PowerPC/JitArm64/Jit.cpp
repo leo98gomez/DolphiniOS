@@ -4,6 +4,12 @@
 
 #include <cstdio>
 
+
+#include <sys/mman.h>
+#include <signal.h>
+#include <errno.h>
+#include <unistd.h>
+
 #include "Common/Arm64Emitter.h"
 #include "Common/CommonTypes.h"
 #include "Common/PerformanceCounter.h"
@@ -350,7 +356,17 @@ void JitArm64::EndTimeProfile(JitBlock* b)
 void JitArm64::Run()
 {
 	CompiledCode pExecAddr = (CompiledCode)enterCode;
+    uintptr_t * opPtr = (uintptr_t*)pExecAddr;
+    opPtr = (uintptr_t *)((uintptr_t)opPtr & 0xFFFFF000); //Assuming page size is 4096
+    
+    
+    if (mprotect(opPtr, 4096 * 2, PROT_READ | PROT_EXEC)) {
+        printf("Error protecting memory: %d\n", errno);
+        perror("Couldn’t mprotect");
+        //exit(errno);
+    }
 	pExecAddr();
+    mprotect(opPtr, 4096 * 2, PROT_READ | PROT_WRITE);
 }
 
 void JitArm64::SingleStep()

@@ -113,7 +113,6 @@ void SWRenderer::SwapImpl(u32 xfbAddr, u32 fbWidth, u32 fbStride, u32 fbHeight, 
 {
 	if (!Fifo::WillSkipCurrentFrame())
 	{
-
 		if (g_ActiveConfig.bUseXFB)
 		{
 			EfbInterface::yuv422_packed* xfb = (EfbInterface::yuv422_packed*) Memory::GetPointer(xfbAddr);
@@ -145,7 +144,9 @@ void SWRenderer::SwapImpl(u32 xfbAddr, u32 fbWidth, u32 fbStride, u32 fbHeight, 
 					File::GetUserPath(D_DUMPFRAMES_IDX).c_str(), frame_index), fbWidth, fbHeight, true);
 			frame_index++;
 		}
-	}
+    } else {
+        printf("Frame Skipped\n");
+    }
 
 	OSD::DoCallbacks(OSD::CallbackType::OnFrame);
 

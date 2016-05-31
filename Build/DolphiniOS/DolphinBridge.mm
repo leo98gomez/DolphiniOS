@@ -128,11 +128,14 @@
     IniFile dolphinConfig;
     dolphinConfig.Load(File::GetUserPath(D_CONFIG_IDX) + "Dolphin.ini");
     //PowerPC::CORE_JITARM64 ,PowerPC::CORE_INTERPRETER
-    dolphinConfig.GetOrCreateSection("Core")->Set("CPUCore", PowerPC::CORE_INTERPRETER); //
+    dolphinConfig.GetOrCreateSection("Core")->Set("CPUCore", PowerPC::CORE_JITARM64);
     dolphinConfig.GetOrCreateSection("Core")->Set("CPUThread", "False"); // originally false
     dolphinConfig.GetOrCreateSection("Core")->Set("Fastmem", "False"); // originally false
-    dolphinConfig.GetOrCreateSection("Core")->Set("GFXBackend", "SW"); //eventually OGL
+    dolphinConfig.GetOrCreateSection("Core")->Set("GFXBackend", "SW"); //eventually OGL (CHanging this does nothing, must change in VideoBackendBase.cpp)
+    dolphinConfig.GetOrCreateSection("Core")->Set("FrameSkip", "0x00000009");
     dolphinConfig.Save(File::GetUserPath(D_CONFIG_IDX) + "Dolphin.ini");
+    
+    NSLog(@"%s", (File::GetUserPath(D_CONFIG_IDX) + "Dolphin.ini").c_str());
     
     IniFile oglConfig;
     oglConfig.Load(File::GetUserPath(D_CONFIG_IDX) + "gfx_opengl.ini");
@@ -180,6 +183,7 @@ static bool MsgAlert(const char* caption, const char* text, bool /*yes_no*/, int
     NSLog(@"Calling UICommon::Init()");
     UICommon::Init();
     
+    //NSString *starfieldDol = [[[[NSBundle mainBundle] resourcePath] stringByAppendingString: @"/"] stringByAppendingString:@"/LuigisMansion.iso"];
     NSString *starfieldDol = [[[[NSBundle mainBundle] resourcePath] stringByAppendingString: @"/"] stringByAppendingString:@"/starfield.dol"];
     
     NSLog(@"StarField Path: %@", starfieldDol);

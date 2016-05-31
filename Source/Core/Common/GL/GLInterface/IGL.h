@@ -49,6 +49,6 @@ public:
 	void UpdateSurface() override;
 	std::unique_ptr<cInterfaceBase> CreateSharedContext() override;
     
-    void Draw(u8* data, int stride, int width, int height, float aspect) override;
+    void Draw(u8* data, int width, int height) override;
     void GLDraw() override;
 };

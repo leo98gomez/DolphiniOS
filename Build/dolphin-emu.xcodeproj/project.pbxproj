@@ -579,6 +579,8 @@
 		CA53A3401CF0B852005937F5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA53A33F1CF0B852005937F5 /* GLKit.framework */; };
 		CA53A3441CF2681A005937F5 /* GLProgram.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA53A3431CF2681A005937F5 /* GLProgram.mm */; };
 		CA5B3F987C6143C6AA598F35 /* FifoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07920FA362341BEB27E24F9 /* FifoPlayer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA76E1911CFCDDE20009BB8E /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA76E1901CFCDDE20009BB8E /* Entitlements.plist */; };
+		CA995A011CFC8FD0005FE28A /* LuigisMansion.iso in Resources */ = {isa = PBXBuildFile; fileRef = CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */; };
 		CB2754535FA34126ADAF9B5C /* SymbolDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E031C7B7651544F986A7FC01 /* SymbolDB.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		CB8199B0E7604603B93B6185 /* PcapFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCE8984C4DCC43529CA3BA44 /* PcapFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		CB84C9DEE03642DDBE4B65AA /* WiimoteReal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BA160A52104729B9B5730C /* WiimoteReal.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -3627,6 +3629,8 @@
 		CA53A3431CF2681A005937F5 /* GLProgram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLProgram.mm; path = Source/Core/Common/GL/GLInterface/GLProgram.mm; sourceTree = "<group>"; };
 		CA53A3451CF276D7005937F5 /* GLProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GLProgram.h; path = Source/Core/Common/GL/GLInterface/GLProgram.h; sourceTree = "<group>"; };
 		CA5AA699C8A340078E46DFEE /* GeometryShaderGen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GeometryShaderGen.cpp; path = Source/Core/VideoCommon/GeometryShaderGen.cpp; sourceTree = SOURCE_ROOT; };
+		CA76E1901CFCDDE20009BB8E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */ = {isa = PBXFileReference; lastKnownFileType = file; path = LuigisMansion.iso; sourceTree = "<group>"; };
 		CBB9A1D3B4244E19828A854F /* libmbedcrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmbedcrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFE2E60DACF46C6B800B913 /* EXI_DeviceIPL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EXI_DeviceIPL.cpp; path = Source/Core/Core/HW/EXI_DeviceIPL.cpp; sourceTree = SOURCE_ROOT; };
 		CC7A12D0EABA4FF9A9616AFA /* Interpreter_Integer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Interpreter_Integer.cpp; path = Source/Core/Core/PowerPC/Interpreter/Interpreter_Integer.cpp; sourceTree = SOURCE_ROOT; };
@@ -4008,6 +4012,7 @@
 		36F8AC164103411E9AD0FA42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CA9959FF1CFC8FD0005FE28A /* Roms */,
 				CA53A3381CEFD322005937F5 /* starfield.dol */,
 				CA53A3341CEFD2CF005937F5 /* GC */,
 				CA53A3351CEFD2CF005937F5 /* Shaders */,
@@ -4736,6 +4741,7 @@
 		CA53A23D1CEFA30E005937F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CA76E1901CFCDDE20009BB8E /* Entitlements.plist */,
 				CA53A23E1CEFA30E005937F5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -4768,6 +4774,15 @@
 				CA53A2B11CEFB485005937F5 /* MainiOS.cpp */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		CA9959FF1CFC8FD0005FE28A /* Roms */ = {
+			isa = PBXGroup;
+			children = (
+				CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */,
+			);
+			name = Roms;
+			path = Build/Roms;
 			sourceTree = "<group>";
 		};
 		D2019E81466F4C8FA73D33D7 /* uicommon */ = {
@@ -6146,6 +6161,7 @@
 				TargetAttributes = {
 					CA53A23A1CEFA30E005937F5 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 43463MM6X8;
 					};
 					CA53A2521CEFA30E005937F5 = {
 						CreatedOnToolsVersion = 7.3;
@@ -6226,7 +6242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA76E1911CFCDDE20009BB8E /* Entitlements.plist in Resources */,
 				CA53A3391CEFD330005937F5 /* starfield.dol in Resources */,
+				CA995A011CFC8FD0005FE28A /* LuigisMansion.iso in Resources */,
 				CA53A3361CEFD2CF005937F5 /* GC in Resources */,
 				CA53A3371CEFD2CF005937F5 /* Shaders in Resources */,
 				CA53A24D1CEFA30E005937F5 /* LaunchScreen.storyboard in Resources */,
@@ -21766,6 +21784,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -21796,6 +21816,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -21820,6 +21841,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -21844,6 +21867,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -21869,6 +21893,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -21893,6 +21919,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -21918,6 +21945,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -21942,6 +21971,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
