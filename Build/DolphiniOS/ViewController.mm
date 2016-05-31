@@ -68,10 +68,4 @@ void* Host_GetRenderHandle()
     return (__bridge void*)v;
 }
 
-
-- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
-{
-    GLInterface->GLDraw();
-}
-
 @end

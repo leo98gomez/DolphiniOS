@@ -1,7 +1,8 @@
 // Copyright 2009 Dolphin Emulator Project
 // Licensed under GPLv2+
 // Refer to the license.txt file included.
-
+#include <stdio.h>
+#include <stdarg.h>
 #pragma once
 
 namespace LogTypes
@@ -73,17 +74,22 @@ static const char LOG_LEVEL_TO_CHAR[7] = "-NEWID";
 }  // namespace
 
 void GenericLog(LogTypes::LOG_LEVELS level, LogTypes::LOG_TYPE type,
-		const char* file, int line, const char* fmt, ...)
-#ifdef __GNUC__
-		__attribute__((format(printf, 5, 6)))
-#endif
-		;
+                const char* file, int line, const char* fmt, ...)
+{
+    if (level <= LogTypes::LOG_LEVELS::LWARNING) {
+        va_list args;
+        va_start(args, fmt);
+        vprintf( fmt, args );
+        va_end(args);
+        printf("\n");
+    }
+}
 
-#if defined LOGGING || defined _DEBUG || defined DEBUGFAST
+#if defined LOGGING || defined DEBUG || defined DEBUGFAST
 #define MAX_LOGLEVEL LogTypes::LOG_LEVELS::LDEBUG
 #else
 #ifndef MAX_LOGLEVEL
-#define MAX_LOGLEVEL LogTypes::LOG_LEVELS::LWARNING
+#define MAX_LOGLEVEL LogTypes::LOG_LEVELS::LDEBUG
 #endif // loglevel
 #endif // logging
 

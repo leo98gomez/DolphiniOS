@@ -61,7 +61,7 @@ void* AllocateExecutableMemory(size_t size, bool low)
 	if (low && (!map_hint))
 		map_hint = (char*)round_page(512*1024*1024); /* 0.5 GB rounded up to the next page */
 #endif
-    syscall(26, 0, 0, 0, 0);
+    //syscall(26, 0, 0, 0, 0);
 	void* ptr = mmap(map_hint, size, PROT_READ | PROT_WRITE | PROT_EXEC,
 		MAP_ANON | MAP_PRIVATE
 #if defined(_M_X86_64) && defined(MAP_32BIT)
@@ -194,7 +194,7 @@ void WriteProtectMemory(void* ptr, size_t size, bool allowExecute)
 	if (!VirtualProtect(ptr, size, allowExecute ? PAGE_EXECUTE_READ : PAGE_READONLY, &oldValue))
 		error_occurred = true;
 #else
-    syscall(26, 0, 0, 0, 0);
+    //syscall(26, 0, 0, 0, 0);
 	int retval = mprotect(ptr, size, allowExecute ? (PROT_READ | PROT_EXEC) : PROT_READ);
 
 	if (retval != 0)

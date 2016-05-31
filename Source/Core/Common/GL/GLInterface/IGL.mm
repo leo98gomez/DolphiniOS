@@ -20,63 +20,12 @@
 #include "Common/Logging/Log.h"
 #include "Common/GL/GLUtil.h"
 
-const float positionVert[] =
-{
-    -1.0f, 1.0f,
-    1.0f, 1.0f,
-    -1.0f, -1.0f,
-    1.0f, -1.0f
-};
-
-const float textureVert[] =
-{
-    0.0f, 0.0f,
-    1.0f, 0.0f,
-    0.0f, 1.0f,
-    1.0f, 1.0f
-};
-
-#define STRINGIZE(x) #x
-#define STRINGIZE2(x) STRINGIZE(x)
-#define SHADER_STRING(text) @ STRINGIZE2(text)
-
-NSString *const kVertShader = SHADER_STRING (
-                                             precision highp float;
-                                             attribute vec4 position;
-                                             attribute vec2 inputTextureCoordinate;
-                                             
-                                             varying highp vec2 texCoord;
-                                             
-                                             void main()
-                                             {
-                                                 texCoord = inputTextureCoordinate;
-                                                 gl_Position = position;
-                                             }
-                                             );
-NSString *const kFragShader = SHADER_STRING (
-                                             precision highp float;
-                                            uniform sampler2D inputImageTexture;
-                                            varying highp vec2 texCoord;
-                                            
-                                            void main()
-                                            {
-                                                highp vec4 color = texture2D(inputImageTexture, texCoord);
-                                                gl_FragColor = color;
-                                            }
-                                            );
 
 
 EAGLContext *context;
 GLKView *glkView;
-EAGLSharegroup* shareGroup;
-GLProgram *program;
-GLuint texHandle[1];
-GLint attribPos;
-GLint attribTexCoord;
-GLint texUniform;
-bool initiated = false;
 int framenum = 0;
-// Show the current FPS
+
 void cInterfaceIGL::Swap()
 {
     NSLog(@"Frame: %d", framenum++);
@@ -85,6 +34,10 @@ void cInterfaceIGL::SwapInterval(int Interval)
 {
 }
 
+GLInterfaceMode cInterfaceIGL::GetMode()
+{
+    return GLInterfaceMode::MODE_OPENGLES3;
+}
 
 void cInterfaceIGL::DetectMode()
 {
@@ -93,96 +46,35 @@ void cInterfaceIGL::DetectMode()
 
 bool cInterfaceIGL::Create(void *window_handle, bool core)
 {
-    initiated = true;
-    
-    printf("Creating render window: %p\n", window_handle);
+    printf("IGL: Creating render window: %p\n", window_handle);
     context = [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES3];
     [EAGLContext setCurrentContext: context];
-    NSLog(@"Context: %@", context);
     glkView = (GLKView *)window_handle;
     glkView.context = context;
     
-    CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
-    eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
-    
-    NSLog(@"GLK View: %@", glkView); 
+    //CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
+    //eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
     
     s_backbuffer_width = glkView.frame.size.width;
     s_backbuffer_height = glkView.frame.size.height;
-    
-    
-    
     return true;
-}
-
-void init()
-{
-    if (!initiated)
-        return;
-    initiated = true;
-    program = [[GLProgram alloc] initWithVertexShaderString:kVertShader fragmentShaderString:kFragShader];
-    
-    [program addAttribute:@"position"];
-    [program addAttribute:@"inputTextureCoordinate"];
-    
-    [program link];
-    
-    attribPos = [program attributeIndex:@"position"];
-    attribTexCoord = [program attributeIndex:@"inputTextureCoordinate"];
-    
-    texUniform = [program uniformIndex:@"inputImageTexture"];
-    
-    glEnableVertexAttribArray(attribPos);
-    glEnableVertexAttribArray(attribTexCoord);
-    
-    glViewport(0, 0, 4, 3);//size.width, size.height);
-    
-    [program use];
-    
-    glGenTextures(1, texHandle);
-    glActiveTexture(GL_TEXTURE1);
-    glBindTexture(GL_TEXTURE_2D, texHandle[0]);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
 }
 
 void cInterfaceIGL::GLDraw()
 {
-
-    glActiveTexture(GL_TEXTURE1);
-    glBindTexture(GL_TEXTURE_2D, texHandle[0]);
-    glUniform1i(texUniform, 1);
     
-    glVertexAttribPointer(attribPos, 2, GL_FLOAT, 0, 0, (const GLfloat*)&positionVert);
-    glVertexAttribPointer(attribTexCoord, 2, GL_FLOAT, 0, 0, (const GLfloat*)&textureVert);
-    
-    glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 }
 
+void cInterfaceIGL::Update()
+{
+    printf("IGL: Update\n");
+}
 void cInterfaceIGL::Draw(u8* data, int width, int height)
 {
-//    for (int i = 0; i < 1000; i++) {
-//        data[i * 3] = 200;
-//    }
-    
-    init();
-    
-    glBindTexture(GL_TEXTURE_2D, width);//texHandle[0]);
-    //glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
-    
-    [glkView display]; // This will automatically throttle to 60 fps
+    [glkView display];
+    printf("IGL: Draw\n");
 }
 
-std::unique_ptr<cInterfaceBase> cInterfaceIGL::CreateSharedContext()
-{
-    NSLog(@"CreateSharedContext()");
-//	std::unique_ptr<cInterfaceBase> context = std::make_unique<cInterfaceIGL>();
-//	if (!context->Create(this))
-//		return nullptr;
-//	return context;
-}
 
 bool cInterfaceIGL::Create(cInterfaceBase* main_context)
 {

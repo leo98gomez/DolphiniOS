@@ -17,17 +17,6 @@
 #include "Common/Logging/Log.h"
 #include "Common/Logging/LogManager.h"
 
-void GenericLog(LogTypes::LOG_LEVELS level, LogTypes::LOG_TYPE type,
-		const char* file, int line, const char* fmt, ...)
-{
-	va_list args;
-	va_start(args, fmt);
-	if (LogManager::GetInstance())
-		LogManager::GetInstance()->Log(level, type,
-			file, line, fmt, args);
-	va_end(args);
-}
-
 LogManager* LogManager::m_logManager = nullptr;
 
 LogManager::LogManager()

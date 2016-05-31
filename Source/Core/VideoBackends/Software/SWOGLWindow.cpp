@@ -43,18 +43,18 @@ void SWOGLWindow::Prepare()
 		ERROR_LOG(VIDEO, "GLExtensions::Init failed!Does your video card support OpenGL 2.0?");
 		return;
 	}
-	else if (GLExtensions::Version() < 310)
+	else if (GLExtensions::Version() < 300)
 	{
 		ERROR_LOG(VIDEO, "OpenGL Version %d detected, but at least 3.1 is required.", GLExtensions::Version());
 		return;
 	}
-    return;
+    
 	std::string frag_shader =
 		"in vec2 TexCoord;\n"
 		"out vec4 ColorOut;\n"
 		"uniform sampler2D Texture;\n"
 		"void main() {\n"
-		"	ColorOut = texture2D(Texture, TexCoord);\n"
+		"	ColorOut = texture(Texture, TexCoord);\n" //texture() was texture2D()
 		"}\n";
 
 	std::string vertex_shader =
@@ -87,6 +87,7 @@ void SWOGLWindow::Prepare()
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 
 	glGenVertexArrays(1, &m_image_vao);
+    printf("SW Prepared\n");
 }
 
 void SWOGLWindow::PrintText(const std::string& text, int x, int y, u32 color)
@@ -101,30 +102,28 @@ void SWOGLWindow::ShowImage(u8* data, int stride, int width, int height, float a
 	GLInterface->Update();
 	Prepare();
 
-//	GLsizei glWidth = (GLsizei)GLInterface->GetBackBufferWidth();
-//	GLsizei glHeight = (GLsizei)GLInterface->GetBackBufferHeight();
-//
-//    // This might need to be in the glkView:drawInRect:
-//	glViewport(0, 0, glWidth, glHeight);
-//	glBindTexture(GL_TEXTURE_2D, m_image_texture);
-//
-//	glPixelStorei(GL_UNPACK_ALIGNMENT, 4);  // 4-byte pixel alignment
-//	glPixelStorei(GL_UNPACK_ROW_LENGTH, stride / 4);
-//    // Delete this... it just makes sure the screen should never be completely black
-//    for (int i = 0; i < 1000; i++) {
-//        data[i * 3] = 200;
-//    }
-//    
-//	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, (GLsizei)width, (GLsizei)height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
-//
-//	glUseProgram(m_image_program);
-//
-//	glBindVertexArray(m_image_vao);
-//	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+	GLsizei glWidth = (GLsizei)GLInterface->GetBackBufferWidth();
+	GLsizei glHeight = (GLsizei)GLInterface->GetBackBufferHeight();
+
+    GLInterface->Draw(data, width, height);
+    
+    // This might need to be in the glkView:drawInRect:
+	glViewport(0, 0, glWidth, glHeight);
+	glBindTexture(GL_TEXTURE_2D, m_image_texture);
+
+	glPixelStorei(GL_UNPACK_ALIGNMENT, 4);  // 4-byte pixel alignment
+	glPixelStorei(GL_UNPACK_ROW_LENGTH, stride / 4);
+    
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, (GLsizei)width, (GLsizei)height, 0, GL_RGBA, GL_UNSIGNED_BYTE, data);
+
+	glUseProgram(m_image_program);
+
+	glBindVertexArray(m_image_vao);
+	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     
     //Will Edited heavily
     // Added Draw(...) funtion to GLInterfaceBase.h
-    GLInterface->Draw(data, width, height);
+    
                       
 // TODO: implement OSD
 //	for (TextData& text : m_text)

@@ -128,7 +128,7 @@
     IniFile dolphinConfig;
     dolphinConfig.Load(File::GetUserPath(D_CONFIG_IDX) + "Dolphin.ini");
     //PowerPC::CORE_JITARM64 ,PowerPC::CORE_INTERPRETER
-    dolphinConfig.GetOrCreateSection("Core")->Set("CPUCore", PowerPC::CORE_JITARM64);
+    dolphinConfig.GetOrCreateSection("Core")->Set("CPUCore", PowerPC::CORE_INTERPRETER);
     dolphinConfig.GetOrCreateSection("Core")->Set("CPUThread", "False"); // originally false
     dolphinConfig.GetOrCreateSection("Core")->Set("Fastmem", "False"); // originally false
     dolphinConfig.GetOrCreateSection("Core")->Set("GFXBackend", "SW"); //eventually OGL (CHanging this does nothing, must change in VideoBackendBase.cpp)
@@ -149,7 +149,7 @@
     
     IniFile::Section *oglEnhancements = oglConfig.GetOrCreateSection("Enhancements");
     oglEnhancements->Set("MaxAnisotropy", "0");
-    oglEnhancements->Set("PostProcessingShader", "");
+    //oglEnhancements->Set("PostProcessingShader", "");
     oglEnhancements->Set("ForceFiltering", "False"); // originally false
     oglEnhancements->Set("StereoSwapEyes", "False"); // originally false, not sure why this is true in the Android version
     oglEnhancements->Set("StereoMode", "0");

@@ -40,6 +40,7 @@ public:
 	void Swap() override;
 	void SwapInterval(int interval) override;
 	void SetMode(GLInterfaceMode mode) override { s_opengl_mode = mode; }
+    GLInterfaceMode GetMode() override;
 	bool Create(void* window_handle, bool core) override;
 	bool Create(cInterfaceBase* main_context) override;
 	bool MakeCurrent() override;
@@ -47,7 +48,7 @@ public:
 	void Shutdown() override;
 	void UpdateHandle(void* window_handle) override;
 	void UpdateSurface() override;
-	std::unique_ptr<cInterfaceBase> CreateSharedContext() override;
+    void Update() override;
     
     void Draw(u8* data, int width, int height) override;
     void GLDraw() override;
