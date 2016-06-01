@@ -16,7 +16,7 @@ Only devices with 2GB of ram have been tested (iPhone 6s, ect). Devices with 1GB
 
 Installing DolphiniOS
 ------------------------
-Download the source and open the project file in the Build Directory. Set the  
+Download the source and open the project file in the Build Directory. Set the scheme (The dropdown menu right of the run play button) to DolphiniOS. Select your device from the dropdown menu and press ⌘R to build and run.
 
 
 
