@@ -100,9 +100,7 @@ void* MemArena::CreateView(s64 offset, size_t size, void* base)
 #ifdef _WIN32
 	return MapViewOfFileEx(hMemoryMapping, FILE_MAP_ALL_ACCESS, 0, (DWORD)((u64)offset), size, base);
 #else
-    //base = nullptr; //Will Edited
-    //void* retval = (void *)((char *)base + offset);
-    void* retval = mmap(base, size, PROT_READ | PROT_WRITE, MAP_ANON | MAP_SHARED | ((base == nullptr) ? 0 : MAP_FIXED), fd, offset);
+    void* retval = mmap(base, size, PROT_READ | PROT_WRITE, MAP_ANON | MAP_PRIVATE | ((base == nullptr) ? 0 : MAP_FIXED), fd, offset);
     
 	if (retval == MAP_FAILED)
 	{
@@ -141,7 +139,7 @@ u8* MemArena::FindMemoryBase()
 	//return reinterpret_cast<u8*>(0x2300000000ULL);
     // For iOS
     const u32 MemSize = 0x31000000;
-    void* base = mmap(0, MemSize, PROT_READ | PROT_WRITE, MAP_ANON | MAP_SHARED, -1, 0);
+    void* base = mmap(0, MemSize, PROT_READ | PROT_WRITE, MAP_ANON | MAP_PRIVATE, -1, 0);
     if (base == MAP_FAILED)
     {
         PanicAlert("Failed to map 1 GB of memory space: %s", strerror(errno));
@@ -162,7 +160,7 @@ u8* MemArena::FindMemoryBase()
 	const int flags = MAP_ANON | MAP_PRIVATE;
 #endif
 	const u32 MemSize = 0x31000000;
-    void* base = mmap(0, MemSize, PROT_READ | PROT_WRITE, flags, -1, 0);
+    void* base = mmap(0, MemSize, PROT_READ | PROT_WRITE, MAP_ANON | MAP_PRIVATE, -1, 0);
 	if (base == MAP_FAILED)
 	{
 		PanicAlert("Failed to map 1 GB of memory space: %s", strerror(errno));

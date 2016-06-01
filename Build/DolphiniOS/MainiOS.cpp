@@ -147,7 +147,7 @@ void Host_UpdateMainFrame()
 }
 
 void Host_RequestRenderWindowSize(int width, int height) {
-    printf("Requesting Size: %d %d", width, height);
+    printf("Requesting Size: %d %d\n", width, height);
 }
 
 void Host_RequestFullscreen(bool enable_fullscreen) {}

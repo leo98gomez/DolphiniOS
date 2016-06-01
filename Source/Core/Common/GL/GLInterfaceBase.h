@@ -49,8 +49,7 @@ public:
 	virtual void UpdateSurface() {}
 	virtual std::unique_ptr<cInterfaceBase> CreateSharedContext() { return nullptr; }
     
-    virtual void Draw(u8* data, int width, int height) {};
-    virtual void GLDraw() {};
+    virtual void Draw() {};
 };
 
 extern std::unique_ptr<cInterfaceBase> GLInterface;

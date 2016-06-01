@@ -50,6 +50,5 @@ public:
 	void UpdateSurface() override;
     void Update() override;
     
-    void Draw(u8* data, int width, int height) override;
-    void GLDraw() override;
+    void Draw() override;
 };

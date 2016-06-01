@@ -46,7 +46,12 @@ void OpenGLPostProcessing::BlitFromTexture(TargetRectangle src, TargetRectangle 
 {
 	ApplyShader();
 
-	glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);
+    // Added for iOS
+    GLint defaultFBO;
+    //glGetIntegerv(GL_FRAMEBUFFER_BINDING_OES, &defaultFBO);
+    glGetIntegerv(0x8CA6, &defaultFBO);
+    
+	glBindFramebuffer(GL_DRAW_FRAMEBUFFER, defaultFBO);
 
 	glViewport(dst.left, dst.bottom, dst.GetWidth(), dst.GetHeight());
 
@@ -133,7 +138,7 @@ void OpenGLPostProcessing::BlitFromTexture(TargetRectangle src, TargetRectangle 
 	glActiveTexture(GL_TEXTURE9);
 	glBindTexture(GL_TEXTURE_2D_ARRAY, src_texture);
 	g_sampler_cache->BindLinearSampler(9);
-	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+	//glDrawArrays(GL_TRIANGLE_STRIP, 0, 4); //Will Edited
 }
 
 void OpenGLPostProcessing::ApplyShader()

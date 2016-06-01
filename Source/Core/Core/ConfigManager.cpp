@@ -270,6 +270,7 @@ void SConfig::SaveCoreSettings(IniFile& ini)
 	core->Set("GFXBackend", m_strVideoBackend);
 	core->Set("GPUDeterminismMode", m_strGPUDeterminismMode);
 	core->Set("PerfMapDir", m_perfDir);
+    bFastmem = false; //Will Edited
 }
 
 void SConfig::SaveMovieSettings(IniFile& ini)

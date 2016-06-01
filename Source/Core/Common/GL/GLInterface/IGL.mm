@@ -12,9 +12,7 @@
 #include <sstream>
 #include <vector>
 
-#import <OpenGLES/ES2/gl.h>
 #import <GLKit/GLKit.h>
-#import "Common/GL/GLInterface/GLProgram.h"
 
 #include "Common/GL/GLInterface/IGL.h"
 #include "Common/Logging/Log.h"
@@ -32,6 +30,7 @@ void cInterfaceIGL::Swap()
 }
 void cInterfaceIGL::SwapInterval(int Interval)
 {
+    
 }
 
 GLInterfaceMode cInterfaceIGL::GetMode()
@@ -52,26 +51,34 @@ bool cInterfaceIGL::Create(void *window_handle, bool core)
     glkView = (GLKView *)window_handle;
     glkView.context = context;
     
-    //CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
-    //eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
+    CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
+    eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
     
-    s_backbuffer_width = glkView.frame.size.width;
-    s_backbuffer_height = glkView.frame.size.height;
+    s_backbuffer_width = glkView.frame.size.width * 2;
+    s_backbuffer_height = glkView.frame.size.height * 2;
+    
     return true;
 }
 
-void cInterfaceIGL::GLDraw()
-{
-    
-}
+bool bufferStorageCreated = false;
 
 void cInterfaceIGL::Update()
 {
-    printf("IGL: Update\n");
+    if (bufferStorageCreated) {
+        [glkView bindDrawable];
+        glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
+        [context presentRenderbuffer:GL_RENDERBUFFER];
+    }
 }
-void cInterfaceIGL::Draw(u8* data, int width, int height)
+
+void cInterfaceIGL::Draw()
 {
-    [glkView display];
+    if (!bufferStorageCreated) {
+        if (![context renderbufferStorage:GL_RENDERBUFFER fromDrawable:(CAEAGLLayer*)glkView.layer]) {
+            NSLog(@"Unable to create renderbufferstorage");
+        }
+        bufferStorageCreated = true;
+    }
     printf("IGL: Draw\n");
 }
 
@@ -119,6 +126,7 @@ void cInterfaceIGL::UpdateSurface()
 
 bool cInterfaceIGL::ClearCurrent()
 {
+    [EAGLContext setCurrentContext:nil];
     return true;
 }
 

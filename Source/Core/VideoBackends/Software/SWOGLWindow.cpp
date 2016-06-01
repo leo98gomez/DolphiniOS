@@ -105,7 +105,7 @@ void SWOGLWindow::ShowImage(u8* data, int stride, int width, int height, float a
 	GLsizei glWidth = (GLsizei)GLInterface->GetBackBufferWidth();
 	GLsizei glHeight = (GLsizei)GLInterface->GetBackBufferHeight();
 
-    GLInterface->Draw(data, width, height);
+    GLInterface->Draw();
     
     // This might need to be in the glkView:drawInRect:
 	glViewport(0, 0, glWidth, glHeight);

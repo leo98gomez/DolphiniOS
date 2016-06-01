@@ -182,7 +182,7 @@ void ConfigCache::RestoreConfig(SConfig* config)
 	if (bSetEmulationSpeed)
 		config->m_EmulationSpeed = m_EmulationSpeed;
 
-	if (bSetFrameSkip)
+	//if (bSetFrameSkip)
 	{
 		config->m_FrameSkip = frameSkip;
 		Movie::SetFrameSkipping(frameSkip);

@@ -272,6 +272,7 @@
 		4AEED37FFAD444B396D7C4EA /* pk_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = B2A6F61F122C4F3B830F178F /* pk_wrap.c */; settings = {COMPILER_FLAGS = ""; }; };
 		4B672C2EC4934D8E913A471A /* DSPStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B1FDF904E04859A932010F /* DSPStacks.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		4C9E2FD4982B4322BDFAABA6 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DAF3BD052470B8BA7A064 /* debug.c */; settings = {COMPILER_FLAGS = ""; }; };
+		4CDFF5831CFE011D00A45313 /* LuigisMansion.iso in Resources */ = {isa = PBXBuildFile; fileRef = CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */; };
 		4CEE3576168A47ABB6EEA537 /* DSPIntMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9482BCE608FC411180AC707E /* DSPIntMisc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		4F946DBE84C74244BE1E8127 /* havege.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2F9CB5DD34D28B253B684 /* havege.c */; settings = {COMPILER_FLAGS = ""; }; };
 		4FB85F27813B471986950621 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51B84C4658BC4E3D96CD7B4F /* Time.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -577,10 +578,8 @@
 		CA53A3391CEFD330005937F5 /* starfield.dol in Resources */ = {isa = PBXBuildFile; fileRef = CA53A3381CEFD322005937F5 /* starfield.dol */; };
 		CA53A33D1CF0B247005937F5 /* IGL.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3EC74C48D50C406F87F4A606 /* IGL.mm */; };
 		CA53A3401CF0B852005937F5 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA53A33F1CF0B852005937F5 /* GLKit.framework */; };
-		CA53A3441CF2681A005937F5 /* GLProgram.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA53A3431CF2681A005937F5 /* GLProgram.mm */; };
 		CA5B3F987C6143C6AA598F35 /* FifoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C07920FA362341BEB27E24F9 /* FifoPlayer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		CA76E1911CFCDDE20009BB8E /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA76E1901CFCDDE20009BB8E /* Entitlements.plist */; };
-		CA995A011CFC8FD0005FE28A /* LuigisMansion.iso in Resources */ = {isa = PBXBuildFile; fileRef = CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */; };
 		CB2754535FA34126ADAF9B5C /* SymbolDB.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E031C7B7651544F986A7FC01 /* SymbolDB.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		CB8199B0E7604603B93B6185 /* PcapFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FCE8984C4DCC43529CA3BA44 /* PcapFile.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		CB84C9DEE03642DDBE4B65AA /* WiimoteReal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BA160A52104729B9B5730C /* WiimoteReal.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -3309,6 +3308,7 @@
 		4B8E32EE762B40AC9C16C147 /* peer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = peer.c; path = Externals/enet/peer.c; sourceTree = SOURCE_ROOT; };
 		4C96155D1F744AE1A8FED35D /* Tests/BitSetTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Tests/BitSetTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC0089481F14BE9A0D10D3D /* PixelEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelEngine.cpp; path = Source/Core/VideoCommon/PixelEngine.cpp; sourceTree = SOURCE_ROOT; };
+		4CE423BB1CFDDE030054EB82 /* DolphiniOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DolphiniOS copy-Info.plist"; path = "/Users/sc-wcobb-osx/Dropbox/Xcode/dolphinIOS/DolphiniOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		4DA5122D61DD4471A956B120 /* PatchEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PatchEngine.cpp; path = Source/Core/Core/PatchEngine.cpp; sourceTree = SOURCE_ROOT; };
 		4E442A91622B48EB9BBDB88E /* WII_IPC.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = WII_IPC.cpp; path = Source/Core/Core/HW/WII_IPC.cpp; sourceTree = SOURCE_ROOT; };
 		4F86D759C3C8405598E4F79E /* SI_DeviceGBA.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SI_DeviceGBA.cpp; path = Source/Core/Core/HW/SI_DeviceGBA.cpp; sourceTree = SOURCE_ROOT; };
@@ -3594,7 +3594,7 @@
 		C9BBB71A9C7C489DA74D60F9 /* libenet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libenet.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FE32207CEC47D799E3A714 /* CISOBlob.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CISOBlob.cpp; path = Source/Core/DiscIO/CISOBlob.cpp; sourceTree = SOURCE_ROOT; };
 		CA35A5CE07784FF1BBE569D2 /* bignum.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bignum.c; path = Externals/mbedtls/library/bignum.c; sourceTree = SOURCE_ROOT; };
-		CA53A23B1CEFA30E005937F5 /* DolphiniOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DolphiniOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA53A23B1CEFA30E005937F5 /* Dolphin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolphin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA53A23E1CEFA30E005937F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA53A2401CEFA30E005937F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA53A2411CEFA30E005937F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -3626,8 +3626,6 @@
 		CA53A3381CEFD322005937F5 /* starfield.dol */ = {isa = PBXFileReference; lastKnownFileType = file; path = starfield.dol; sourceTree = "<group>"; };
 		CA53A33E1CF0B7B2005937F5 /* IGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IGL.h; path = Source/Core/Common/GL/GLInterface/IGL.h; sourceTree = "<group>"; };
 		CA53A33F1CF0B852005937F5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		CA53A3431CF2681A005937F5 /* GLProgram.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GLProgram.mm; path = Source/Core/Common/GL/GLInterface/GLProgram.mm; sourceTree = "<group>"; };
-		CA53A3451CF276D7005937F5 /* GLProgram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GLProgram.h; path = Source/Core/Common/GL/GLInterface/GLProgram.h; sourceTree = "<group>"; };
 		CA5AA699C8A340078E46DFEE /* GeometryShaderGen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GeometryShaderGen.cpp; path = Source/Core/VideoCommon/GeometryShaderGen.cpp; sourceTree = SOURCE_ROOT; };
 		CA76E1901CFCDDE20009BB8E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */ = {isa = PBXFileReference; lastKnownFileType = file; path = LuigisMansion.iso; sourceTree = "<group>"; };
@@ -4046,6 +4044,13 @@
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
+		4CE423BC1CFDE4E90054EB82 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		4D66CC28534849F294066672 /* Test_FifoQueueTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -4245,8 +4250,6 @@
 				3EC74C48D50C406F87F4A606 /* IGL.mm */,
 				353759AD16704D54840ED329 /* EGLAndroid.cpp */,
 				69C4B464F8384DB8B2023A46 /* GLInterface.cpp */,
-				CA53A3451CF276D7005937F5 /* GLProgram.h */,
-				CA53A3431CF2681A005937F5 /* GLProgram.mm */,
 				E70FDB6440574C5E9FEE0338 /* GLUtil.cpp */,
 				DD47A9E36B604C54A2D901D4 /* GekkoDisassembler.cpp */,
 				62FF6914FF13407B8EFCD951 /* GenericFPURoundMode.cpp */,
@@ -4606,6 +4609,7 @@
 				CA53A2561CEFA30E005937F5 /* DolphiniOSTests */,
 				CA53A2611CEFA30E005937F5 /* DolphiniOSUITests */,
 				E18AD58894AA4E54AE5424B8 /* Products */,
+				4CE423BB1CFDDE030054EB82 /* DolphiniOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -4732,6 +4736,7 @@
 				CA53A2491CEFA30E005937F5 /* Assets.xcassets */,
 				CA53A24B1CEFA30E005937F5 /* LaunchScreen.storyboard */,
 				CA53A24E1CEFA30E005937F5 /* Info.plist */,
+				4CE423BC1CFDE4E90054EB82 /* Images */,
 				CA53A23D1CEFA30E005937F5 /* Supporting Files */,
 			);
 			name = DolphiniOS;
@@ -4860,7 +4865,7 @@
 				8E96D24A209F4752891BF89A /* Tests/MMIOTest */,
 				870D74DA0ED24409B9DB3AE2 /* Tests/PageFaultTest */,
 				EEB9DCBF2ECA4174A4B69453 /* Tests/VertexLoaderTest */,
-				CA53A23B1CEFA30E005937F5 /* DolphiniOS.app */,
+				CA53A23B1CEFA30E005937F5 /* Dolphin.app */,
 				CA53A2531CEFA30E005937F5 /* DolphiniOSTests.xctest */,
 				CA53A25E1CEFA30E005937F5 /* DolphiniOSUITests.xctest */,
 			);
@@ -5852,9 +5857,9 @@
 			productReference = 45689DC163654C409C190A11 /* Tests/CommonFuncsTest */;
 			productType = "com.apple.product-type.tool";
 		};
-		CA53A23A1CEFA30E005937F5 /* DolphiniOS */ = {
+		CA53A23A1CEFA30E005937F5 /* Dolphin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CA53A2651CEFA30E005937F5 /* Build configuration list for PBXNativeTarget "DolphiniOS" */;
+			buildConfigurationList = CA53A2651CEFA30E005937F5 /* Build configuration list for PBXNativeTarget "Dolphin" */;
 			buildPhases = (
 				CA53A2371CEFA30E005937F5 /* Sources */,
 				CA53A2381CEFA30E005937F5 /* Frameworks */,
@@ -5865,9 +5870,9 @@
 			dependencies = (
 				CA53A27B1CEFA444005937F5 /* PBXTargetDependency */,
 			);
-			name = DolphiniOS;
+			name = Dolphin;
 			productName = DolphiniOS;
-			productReference = CA53A23B1CEFA30E005937F5 /* DolphiniOS.app */;
+			productReference = CA53A23B1CEFA30E005937F5 /* Dolphin.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CA53A2521CEFA30E005937F5 /* DolphiniOSTests */ = {
@@ -6161,7 +6166,7 @@
 				TargetAttributes = {
 					CA53A23A1CEFA30E005937F5 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 43463MM6X8;
+						DevelopmentTeam = MRGX8T9A4Y;
 					};
 					CA53A2521CEFA30E005937F5 = {
 						CreatedOnToolsVersion = 7.3;
@@ -6185,6 +6190,9 @@
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
+				CA53A23A1CEFA30E005937F5 /* Dolphin */,
+				CA53A2521CEFA30E005937F5 /* DolphiniOSTests */,
+				CA53A25D1CEFA30E005937F5 /* DolphiniOSUITests */,
 				02F7A175A0A941CEB10F2294 /* ALL_BUILD */,
 				AE16CEE739A74EDB9135B9F0 /* RUN_TESTS */,
 				202811A490E94A96935FA242 /* ZERO_CHECK */,
@@ -6230,9 +6238,6 @@
 				033D23FA70534682A955C0D8 /* Test_MMIOTest */,
 				8009056469DC4929B28506DC /* Test_PageFaultTest */,
 				52083F0C2ADC402094E43DCE /* Test_VertexLoaderTest */,
-				CA53A23A1CEFA30E005937F5 /* DolphiniOS */,
-				CA53A2521CEFA30E005937F5 /* DolphiniOSTests */,
-				CA53A25D1CEFA30E005937F5 /* DolphiniOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -6242,9 +6247,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CDFF5831CFE011D00A45313 /* LuigisMansion.iso in Resources */,
 				CA76E1911CFCDDE20009BB8E /* Entitlements.plist in Resources */,
 				CA53A3391CEFD330005937F5 /* starfield.dol in Resources */,
-				CA995A011CFC8FD0005FE28A /* LuigisMansion.iso in Resources */,
 				CA53A3361CEFD2CF005937F5 /* GC in Resources */,
 				CA53A3371CEFD2CF005937F5 /* Shaders in Resources */,
 				CA53A24D1CEFA30E005937F5 /* LaunchScreen.storyboard in Resources */,
@@ -6876,7 +6881,6 @@
 				9CA4B5E61AD141EBB3E2EC62 /* dis_groups.cc in Sources */,
 				9F94D5C6297146C5A8F0FF57 /* resolve.cc in Sources */,
 				D25BEC054D7640C3AC3BDA48 /* syntax.cc in Sources */,
-				CA53A3441CF2681A005937F5 /* GLProgram.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8666,12 +8670,12 @@
 		};
 		CA53A2551CEFA30E005937F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA53A23A1CEFA30E005937F5 /* DolphiniOS */;
+			target = CA53A23A1CEFA30E005937F5 /* Dolphin */;
 			targetProxy = CA53A2541CEFA30E005937F5 /* PBXContainerItemProxy */;
 		};
 		CA53A2601CEFA30E005937F5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CA53A23A1CEFA30E005937F5 /* DolphiniOS */;
+			target = CA53A23A1CEFA30E005937F5 /* Dolphin */;
 			targetProxy = CA53A25F1CEFA30E005937F5 /* PBXContainerItemProxy */;
 		};
 		CA53A27B1CEFA444005937F5 /* PBXTargetDependency */ = {
@@ -21784,7 +21788,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Build/DolphiniOS/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -21814,7 +21818,7 @@
 				LIBRARY_SEARCH_PATHS = $SRCROOT/Build/Libraries;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.Dolphin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -21841,7 +21845,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Build/DolphiniOS/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -21865,7 +21869,7 @@
 				LIBRARY_SEARCH_PATHS = $SRCROOT/Build/Libraries;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.Dolphin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -21893,7 +21897,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Build/DolphiniOS/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -21917,7 +21921,7 @@
 				LIBRARY_SEARCH_PATHS = $SRCROOT/Build/Libraries;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.Dolphin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -21945,7 +21949,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_ENTITLEMENTS = "$(SRCROOT)/Build/DolphiniOS/Entitlements.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -21969,7 +21973,7 @@
 				LIBRARY_SEARCH_PATHS = $SRCROOT/Build/Libraries;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.DolphiniOS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WilliamCobb.Dolphin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -25285,7 +25289,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CA53A2651CEFA30E005937F5 /* Build configuration list for PBXNativeTarget "DolphiniOS" */ = {
+		CA53A2651CEFA30E005937F5 /* Build configuration list for PBXNativeTarget "Dolphin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CA53A2661CEFA30E005937F5 /* Debug */,

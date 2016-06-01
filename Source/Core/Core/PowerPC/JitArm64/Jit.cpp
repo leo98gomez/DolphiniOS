@@ -37,9 +37,8 @@ static bool HasCycleCounters()
 	// Bit needs to be set to support cycle counters
 	const u32 PMUSERENR_CR = 0x4;
 	u32 reg;
-    //Will Edited
-	//asm ("mrs %[val], PMUSERENR_EL0"
-	//		: [val] "=r" (reg));
+	asm ("mrs %[val], PMUSERENR_EL0"
+			: [val] "=r" (reg));
 	return !!(reg & PMUSERENR_CR);
 }
 
@@ -357,16 +356,13 @@ void JitArm64::Run()
 {
 	CompiledCode pExecAddr = (CompiledCode)enterCode;
     uintptr_t * opPtr = (uintptr_t*)pExecAddr;
-    opPtr = (uintptr_t *)((uintptr_t)opPtr & 0xFFFFF000); //Assuming page size is 4096
-    
-    
-    if (mprotect(opPtr, 4096 * 2, PROT_READ | PROT_EXEC)) {
-        printf("Error protecting memory: %d\n", errno);
-        perror("Couldn’t mprotect");
-        //exit(errno);
-    }
+    opPtr = (uintptr_t *)((uintptr_t)opPtr & 0xFFFFFFFFFFFFF000); //Assuming page size is 4096
+
+    mprotect(opPtr, 4096 * 4, PROT_READ | PROT_EXEC);
+    printf("Executing JIT at address: %p\n", pExecAddr);
 	pExecAddr();
-    mprotect(opPtr, 4096 * 2, PROT_READ | PROT_WRITE);
+    printf("Yay\n");
+    mprotect(opPtr, 4096, PROT_READ | PROT_WRITE);
 }
 
 void JitArm64::SingleStep()
