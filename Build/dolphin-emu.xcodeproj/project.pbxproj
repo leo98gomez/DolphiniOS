@@ -272,7 +272,6 @@
 		4AEED37FFAD444B396D7C4EA /* pk_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = B2A6F61F122C4F3B830F178F /* pk_wrap.c */; settings = {COMPILER_FLAGS = ""; }; };
 		4B672C2EC4934D8E913A471A /* DSPStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B1FDF904E04859A932010F /* DSPStacks.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		4C9E2FD4982B4322BDFAABA6 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DAF3BD052470B8BA7A064 /* debug.c */; settings = {COMPILER_FLAGS = ""; }; };
-		4CDFF5831CFE011D00A45313 /* LuigisMansion.iso in Resources */ = {isa = PBXBuildFile; fileRef = CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */; };
 		4CEE3576168A47ABB6EEA537 /* DSPIntMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9482BCE608FC411180AC707E /* DSPIntMisc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		4F946DBE84C74244BE1E8127 /* havege.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2F9CB5DD34D28B253B684 /* havege.c */; settings = {COMPILER_FLAGS = ""; }; };
 		4FB85F27813B471986950621 /* Time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51B84C4658BC4E3D96CD7B4F /* Time.cpp */; settings = {COMPILER_FLAGS = ""; }; };
@@ -530,10 +529,69 @@
 		C8CA497E953848C99552B8D9 /* version_features.c in Sources */ = {isa = PBXBuildFile; fileRef = 99D514CBBF8A40A7B33FE673 /* version_features.c */; settings = {COMPILER_FLAGS = ""; }; };
 		C928DD91E3414B06ADEBA0E5 /* bn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141D54CED14D4CF98BEDAE4E /* bn.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		C9AB8BC1162540149CD95EB6 /* JitArm64_SystemRegisters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F148FD0E9DB4F3A9AADFF00 /* JitArm64_SystemRegisters.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		CA1249621CFE7766004C11C5 /* DolphinGame.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249611CFE7766004C11C5 /* DolphinGame.m */; };
+		CA1249671CFE7C0D004C11C5 /* Roms in Resources */ = {isa = PBXBuildFile; fileRef = CA1249661CFE7C0D004C11C5 /* Roms */; };
+		CA1249701CFE7D0E004C11C5 /* RomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249691CFE7D0E004C11C5 /* RomTableViewController.m */; };
+		CA1249711CFE7D0E004C11C5 /* GameTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12496B1CFE7D0E004C11C5 /* GameTableView.m */; };
+		CA1249721CFE7D0E004C11C5 /* RomDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12496D1CFE7D0E004C11C5 /* RomDownloader.m */; };
+		CA1249731CFE7D0E004C11C5 /* RomDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA12496F1CFE7D0E004C11C5 /* RomDownloadManager.m */; };
+		CA1249D31CFE7F7D004C11C5 /* 7zBuf.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249B41CFE7F7C004C11C5 /* 7zBuf.c */; };
+		CA1249D41CFE7F7D004C11C5 /* 7zBuf2.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249B61CFE7F7C004C11C5 /* 7zBuf2.c */; };
+		CA1249D51CFE7F7D004C11C5 /* 7zDec.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249B71CFE7F7C004C11C5 /* 7zDec.c */; };
+		CA1249D61CFE7F7D004C11C5 /* 7zFile.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249B81CFE7F7C004C11C5 /* 7zFile.c */; };
+		CA1249D71CFE7F7D004C11C5 /* 7zIn.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249BA1CFE7F7C004C11C5 /* 7zIn.c */; };
+		CA1249D81CFE7F7D004C11C5 /* 7zStream.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249BB1CFE7F7C004C11C5 /* 7zStream.c */; };
+		CA1249D91CFE7F7D004C11C5 /* Alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249BD1CFE7F7C004C11C5 /* Alloc.c */; };
+		CA1249DA1CFE7F7D004C11C5 /* CpuArch.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249BF1CFE7F7C004C11C5 /* CpuArch.c */; };
+		CA1249DB1CFE7F7D004C11C5 /* Delta.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249C11CFE7F7C004C11C5 /* Delta.c */; };
+		CA1249DC1CFE7F7D004C11C5 /* Lzma2Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249C41CFE7F7C004C11C5 /* Lzma2Dec.c */; };
+		CA1249DD1CFE7F7D004C11C5 /* LzmaDec.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249C61CFE7F7C004C11C5 /* LzmaDec.c */; };
+		CA1249DE1CFE7F7D004C11C5 /* LZMAExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249C91CFE7F7D004C11C5 /* LZMAExtractor.m */; };
+		CA1249DF1CFE7F7D004C11C5 /* Ppmd7.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249CB1CFE7F7D004C11C5 /* Ppmd7.c */; };
+		CA1249E01CFE7F7D004C11C5 /* Ppmd7Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249CD1CFE7F7D004C11C5 /* Ppmd7Dec.c */; };
+		CA1249E11CFE7F7D004C11C5 /* Ppmd8.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249CE1CFE7F7D004C11C5 /* Ppmd8.c */; };
+		CA1249E21CFE7F7D004C11C5 /* Ppmd8Dec.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249D01CFE7F7D004C11C5 /* Ppmd8Dec.c */; };
+		CA1249E61CFE7FAD004C11C5 /* 7zAlloc.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249E31CFE7FAD004C11C5 /* 7zAlloc.c */; };
+		CA1249E71CFE7FAD004C11C5 /* 7zMain.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249E51CFE7FAD004C11C5 /* 7zMain.c */; };
+		CA1249EA1CFE7FBD004C11C5 /* MHWDirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249E91CFE7FBD004C11C5 /* MHWDirectoryWatcher.m */; };
+		CA1249F61CFE7FCF004C11C5 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249EC1CFE7FCF004C11C5 /* ioapi.c */; };
+		CA1249F71CFE7FCF004C11C5 /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249EE1CFE7FCF004C11C5 /* mztools.c */; };
+		CA1249F81CFE7FCF004C11C5 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249F01CFE7FCF004C11C5 /* unzip.c */; };
+		CA1249F91CFE7FCF004C11C5 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = CA1249F21CFE7FCF004C11C5 /* zip.c */; };
+		CA1249FA1CFE7FCF004C11C5 /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249F51CFE7FCF004C11C5 /* SSZipArchive.m */; };
+		CA124A0A1CFE7FDC004C11C5 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249FC1CFE7FDC004C11C5 /* UIImage+ImageEffects.m */; };
+		CA124A0B1CFE7FDC004C11C5 /* SCLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA1249FE1CFE7FDC004C11C5 /* SCLAlertView.m */; };
+		CA124A0C1CFE7FDC004C11C5 /* SCLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A001CFE7FDC004C11C5 /* SCLButton.m */; };
+		CA124A0D1CFE7FDC004C11C5 /* SCLAlertViewResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A021CFE7FDC004C11C5 /* SCLAlertViewResponder.m */; };
+		CA124A0E1CFE7FDC004C11C5 /* SCLAlertViewStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A041CFE7FDC004C11C5 /* SCLAlertViewStyleKit.m */; };
+		CA124A0F1CFE7FDC004C11C5 /* SCLTimerDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A071CFE7FDC004C11C5 /* SCLTimerDisplay.m */; };
+		CA124A101CFE7FDC004C11C5 /* SCLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A091CFE7FDC004C11C5 /* SCLTextView.m */; };
+		CA124A1D1CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A121CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.m */; };
+		CA124A1E1CFE7FED004C11C5 /* mute.caf in Resources */ = {isa = PBXBuildFile; fileRef = CA124A131CFE7FED004C11C5 /* mute.caf */; };
+		CA124A1F1CFE7FED004C11C5 /* UIDevice+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A161CFE7FED004C11C5 /* UIDevice+Private.m */; };
+		CA124A201CFE7FED004C11C5 /* RBVolumeButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A181CFE7FED004C11C5 /* RBVolumeButtons.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CA124A211CFE7FED004C11C5 /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A1A1CFE7FED004C11C5 /* UIViewController+BackButtonHandler.m */; };
+		CA124A221CFE7FED004C11C5 /* NSString+CompareToVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A1C1CFE7FED004C11C5 /* NSString+CompareToVersion.m */; };
+		CA124A241CFE8139004C11C5 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA124A231CFE8139004C11C5 /* GameController.framework */; };
+		CA124A261CFE814E004C11C5 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA124A251CFE814E004C11C5 /* Twitter.framework */; };
+		CA124A281CFE8164004C11C5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA124A271CFE8164004C11C5 /* MediaPlayer.framework */; };
+		CA124A3E1CFE8237004C11C5 /* WCEasySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A2B1CFE8237004C11C5 /* WCEasySettingsViewController.m */; };
+		CA124A3F1CFE8237004C11C5 /* WCEasySettingsSection.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A2D1CFE8237004C11C5 /* WCEasySettingsSection.m */; };
+		CA124A401CFE8237004C11C5 /* WCEasySettingsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A2F1CFE8237004C11C5 /* WCEasySettingsItem.m */; };
+		CA124A411CFE8237004C11C5 /* WCEasySettingsSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A311CFE8237004C11C5 /* WCEasySettingsSwitch.m */; };
+		CA124A421CFE8237004C11C5 /* WCEasySettingsSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A331CFE8237004C11C5 /* WCEasySettingsSegment.m */; };
+		CA124A431CFE8237004C11C5 /* WCEasySettingsSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A351CFE8237004C11C5 /* WCEasySettingsSlider.m */; };
+		CA124A441CFE8237004C11C5 /* WCEasySettingsOption.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A371CFE8237004C11C5 /* WCEasySettingsOption.m */; };
+		CA124A451CFE8237004C11C5 /* WCEasySettingsOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A391CFE8237004C11C5 /* WCEasySettingsOptionViewController.m */; };
+		CA124A461CFE8237004C11C5 /* WCEasySettingsUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A3B1CFE8237004C11C5 /* WCEasySettingsUrl.m */; };
+		CA124A471CFE8237004C11C5 /* WCEasySettingsCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A3D1CFE8237004C11C5 /* WCEasySettingsCustom.m */; };
+		CA124A521CFE852B004C11C5 /* ZAActivityBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CA124A4D1CFE852B004C11C5 /* ZAActivityBar.bundle */; };
+		CA124A531CFE852B004C11C5 /* ZAActivityBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A4F1CFE852B004C11C5 /* ZAActivityBar.m */; };
+		CA124A541CFE852B004C11C5 /* SKBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CA124A511CFE852B004C11C5 /* SKBounceAnimation.m */; };
 		CA320AC3315C4094BFC34277 /* aesni.c in Sources */ = {isa = PBXBuildFile; fileRef = 4263FCFC47D34C0694AD1984 /* aesni.c */; settings = {COMPILER_FLAGS = ""; }; };
 		CA53A23F1CEFA30E005937F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA53A23E1CEFA30E005937F5 /* main.m */; };
 		CA53A2421CEFA30E005937F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA53A2411CEFA30E005937F5 /* AppDelegate.m */; };
-		CA53A2451CEFA30E005937F5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA53A2441CEFA30E005937F5 /* ViewController.mm */; };
+		CA53A2451CEFA30E005937F5 /* EmulatorViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA53A2441CEFA30E005937F5 /* EmulatorViewController.mm */; };
 		CA53A2481CEFA30E005937F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA53A2461CEFA30E005937F5 /* Main.storyboard */; };
 		CA53A24A1CEFA30E005937F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA53A2491CEFA30E005937F5 /* Assets.xcassets */; };
 		CA53A24D1CEFA30E005937F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA53A24B1CEFA30E005937F5 /* LaunchScreen.storyboard */; };
@@ -3593,13 +3651,129 @@
 		C963647C714A403599B51AE9 /* ripemd160.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = ripemd160.c; path = Externals/mbedtls/library/ripemd160.c; sourceTree = SOURCE_ROOT; };
 		C9BBB71A9C7C489DA74D60F9 /* libenet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libenet.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FE32207CEC47D799E3A714 /* CISOBlob.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CISOBlob.cpp; path = Source/Core/DiscIO/CISOBlob.cpp; sourceTree = SOURCE_ROOT; };
+		CA1249601CFE7766004C11C5 /* DolphinGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DolphinGame.h; sourceTree = "<group>"; };
+		CA1249611CFE7766004C11C5 /* DolphinGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DolphinGame.m; sourceTree = "<group>"; };
+		CA1249661CFE7C0D004C11C5 /* Roms */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Roms; path = Build/Roms; sourceTree = "<group>"; };
+		CA1249681CFE7D0E004C11C5 /* RomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomTableViewController.h; sourceTree = "<group>"; };
+		CA1249691CFE7D0E004C11C5 /* RomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomTableViewController.m; sourceTree = "<group>"; };
+		CA12496A1CFE7D0E004C11C5 /* GameTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTableView.h; sourceTree = "<group>"; };
+		CA12496B1CFE7D0E004C11C5 /* GameTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableView.m; sourceTree = "<group>"; };
+		CA12496C1CFE7D0E004C11C5 /* RomDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomDownloader.h; sourceTree = "<group>"; };
+		CA12496D1CFE7D0E004C11C5 /* RomDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomDownloader.m; sourceTree = "<group>"; };
+		CA12496E1CFE7D0E004C11C5 /* RomDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomDownloadManager.h; sourceTree = "<group>"; };
+		CA12496F1CFE7D0E004C11C5 /* RomDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RomDownloadManager.m; sourceTree = "<group>"; };
+		CA1249B31CFE7F7C004C11C5 /* 7z.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7z.h; sourceTree = "<group>"; };
+		CA1249B41CFE7F7C004C11C5 /* 7zBuf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zBuf.c; sourceTree = "<group>"; };
+		CA1249B51CFE7F7C004C11C5 /* 7zBuf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zBuf.h; sourceTree = "<group>"; };
+		CA1249B61CFE7F7C004C11C5 /* 7zBuf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zBuf2.c; sourceTree = "<group>"; };
+		CA1249B71CFE7F7C004C11C5 /* 7zDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zDec.c; sourceTree = "<group>"; };
+		CA1249B81CFE7F7C004C11C5 /* 7zFile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zFile.c; sourceTree = "<group>"; };
+		CA1249B91CFE7F7C004C11C5 /* 7zFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zFile.h; sourceTree = "<group>"; };
+		CA1249BA1CFE7F7C004C11C5 /* 7zIn.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zIn.c; sourceTree = "<group>"; };
+		CA1249BB1CFE7F7C004C11C5 /* 7zStream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zStream.c; sourceTree = "<group>"; };
+		CA1249BC1CFE7F7C004C11C5 /* 7zVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zVersion.h; sourceTree = "<group>"; };
+		CA1249BD1CFE7F7C004C11C5 /* Alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Alloc.c; sourceTree = "<group>"; };
+		CA1249BE1CFE7F7C004C11C5 /* Alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alloc.h; sourceTree = "<group>"; };
+		CA1249BF1CFE7F7C004C11C5 /* CpuArch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CpuArch.c; sourceTree = "<group>"; };
+		CA1249C01CFE7F7C004C11C5 /* CpuArch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuArch.h; sourceTree = "<group>"; };
+		CA1249C11CFE7F7C004C11C5 /* Delta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Delta.c; sourceTree = "<group>"; };
+		CA1249C21CFE7F7C004C11C5 /* Delta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delta.h; sourceTree = "<group>"; };
+		CA1249C31CFE7F7C004C11C5 /* LzHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzHash.h; sourceTree = "<group>"; };
+		CA1249C41CFE7F7C004C11C5 /* Lzma2Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Lzma2Dec.c; sourceTree = "<group>"; };
+		CA1249C51CFE7F7C004C11C5 /* Lzma2Dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lzma2Dec.h; sourceTree = "<group>"; };
+		CA1249C61CFE7F7C004C11C5 /* LzmaDec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LzmaDec.c; sourceTree = "<group>"; };
+		CA1249C71CFE7F7C004C11C5 /* LzmaDec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LzmaDec.h; sourceTree = "<group>"; };
+		CA1249C81CFE7F7C004C11C5 /* LZMAExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZMAExtractor.h; sourceTree = "<group>"; };
+		CA1249C91CFE7F7D004C11C5 /* LZMAExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZMAExtractor.m; sourceTree = "<group>"; };
+		CA1249CA1CFE7F7D004C11C5 /* Ppmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ppmd.h; sourceTree = "<group>"; };
+		CA1249CB1CFE7F7D004C11C5 /* Ppmd7.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd7.c; sourceTree = "<group>"; };
+		CA1249CC1CFE7F7D004C11C5 /* Ppmd7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ppmd7.h; sourceTree = "<group>"; };
+		CA1249CD1CFE7F7D004C11C5 /* Ppmd7Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd7Dec.c; sourceTree = "<group>"; };
+		CA1249CE1CFE7F7D004C11C5 /* Ppmd8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd8.c; sourceTree = "<group>"; };
+		CA1249CF1CFE7F7D004C11C5 /* Ppmd8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ppmd8.h; sourceTree = "<group>"; };
+		CA1249D01CFE7F7D004C11C5 /* Ppmd8Dec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ppmd8Dec.c; sourceTree = "<group>"; };
+		CA1249D11CFE7F7D004C11C5 /* RotateDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateDefs.h; sourceTree = "<group>"; };
+		CA1249D21CFE7F7D004C11C5 /* Types2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types2.h; sourceTree = "<group>"; };
+		CA1249E31CFE7FAD004C11C5 /* 7zAlloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zAlloc.c; sourceTree = "<group>"; };
+		CA1249E41CFE7FAD004C11C5 /* 7zAlloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 7zAlloc.h; sourceTree = "<group>"; };
+		CA1249E51CFE7FAD004C11C5 /* 7zMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = 7zMain.c; sourceTree = "<group>"; };
+		CA1249E81CFE7FBD004C11C5 /* MHWDirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHWDirectoryWatcher.h; sourceTree = "<group>"; };
+		CA1249E91CFE7FBD004C11C5 /* MHWDirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHWDirectoryWatcher.m; sourceTree = "<group>"; };
+		CA1249EB1CFE7FCF004C11C5 /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		CA1249EC1CFE7FCF004C11C5 /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		CA1249ED1CFE7FCF004C11C5 /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		CA1249EE1CFE7FCF004C11C5 /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		CA1249EF1CFE7FCF004C11C5 /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		CA1249F01CFE7FCF004C11C5 /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		CA1249F11CFE7FCF004C11C5 /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		CA1249F21CFE7FCF004C11C5 /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		CA1249F31CFE7FCF004C11C5 /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		CA1249F41CFE7FCF004C11C5 /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		CA1249F51CFE7FCF004C11C5 /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		CA1249FB1CFE7FDC004C11C5 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		CA1249FC1CFE7FDC004C11C5 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		CA1249FD1CFE7FDC004C11C5 /* SCLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertView.h; sourceTree = "<group>"; };
+		CA1249FE1CFE7FDC004C11C5 /* SCLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertView.m; sourceTree = "<group>"; };
+		CA1249FF1CFE7FDC004C11C5 /* SCLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLButton.h; sourceTree = "<group>"; };
+		CA124A001CFE7FDC004C11C5 /* SCLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLButton.m; sourceTree = "<group>"; };
+		CA124A011CFE7FDC004C11C5 /* SCLAlertViewResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewResponder.h; sourceTree = "<group>"; };
+		CA124A021CFE7FDC004C11C5 /* SCLAlertViewResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewResponder.m; sourceTree = "<group>"; };
+		CA124A031CFE7FDC004C11C5 /* SCLAlertViewStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLAlertViewStyleKit.h; sourceTree = "<group>"; };
+		CA124A041CFE7FDC004C11C5 /* SCLAlertViewStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLAlertViewStyleKit.m; sourceTree = "<group>"; };
+		CA124A051CFE7FDC004C11C5 /* SCLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLMacros.h; sourceTree = "<group>"; };
+		CA124A061CFE7FDC004C11C5 /* SCLTimerDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTimerDisplay.h; sourceTree = "<group>"; };
+		CA124A071CFE7FDC004C11C5 /* SCLTimerDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTimerDisplay.m; sourceTree = "<group>"; };
+		CA124A081CFE7FDC004C11C5 /* SCLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLTextView.h; sourceTree = "<group>"; };
+		CA124A091CFE7FDC004C11C5 /* SCLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLTextView.m; sourceTree = "<group>"; };
+		CA124A111CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharkfoodMuteSwitchDetector.h; sourceTree = "<group>"; };
+		CA124A121CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharkfoodMuteSwitchDetector.m; sourceTree = "<group>"; };
+		CA124A131CFE7FED004C11C5 /* mute.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mute.caf; sourceTree = "<group>"; };
+		CA124A141CFE7FED004C11C5 /* UITapticEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITapticEngine.h; sourceTree = "<group>"; };
+		CA124A151CFE7FED004C11C5 /* UIDevice+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Private.h"; sourceTree = "<group>"; };
+		CA124A161CFE7FED004C11C5 /* UIDevice+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Private.m"; sourceTree = "<group>"; };
+		CA124A171CFE7FED004C11C5 /* RBVolumeButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBVolumeButtons.h; sourceTree = "<group>"; };
+		CA124A181CFE7FED004C11C5 /* RBVolumeButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBVolumeButtons.m; sourceTree = "<group>"; };
+		CA124A191CFE7FED004C11C5 /* UIViewController+BackButtonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BackButtonHandler.h"; sourceTree = "<group>"; };
+		CA124A1A1CFE7FED004C11C5 /* UIViewController+BackButtonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BackButtonHandler.m"; sourceTree = "<group>"; };
+		CA124A1B1CFE7FED004C11C5 /* NSString+CompareToVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CompareToVersion.h"; sourceTree = "<group>"; };
+		CA124A1C1CFE7FED004C11C5 /* NSString+CompareToVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CompareToVersion.m"; sourceTree = "<group>"; };
+		CA124A231CFE8139004C11C5 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+		CA124A251CFE814E004C11C5 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		CA124A271CFE8164004C11C5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CA124A2A1CFE8237004C11C5 /* WCEasySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsViewController.h; sourceTree = "<group>"; };
+		CA124A2B1CFE8237004C11C5 /* WCEasySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsViewController.m; sourceTree = "<group>"; };
+		CA124A2C1CFE8237004C11C5 /* WCEasySettingsSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsSection.h; sourceTree = "<group>"; };
+		CA124A2D1CFE8237004C11C5 /* WCEasySettingsSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsSection.m; sourceTree = "<group>"; };
+		CA124A2E1CFE8237004C11C5 /* WCEasySettingsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsItem.h; sourceTree = "<group>"; };
+		CA124A2F1CFE8237004C11C5 /* WCEasySettingsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsItem.m; sourceTree = "<group>"; };
+		CA124A301CFE8237004C11C5 /* WCEasySettingsSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsSwitch.h; sourceTree = "<group>"; };
+		CA124A311CFE8237004C11C5 /* WCEasySettingsSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsSwitch.m; sourceTree = "<group>"; };
+		CA124A321CFE8237004C11C5 /* WCEasySettingsSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsSegment.h; sourceTree = "<group>"; };
+		CA124A331CFE8237004C11C5 /* WCEasySettingsSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsSegment.m; sourceTree = "<group>"; };
+		CA124A341CFE8237004C11C5 /* WCEasySettingsSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsSlider.h; sourceTree = "<group>"; };
+		CA124A351CFE8237004C11C5 /* WCEasySettingsSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsSlider.m; sourceTree = "<group>"; };
+		CA124A361CFE8237004C11C5 /* WCEasySettingsOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsOption.h; sourceTree = "<group>"; };
+		CA124A371CFE8237004C11C5 /* WCEasySettingsOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsOption.m; sourceTree = "<group>"; };
+		CA124A381CFE8237004C11C5 /* WCEasySettingsOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsOptionViewController.h; sourceTree = "<group>"; };
+		CA124A391CFE8237004C11C5 /* WCEasySettingsOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsOptionViewController.m; sourceTree = "<group>"; };
+		CA124A3A1CFE8237004C11C5 /* WCEasySettingsUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsUrl.h; sourceTree = "<group>"; };
+		CA124A3B1CFE8237004C11C5 /* WCEasySettingsUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsUrl.m; sourceTree = "<group>"; };
+		CA124A3C1CFE8237004C11C5 /* WCEasySettingsCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCEasySettingsCustom.h; sourceTree = "<group>"; };
+		CA124A3D1CFE8237004C11C5 /* WCEasySettingsCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCEasySettingsCustom.m; sourceTree = "<group>"; };
+		CA124A481CFE8258004C11C5 /* WCEasySettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCEasySettings.h; sourceTree = "<group>"; };
+		CA124A491CFE830E004C11C5 /* Dolphin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dolphin-Prefix.pch"; sourceTree = "<group>"; };
+		CA124A4D1CFE852B004C11C5 /* ZAActivityBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZAActivityBar.bundle; sourceTree = "<group>"; };
+		CA124A4E1CFE852B004C11C5 /* ZAActivityBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAActivityBar.h; sourceTree = "<group>"; };
+		CA124A4F1CFE852B004C11C5 /* ZAActivityBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAActivityBar.m; sourceTree = "<group>"; };
+		CA124A501CFE852B004C11C5 /* SKBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBounceAnimation.h; sourceTree = "<group>"; };
+		CA124A511CFE852B004C11C5 /* SKBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimation.m; sourceTree = "<group>"; };
 		CA35A5CE07784FF1BBE569D2 /* bignum.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = bignum.c; path = Externals/mbedtls/library/bignum.c; sourceTree = SOURCE_ROOT; };
 		CA53A23B1CEFA30E005937F5 /* Dolphin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolphin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA53A23E1CEFA30E005937F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CA53A2401CEFA30E005937F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA53A2411CEFA30E005937F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CA53A2431CEFA30E005937F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CA53A2441CEFA30E005937F5 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		CA53A2431CEFA30E005937F5 /* EmulatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EmulatorViewController.h; sourceTree = "<group>"; };
+		CA53A2441CEFA30E005937F5 /* EmulatorViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EmulatorViewController.mm; sourceTree = "<group>"; };
 		CA53A2471CEFA30E005937F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA53A2491CEFA30E005937F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA53A24C1CEFA30E005937F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -3628,7 +3802,6 @@
 		CA53A33F1CF0B852005937F5 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		CA5AA699C8A340078E46DFEE /* GeometryShaderGen.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GeometryShaderGen.cpp; path = Source/Core/VideoCommon/GeometryShaderGen.cpp; sourceTree = SOURCE_ROOT; };
 		CA76E1901CFCDDE20009BB8E /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
-		CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */ = {isa = PBXFileReference; lastKnownFileType = file; path = LuigisMansion.iso; sourceTree = "<group>"; };
 		CBB9A1D3B4244E19828A854F /* libmbedcrypto.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libmbedcrypto.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBFE2E60DACF46C6B800B913 /* EXI_DeviceIPL.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = EXI_DeviceIPL.cpp; path = Source/Core/Core/HW/EXI_DeviceIPL.cpp; sourceTree = SOURCE_ROOT; };
 		CC7A12D0EABA4FF9A9616AFA /* Interpreter_Integer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Interpreter_Integer.cpp; path = Source/Core/Core/PowerPC/Interpreter/Interpreter_Integer.cpp; sourceTree = SOURCE_ROOT; };
@@ -3765,6 +3938,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA124A281CFE8164004C11C5 /* MediaPlayer.framework in Frameworks */,
+				CA124A261CFE814E004C11C5 /* Twitter.framework in Frameworks */,
+				CA124A241CFE8139004C11C5 /* GameController.framework in Frameworks */,
 				CA53A3401CF0B852005937F5 /* GLKit.framework in Frameworks */,
 				CA53A2C11CEFC8A4005937F5 /* OpenAL.framework in Frameworks */,
 				CA53A2BF1CEFC7F2005937F5 /* OpenGLES.framework in Frameworks */,
@@ -4010,7 +4186,7 @@
 		36F8AC164103411E9AD0FA42 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				CA9959FF1CFC8FD0005FE28A /* Roms */,
+				CA1249661CFE7C0D004C11C5 /* Roms */,
 				CA53A3381CEFD322005937F5 /* starfield.dol */,
 				CA53A3341CEFD2CF005937F5 /* GC */,
 				CA53A3351CEFD2CF005937F5 /* Shaders */,
@@ -4595,6 +4771,9 @@
 		B7D3E4EB688E4DAA8B0EDA06 = {
 			isa = PBXGroup;
 			children = (
+				CA124A271CFE8164004C11C5 /* MediaPlayer.framework */,
+				CA124A251CFE814E004C11C5 /* Twitter.framework */,
+				CA124A231CFE8139004C11C5 /* GameController.framework */,
 				CA53A33F1CF0B852005937F5 /* GLKit.framework */,
 				CA53A2C01CEFC8A4005937F5 /* OpenAL.framework */,
 				CA53A2BE1CEFC7F2005937F5 /* OpenGLES.framework */,
@@ -4722,16 +4901,188 @@
 			name = Test_BlockingLoopTest;
 			sourceTree = "<group>";
 		};
+		CA1249AD1CFE7F74004C11C5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CA124A4C1CFE851C004C11C5 /* ZAActivityBar */,
+				CA1249AE1CFE7F74004C11C5 /* 7z */,
+				CA1249AF1CFE7F74004C11C5 /* DocWatchHelper */,
+				CA1249B01CFE7F74004C11C5 /* Misc */,
+				CA1249B11CFE7F74004C11C5 /* SCLAlertView */,
+				CA124A291CFE8209004C11C5 /* WCEasySettings */,
+				CA1249B21CFE7F74004C11C5 /* Zip */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CA1249AE1CFE7F74004C11C5 /* 7z */ = {
+			isa = PBXGroup;
+			children = (
+				CA1249E31CFE7FAD004C11C5 /* 7zAlloc.c */,
+				CA1249E41CFE7FAD004C11C5 /* 7zAlloc.h */,
+				CA1249E51CFE7FAD004C11C5 /* 7zMain.c */,
+				CA1249B31CFE7F7C004C11C5 /* 7z.h */,
+				CA1249B41CFE7F7C004C11C5 /* 7zBuf.c */,
+				CA1249B51CFE7F7C004C11C5 /* 7zBuf.h */,
+				CA1249B61CFE7F7C004C11C5 /* 7zBuf2.c */,
+				CA1249B71CFE7F7C004C11C5 /* 7zDec.c */,
+				CA1249B81CFE7F7C004C11C5 /* 7zFile.c */,
+				CA1249B91CFE7F7C004C11C5 /* 7zFile.h */,
+				CA1249BA1CFE7F7C004C11C5 /* 7zIn.c */,
+				CA1249BB1CFE7F7C004C11C5 /* 7zStream.c */,
+				CA1249BC1CFE7F7C004C11C5 /* 7zVersion.h */,
+				CA1249BD1CFE7F7C004C11C5 /* Alloc.c */,
+				CA1249BE1CFE7F7C004C11C5 /* Alloc.h */,
+				CA1249BF1CFE7F7C004C11C5 /* CpuArch.c */,
+				CA1249C01CFE7F7C004C11C5 /* CpuArch.h */,
+				CA1249C11CFE7F7C004C11C5 /* Delta.c */,
+				CA1249C21CFE7F7C004C11C5 /* Delta.h */,
+				CA1249C31CFE7F7C004C11C5 /* LzHash.h */,
+				CA1249C41CFE7F7C004C11C5 /* Lzma2Dec.c */,
+				CA1249C51CFE7F7C004C11C5 /* Lzma2Dec.h */,
+				CA1249C61CFE7F7C004C11C5 /* LzmaDec.c */,
+				CA1249C71CFE7F7C004C11C5 /* LzmaDec.h */,
+				CA1249C81CFE7F7C004C11C5 /* LZMAExtractor.h */,
+				CA1249C91CFE7F7D004C11C5 /* LZMAExtractor.m */,
+				CA1249CA1CFE7F7D004C11C5 /* Ppmd.h */,
+				CA1249CB1CFE7F7D004C11C5 /* Ppmd7.c */,
+				CA1249CC1CFE7F7D004C11C5 /* Ppmd7.h */,
+				CA1249CD1CFE7F7D004C11C5 /* Ppmd7Dec.c */,
+				CA1249CE1CFE7F7D004C11C5 /* Ppmd8.c */,
+				CA1249CF1CFE7F7D004C11C5 /* Ppmd8.h */,
+				CA1249D01CFE7F7D004C11C5 /* Ppmd8Dec.c */,
+				CA1249D11CFE7F7D004C11C5 /* RotateDefs.h */,
+				CA1249D21CFE7F7D004C11C5 /* Types2.h */,
+			);
+			path = 7z;
+			sourceTree = "<group>";
+		};
+		CA1249AF1CFE7F74004C11C5 /* DocWatchHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CA1249E81CFE7FBD004C11C5 /* MHWDirectoryWatcher.h */,
+				CA1249E91CFE7FBD004C11C5 /* MHWDirectoryWatcher.m */,
+			);
+			path = DocWatchHelper;
+			sourceTree = "<group>";
+		};
+		CA1249B01CFE7F74004C11C5 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				CA124A111CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.h */,
+				CA124A121CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.m */,
+				CA124A131CFE7FED004C11C5 /* mute.caf */,
+				CA124A141CFE7FED004C11C5 /* UITapticEngine.h */,
+				CA124A151CFE7FED004C11C5 /* UIDevice+Private.h */,
+				CA124A161CFE7FED004C11C5 /* UIDevice+Private.m */,
+				CA124A171CFE7FED004C11C5 /* RBVolumeButtons.h */,
+				CA124A181CFE7FED004C11C5 /* RBVolumeButtons.m */,
+				CA124A191CFE7FED004C11C5 /* UIViewController+BackButtonHandler.h */,
+				CA124A1A1CFE7FED004C11C5 /* UIViewController+BackButtonHandler.m */,
+				CA124A1B1CFE7FED004C11C5 /* NSString+CompareToVersion.h */,
+				CA124A1C1CFE7FED004C11C5 /* NSString+CompareToVersion.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		CA1249B11CFE7F74004C11C5 /* SCLAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CA1249FB1CFE7FDC004C11C5 /* UIImage+ImageEffects.h */,
+				CA1249FC1CFE7FDC004C11C5 /* UIImage+ImageEffects.m */,
+				CA1249FD1CFE7FDC004C11C5 /* SCLAlertView.h */,
+				CA1249FE1CFE7FDC004C11C5 /* SCLAlertView.m */,
+				CA1249FF1CFE7FDC004C11C5 /* SCLButton.h */,
+				CA124A001CFE7FDC004C11C5 /* SCLButton.m */,
+				CA124A011CFE7FDC004C11C5 /* SCLAlertViewResponder.h */,
+				CA124A021CFE7FDC004C11C5 /* SCLAlertViewResponder.m */,
+				CA124A031CFE7FDC004C11C5 /* SCLAlertViewStyleKit.h */,
+				CA124A041CFE7FDC004C11C5 /* SCLAlertViewStyleKit.m */,
+				CA124A051CFE7FDC004C11C5 /* SCLMacros.h */,
+				CA124A061CFE7FDC004C11C5 /* SCLTimerDisplay.h */,
+				CA124A071CFE7FDC004C11C5 /* SCLTimerDisplay.m */,
+				CA124A081CFE7FDC004C11C5 /* SCLTextView.h */,
+				CA124A091CFE7FDC004C11C5 /* SCLTextView.m */,
+			);
+			path = SCLAlertView;
+			sourceTree = "<group>";
+		};
+		CA1249B21CFE7F74004C11C5 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				CA1249EB1CFE7FCF004C11C5 /* crypt.h */,
+				CA1249EC1CFE7FCF004C11C5 /* ioapi.c */,
+				CA1249ED1CFE7FCF004C11C5 /* ioapi.h */,
+				CA1249EE1CFE7FCF004C11C5 /* mztools.c */,
+				CA1249EF1CFE7FCF004C11C5 /* mztools.h */,
+				CA1249F01CFE7FCF004C11C5 /* unzip.c */,
+				CA1249F11CFE7FCF004C11C5 /* unzip.h */,
+				CA1249F21CFE7FCF004C11C5 /* zip.c */,
+				CA1249F31CFE7FCF004C11C5 /* zip.h */,
+				CA1249F41CFE7FCF004C11C5 /* SSZipArchive.h */,
+				CA1249F51CFE7FCF004C11C5 /* SSZipArchive.m */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		CA124A291CFE8209004C11C5 /* WCEasySettings */ = {
+			isa = PBXGroup;
+			children = (
+				CA124A481CFE8258004C11C5 /* WCEasySettings.h */,
+				CA124A2A1CFE8237004C11C5 /* WCEasySettingsViewController.h */,
+				CA124A2B1CFE8237004C11C5 /* WCEasySettingsViewController.m */,
+				CA124A2C1CFE8237004C11C5 /* WCEasySettingsSection.h */,
+				CA124A2D1CFE8237004C11C5 /* WCEasySettingsSection.m */,
+				CA124A2E1CFE8237004C11C5 /* WCEasySettingsItem.h */,
+				CA124A2F1CFE8237004C11C5 /* WCEasySettingsItem.m */,
+				CA124A301CFE8237004C11C5 /* WCEasySettingsSwitch.h */,
+				CA124A311CFE8237004C11C5 /* WCEasySettingsSwitch.m */,
+				CA124A321CFE8237004C11C5 /* WCEasySettingsSegment.h */,
+				CA124A331CFE8237004C11C5 /* WCEasySettingsSegment.m */,
+				CA124A341CFE8237004C11C5 /* WCEasySettingsSlider.h */,
+				CA124A351CFE8237004C11C5 /* WCEasySettingsSlider.m */,
+				CA124A361CFE8237004C11C5 /* WCEasySettingsOption.h */,
+				CA124A371CFE8237004C11C5 /* WCEasySettingsOption.m */,
+				CA124A381CFE8237004C11C5 /* WCEasySettingsOptionViewController.h */,
+				CA124A391CFE8237004C11C5 /* WCEasySettingsOptionViewController.m */,
+				CA124A3A1CFE8237004C11C5 /* WCEasySettingsUrl.h */,
+				CA124A3B1CFE8237004C11C5 /* WCEasySettingsUrl.m */,
+				CA124A3C1CFE8237004C11C5 /* WCEasySettingsCustom.h */,
+				CA124A3D1CFE8237004C11C5 /* WCEasySettingsCustom.m */,
+			);
+			name = WCEasySettings;
+			path = Build/DolphiniOS/Utilities/WCEasySettings;
+			sourceTree = SOURCE_ROOT;
+		};
+		CA124A4C1CFE851C004C11C5 /* ZAActivityBar */ = {
+			isa = PBXGroup;
+			children = (
+				CA124A4D1CFE852B004C11C5 /* ZAActivityBar.bundle */,
+				CA124A4E1CFE852B004C11C5 /* ZAActivityBar.h */,
+				CA124A4F1CFE852B004C11C5 /* ZAActivityBar.m */,
+				CA124A501CFE852B004C11C5 /* SKBounceAnimation.h */,
+				CA124A511CFE852B004C11C5 /* SKBounceAnimation.m */,
+			);
+			path = ZAActivityBar;
+			sourceTree = "<group>";
+		};
 		CA53A23C1CEFA30E005937F5 /* DolphiniOS */ = {
 			isa = PBXGroup;
 			children = (
-				CA53A2B01CEFB44D005937F5 /* iOS */,
+				CA53A2B01CEFB44D005937F5 /* Bridge */,
 				CA53A2401CEFA30E005937F5 /* AppDelegate.h */,
 				CA53A2411CEFA30E005937F5 /* AppDelegate.m */,
-				CA53A2431CEFA30E005937F5 /* ViewController.h */,
-				CA53A2441CEFA30E005937F5 /* ViewController.mm */,
-				CA53A2771CEFA426005937F5 /* DolphinBridge.h */,
-				CA53A2781CEFA426005937F5 /* DolphinBridge.mm */,
+				CA1249681CFE7D0E004C11C5 /* RomTableViewController.h */,
+				CA1249691CFE7D0E004C11C5 /* RomTableViewController.m */,
+				CA12496A1CFE7D0E004C11C5 /* GameTableView.h */,
+				CA12496B1CFE7D0E004C11C5 /* GameTableView.m */,
+				CA12496C1CFE7D0E004C11C5 /* RomDownloader.h */,
+				CA12496D1CFE7D0E004C11C5 /* RomDownloader.m */,
+				CA12496E1CFE7D0E004C11C5 /* RomDownloadManager.h */,
+				CA12496F1CFE7D0E004C11C5 /* RomDownloadManager.m */,
+				CA53A2431CEFA30E005937F5 /* EmulatorViewController.h */,
+				CA53A2441CEFA30E005937F5 /* EmulatorViewController.mm */,
+				CA1249AD1CFE7F74004C11C5 /* Utilities */,
 				CA53A2461CEFA30E005937F5 /* Main.storyboard */,
 				CA53A2491CEFA30E005937F5 /* Assets.xcassets */,
 				CA53A24B1CEFA30E005937F5 /* LaunchScreen.storyboard */,
@@ -4747,6 +5098,7 @@
 			isa = PBXGroup;
 			children = (
 				CA76E1901CFCDDE20009BB8E /* Entitlements.plist */,
+				CA124A491CFE830E004C11C5 /* Dolphin-Prefix.pch */,
 				CA53A23E1CEFA30E005937F5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -4772,22 +5124,17 @@
 			path = Build/DolphiniOSUITests;
 			sourceTree = "<group>";
 		};
-		CA53A2B01CEFB44D005937F5 /* iOS */ = {
+		CA53A2B01CEFB44D005937F5 /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				CA53A2771CEFA426005937F5 /* DolphinBridge.h */,
+				CA53A2781CEFA426005937F5 /* DolphinBridge.mm */,
+				CA1249601CFE7766004C11C5 /* DolphinGame.h */,
+				CA1249611CFE7766004C11C5 /* DolphinGame.m */,
 				CA53A2C21CEFCA3D005937F5 /* GCAdapter_iOS.cpp */,
 				CA53A2B11CEFB485005937F5 /* MainiOS.cpp */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CA9959FF1CFC8FD0005FE28A /* Roms */ = {
-			isa = PBXGroup;
-			children = (
-				CA995A001CFC8FD0005FE28A /* LuigisMansion.iso */,
-			);
-			name = Roms;
-			path = Build/Roms;
+			name = Bridge;
 			sourceTree = "<group>";
 		};
 		D2019E81466F4C8FA73D33D7 /* uicommon */ = {
@@ -6247,12 +6594,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDFF5831CFE011D00A45313 /* LuigisMansion.iso in Resources */,
+				CA124A1E1CFE7FED004C11C5 /* mute.caf in Resources */,
 				CA76E1911CFCDDE20009BB8E /* Entitlements.plist in Resources */,
 				CA53A3391CEFD330005937F5 /* starfield.dol in Resources */,
 				CA53A3361CEFD2CF005937F5 /* GC in Resources */,
 				CA53A3371CEFD2CF005937F5 /* Shaders in Resources */,
+				CA124A521CFE852B004C11C5 /* ZAActivityBar.bundle in Resources */,
 				CA53A24D1CEFA30E005937F5 /* LaunchScreen.storyboard in Resources */,
+				CA1249671CFE7C0D004C11C5 /* Roms in Resources */,
 				CA53A24A1CEFA30E005937F5 /* Assets.xcassets in Resources */,
 				CA53A2481CEFA30E005937F5 /* Main.storyboard in Resources */,
 			);
@@ -7122,12 +7471,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA53A2451CEFA30E005937F5 /* ViewController.mm in Sources */,
+				CA124A221CFE7FED004C11C5 /* NSString+CompareToVersion.m in Sources */,
+				CA1249DF1CFE7F7D004C11C5 /* Ppmd7.c in Sources */,
+				CA124A421CFE8237004C11C5 /* WCEasySettingsSegment.m in Sources */,
+				CA1249DD1CFE7F7D004C11C5 /* LzmaDec.c in Sources */,
+				CA1249D41CFE7F7D004C11C5 /* 7zBuf2.c in Sources */,
+				CA124A471CFE8237004C11C5 /* WCEasySettingsCustom.m in Sources */,
+				CA1249E01CFE7F7D004C11C5 /* Ppmd7Dec.c in Sources */,
+				CA124A461CFE8237004C11C5 /* WCEasySettingsUrl.m in Sources */,
+				CA1249D51CFE7F7D004C11C5 /* 7zDec.c in Sources */,
+				CA124A431CFE8237004C11C5 /* WCEasySettingsSlider.m in Sources */,
+				CA53A2451CEFA30E005937F5 /* EmulatorViewController.mm in Sources */,
+				CA1249E61CFE7FAD004C11C5 /* 7zAlloc.c in Sources */,
+				CA1249D91CFE7F7D004C11C5 /* Alloc.c in Sources */,
+				CA1249701CFE7D0E004C11C5 /* RomTableViewController.m in Sources */,
+				CA124A1F1CFE7FED004C11C5 /* UIDevice+Private.m in Sources */,
+				CA124A1D1CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.m in Sources */,
 				CA53A2C31CEFCA3D005937F5 /* GCAdapter_iOS.cpp in Sources */,
+				CA1249DB1CFE7F7D004C11C5 /* Delta.c in Sources */,
+				CA1249DC1CFE7F7D004C11C5 /* Lzma2Dec.c in Sources */,
+				CA1249F81CFE7FCF004C11C5 /* unzip.c in Sources */,
 				CA53A2B21CEFB485005937F5 /* MainiOS.cpp in Sources */,
+				CA124A0D1CFE7FDC004C11C5 /* SCLAlertViewResponder.m in Sources */,
+				CA124A0E1CFE7FDC004C11C5 /* SCLAlertViewStyleKit.m in Sources */,
+				CA1249E71CFE7FAD004C11C5 /* 7zMain.c in Sources */,
 				CA53A2421CEFA30E005937F5 /* AppDelegate.m in Sources */,
+				CA124A3E1CFE8237004C11C5 /* WCEasySettingsViewController.m in Sources */,
+				CA124A211CFE7FED004C11C5 /* UIViewController+BackButtonHandler.m in Sources */,
+				CA1249D61CFE7F7D004C11C5 /* 7zFile.c in Sources */,
 				CA53A23F1CEFA30E005937F5 /* main.m in Sources */,
+				CA1249F61CFE7FCF004C11C5 /* ioapi.c in Sources */,
+				CA1249F71CFE7FCF004C11C5 /* mztools.c in Sources */,
+				CA124A3F1CFE8237004C11C5 /* WCEasySettingsSection.m in Sources */,
+				CA124A0C1CFE7FDC004C11C5 /* SCLButton.m in Sources */,
+				CA1249DE1CFE7F7D004C11C5 /* LZMAExtractor.m in Sources */,
+				CA1249D31CFE7F7D004C11C5 /* 7zBuf.c in Sources */,
+				CA1249621CFE7766004C11C5 /* DolphinGame.m in Sources */,
+				CA124A101CFE7FDC004C11C5 /* SCLTextView.m in Sources */,
+				CA124A531CFE852B004C11C5 /* ZAActivityBar.m in Sources */,
+				CA1249F91CFE7FCF004C11C5 /* zip.c in Sources */,
+				CA124A201CFE7FED004C11C5 /* RBVolumeButtons.m in Sources */,
+				CA124A541CFE852B004C11C5 /* SKBounceAnimation.m in Sources */,
 				CA53A2791CEFA426005937F5 /* DolphinBridge.mm in Sources */,
+				CA1249EA1CFE7FBD004C11C5 /* MHWDirectoryWatcher.m in Sources */,
+				CA1249FA1CFE7FCF004C11C5 /* SSZipArchive.m in Sources */,
+				CA1249721CFE7D0E004C11C5 /* RomDownloader.m in Sources */,
+				CA124A441CFE8237004C11C5 /* WCEasySettingsOption.m in Sources */,
+				CA1249D81CFE7F7D004C11C5 /* 7zStream.c in Sources */,
+				CA124A451CFE8237004C11C5 /* WCEasySettingsOptionViewController.m in Sources */,
+				CA1249731CFE7D0E004C11C5 /* RomDownloadManager.m in Sources */,
+				CA124A0B1CFE7FDC004C11C5 /* SCLAlertView.m in Sources */,
+				CA1249711CFE7D0E004C11C5 /* GameTableView.m in Sources */,
+				CA124A0F1CFE7FDC004C11C5 /* SCLTimerDisplay.m in Sources */,
+				CA1249E21CFE7F7D004C11C5 /* Ppmd8Dec.c in Sources */,
+				CA124A401CFE8237004C11C5 /* WCEasySettingsItem.m in Sources */,
+				CA124A0A1CFE7FDC004C11C5 /* UIImage+ImageEffects.m in Sources */,
+				CA1249D71CFE7F7D004C11C5 /* 7zIn.c in Sources */,
+				CA1249DA1CFE7F7D004C11C5 /* CpuArch.c in Sources */,
+				CA1249E11CFE7F7D004C11C5 /* Ppmd8.c in Sources */,
+				CA124A411CFE8237004C11C5 /* WCEasySettingsSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -9102,7 +9504,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -9177,7 +9579,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -9246,7 +9648,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -9319,7 +9721,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -9400,7 +9802,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10195,7 +10597,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10270,7 +10672,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10663,7 +11065,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10729,7 +11131,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10802,7 +11204,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10875,7 +11277,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11235,7 +11637,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11591,7 +11993,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11657,7 +12059,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11738,7 +12140,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11809,7 +12211,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11884,7 +12286,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12010,7 +12412,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12466,7 +12868,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12539,7 +12941,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12771,7 +13173,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12852,7 +13254,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12923,7 +13325,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13004,7 +13406,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13191,7 +13593,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13468,7 +13870,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13547,7 +13949,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13613,7 +14015,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13694,7 +14096,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13767,7 +14169,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13849,7 +14251,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14150,7 +14552,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14219,7 +14621,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14300,7 +14702,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14481,7 +14883,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14802,7 +15204,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15105,7 +15507,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15178,7 +15580,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15251,7 +15653,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15324,7 +15726,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15519,7 +15921,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15600,7 +16002,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15789,7 +16191,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -16205,7 +16607,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -16271,7 +16673,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -16337,7 +16739,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -16801,7 +17203,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17035,7 +17437,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17230,7 +17632,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17434,7 +17836,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17500,7 +17902,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17581,7 +17983,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17662,7 +18064,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17741,7 +18143,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17849,7 +18251,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -18085,7 +18487,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -18213,7 +18615,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -18534,7 +18936,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -18819,7 +19221,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -18900,7 +19302,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19315,7 +19717,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19396,7 +19798,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19595,7 +19997,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19738,7 +20140,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -20161,7 +20563,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -20356,7 +20758,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -20429,7 +20831,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -20655,7 +21057,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -20838,7 +21240,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21132,7 +21534,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21213,7 +21615,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21292,7 +21694,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21358,7 +21760,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21792,7 +22194,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -21800,7 +22202,9 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -21856,6 +22260,8 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Build/Source/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -21908,6 +22314,8 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Build/Source/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -21960,6 +22368,8 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Build/Source/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -22435,7 +22845,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -22501,7 +22911,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -23018,7 +23428,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -23333,7 +23743,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -23803,7 +24213,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -23884,7 +24294,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24188,7 +24598,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24270,7 +24680,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24351,7 +24761,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24417,7 +24827,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24498,7 +24908,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24565,7 +24975,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24634,7 +25044,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24715,7 +25125,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24854,7 +25264,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",

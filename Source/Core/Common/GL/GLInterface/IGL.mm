@@ -26,7 +26,8 @@ int framenum = 0;
 
 void cInterfaceIGL::Swap()
 {
-    NSLog(@"Frame: %d", framenum++);
+    //NSLog(@"Frame: %d", framenum++);
+    [context presentRenderbuffer:GL_RENDERBUFFER];
 }
 void cInterfaceIGL::SwapInterval(int Interval)
 {
@@ -65,21 +66,21 @@ bool bufferStorageCreated = false;
 void cInterfaceIGL::Update()
 {
     if (bufferStorageCreated) {
-        [glkView bindDrawable];
-        glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
-        [context presentRenderbuffer:GL_RENDERBUFFER];
+        
+        
     }
 }
 
 void cInterfaceIGL::Draw()
 {
+    [glkView bindDrawable];
     if (!bufferStorageCreated) {
         if (![context renderbufferStorage:GL_RENDERBUFFER fromDrawable:(CAEAGLLayer*)glkView.layer]) {
             NSLog(@"Unable to create renderbufferstorage");
         }
         bufferStorageCreated = true;
+        
     }
-    printf("IGL: Draw\n");
 }
 
 

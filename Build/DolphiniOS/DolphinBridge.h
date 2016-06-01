@@ -10,7 +10,7 @@
 
 @interface DolphinBridge : NSObject
 
-- (void) createUserFolders;
+- (void)createUserFolders;
 - (NSString*) getUserDirectory;
 - (void) setUserDirectory: (NSString*)userDir;
 - (NSString*) getLibraryDirectory;
@@ -18,7 +18,7 @@
 - (void) copyDirectoryOrFile:(NSFileManager*)fileMgr :(NSString *)directory;
 - (void) loadPreferences;
 - (void) saveDefaultPreferences;
-- (void) startEmulation;
+- (void) openRomAtPath:(NSString *)path;
 - (void) redirectConsole;
 
 @end

@@ -141,7 +141,7 @@
     oglConfig.Load(File::GetUserPath(D_CONFIG_IDX) + "gfx_opengl.ini");
     
     IniFile::Section *oglSettings = oglConfig.GetOrCreateSection("Settings");
-    oglSettings->Set("ShowFPS", "False"); // originally false
+    oglSettings->Set("ShowFPS", "True"); // originally false
     oglSettings->Set("EFBScale", "2");
     oglSettings->Set("MSAA", "0");
     oglSettings->Set("EnablePixelLighting", "False"); // originally false
@@ -166,33 +166,19 @@
     
     oglConfig.Save(File::GetUserPath(D_CONFIG_IDX) + "gfx_opengl.ini");
 }
-//
-static bool MsgAlert(const char* caption, const char* text, bool /*yes_no*/, int /*Style*/)
-{
-    NSLog(@"[%s] %s", caption, text);
-    return false;
-}
-//
-//// oh my!
-- (void) startEmulation
+
+- (void)openRomAtPath:(NSString *)path;
 {
     
     NSLog(@"Emulation will now commence!! Setting user dir to: %@", [self getUserDirectory]);
+    NSLog(@"Loading game at path: %@", path);
     UICommon::SetUserDirectory([[self getUserDirectory] cStringUsingEncoding:NSUTF8StringEncoding]);
-    NSLog(@"Registering MsgAlert handler");
-    NSLog(@"Calling UICommon::Init()");
     UICommon::Init();
     
-    NSString *starfieldDol = [[[[NSBundle mainBundle] resourcePath] stringByAppendingString: @"/"] stringByAppendingString:@"/LuigisMansion.iso"];
-    //NSString *starfieldDol = [[[[NSBundle mainBundle] resourcePath] stringByAppendingString: @"/"] stringByAppendingString:@"/starfield.dol"];
-    
-    NSLog(@"StarField Path: %@", starfieldDol);
-    // No use running the loop when booting fails
-    NSLog(@"Booting PowerPC :o");
-    if (BootManager::BootCore([starfieldDol UTF8String])) {
+    if (BootManager::BootCore([path UTF8String])) {
         NSLog(@"Boot Started, waiting for run state");
         while (PowerPC::GetState() != PowerPC::CPU_POWERDOWN) {
-            // we wait...
+            usleep(10000);
         }
         NSLog(@"Core booted");
     } else {

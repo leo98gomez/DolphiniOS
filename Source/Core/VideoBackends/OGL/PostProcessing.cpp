@@ -138,7 +138,7 @@ void OpenGLPostProcessing::BlitFromTexture(TargetRectangle src, TargetRectangle 
 	glActiveTexture(GL_TEXTURE9);
 	glBindTexture(GL_TEXTURE_2D_ARRAY, src_texture);
 	g_sampler_cache->BindLinearSampler(9);
-	//glDrawArrays(GL_TRIANGLE_STRIP, 0, 4); //Will Edited
+	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4); //Will Edited
 }
 
 void OpenGLPostProcessing::ApplyShader()

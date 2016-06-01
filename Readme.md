@@ -8,13 +8,15 @@ DolphiniOS
 
 This a port of Dolphin for iOS. It will remain separate from the main source due to the amount of core changes needed to accommodate iOS until fully functional.
 
-Currently the core runs perfectly and can boot smaller games. Scrubbed games (<200MB) can also run.
+Currently Dolphin on iOS supports the PowerPC Interpreter with caching enabled and an OpenGL backend. Most games can be loaded and run between 5 and 30 fps. 
 
-Only the Software Renderer and Interpretor work correctly so games are still extremely slow.
+Only devices with 2GB of ram have been tested (iPhone 6s, ect). Devices with 1GB may work but have not been tested.
+
+
 
 Installing DolphiniOS
 ------------------------
-Download the source and open the project file in the Build Directory. 
+Download the source and open the project file in the Build Directory. Set the  
 
 
 
@@ -25,4 +27,3 @@ To-do
 * Net Play
 * Cheats
 * JIT
-* OpenGL Backend

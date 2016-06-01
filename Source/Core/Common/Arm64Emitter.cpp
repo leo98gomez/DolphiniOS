@@ -321,18 +321,16 @@ const u8* ARM64XEmitter::AlignCodePage()
 void ARM64XEmitter::Write32(u32 value)
 {
     //Will Edited
-    uintptr_t * opPtr = (uintptr_t *)&value;
-    opPtr = (uintptr_t *)((uintptr_t)opPtr & 0xFFFFFFFFFFFFF000); //Assuming page size is 4096
-    
-    if (mprotect(opPtr, 4096 * 2, PROT_READ | PROT_WRITE)) {
-        printf("Error protecting memory for rw: %d\n", errno);
-        perror("Couldn’t mprotect");
-    }
+//    uintptr_t * opPtr = (uintptr_t *)&value;
+//    opPtr = (uintptr_t *)((uintptr_t)opPtr & 0xFFFFFFFFFFFFF000); //Assuming page size is 4096
+//    
+//    if (mprotect(opPtr, 4096 * 2, PROT_READ | PROT_WRITE)) {
+//        printf("Error protecting memory for rw: %d\n", errno);
+//        perror("Couldn’t mprotect");
+//    }
     
 	std::memcpy(m_code, &value, sizeof(u32));
 	m_code += sizeof(u32);
-    
-    mprotect(opPtr, 4096 * 2, PROT_READ | PROT_EXEC);
 }
 
 void ARM64XEmitter::FlushIcache()
@@ -351,7 +349,7 @@ void ARM64XEmitter::FlushIcacheSection(u8* start, u8* end)
     //  Needs to be fixed to clear cache
 	// Header file says this is equivalent to: sys_icache_invalidate(start, end - start);
 	//sys_cache_control(kCacheFunctionPrepareForExecution, start, end - start);
-    sys_icache_invalidate(start, (uintptr_t)start - (uintptr_t)end);
+    //sys_icache_invalidate(start, (uintptr_t)start - (uintptr_t)end);
 #else
 #ifdef __clang__
 	__clear_cache(start, end);

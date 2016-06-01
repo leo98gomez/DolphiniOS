@@ -6,13 +6,14 @@
 //
 //
 
-#import "ViewController.h"
+#import "EmulatorViewController.h"
 #import "DolphinBridge.h"
 #import <GLKit/GLKit.h>
 #import <OpenGLES/ES2/gl.h>
 #include "Common/GL/GLInterfaceBase.h"
+#import "DolphinGame.h"
 
-@interface ViewController () <GLKViewDelegate> {
+@interface EmulatorViewController () <GLKViewDelegate> {
     DolphinBridge *bridge;
     
     GLuint texHandle[1];
@@ -25,14 +26,16 @@
 
 @end
 
-@implementation ViewController
+@implementation EmulatorViewController
 
 GLKView *v;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.glkView = [[GLKView alloc] initWithFrame:CGRectMake(0, 50, self.view.frame.size.width, self.view.frame.size.width * 0.75)];
+    CGSize screenSize = [self currentScreenSizeAlwaysLandscape:YES];
+    CGSize emulatorSize = CGSizeMake(screenSize.height * 1.33333, screenSize.height);
+    self.glkView = [[GLKView alloc] initWithFrame:CGRectMake((screenSize.width - emulatorSize.width)/2, 0, emulatorSize.width, emulatorSize.height)];
     [self.view addSubview:self.glkView];
     
     v = self.glkView;
@@ -41,7 +44,10 @@ GLKView *v;
     NSLog(@"Loaded %@", self.glkView.delegate);
     // Do any additional setup after loading the view, typically from a nib.
     bridge = [DolphinBridge new];
-    
+}
+
+- (void)launchGame:(DolphinGame *)game
+{
     NSString *userDir = [bridge getUserDirectory];
     
     if (userDir.length == 0)
@@ -53,8 +59,31 @@ GLKView *v;
         [bridge copyResources];
         [bridge saveDefaultPreferences];
     }
-    [bridge startEmulation];
+    NSLog(@"Bridge %@", bridge);
+    [bridge openRomAtPath:game.path];
+}
 
+- (NSUInteger)supportedInterfaceOrientations {
+    return UIInterfaceOrientationMaskLandscape;
+}
+
+-(CGSize)currentScreenSizeAlwaysLandscape:(BOOL)portrait
+{
+    if (!portrait)
+        return [UIScreen mainScreen].bounds.size;
+    //Get portrait size
+    CGRect screenBounds = [UIScreen mainScreen].bounds ;
+    CGFloat width = CGRectGetWidth(screenBounds);
+    CGFloat height = CGRectGetHeight(screenBounds);
+    if (![self isPortrait]){
+        return CGSizeMake(width, height);
+    }
+    return CGSizeMake(height, width);
+}
+
+-(BOOL) isPortrait
+{
+    return UIInterfaceOrientationIsPortrait([UIApplication sharedApplication].statusBarOrientation);
 }
 
 - (void)didReceiveMemoryWarning {

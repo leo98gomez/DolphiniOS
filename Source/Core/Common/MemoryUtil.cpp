@@ -63,7 +63,7 @@ void* AllocateExecutableMemory(size_t size, bool low)
 #endif
     //Will Edited
     void* ptr = mmap(map_hint, size, PROT_READ | PROT_WRITE, MAP_ANON | MAP_SHARED, -1, 0);
-    ptr = mmap(ptr, size, PROT_READ | PROT_EXEC, MAP_ANON | MAP_SHARED | MAP_FIXED, -1, 0);
+    //ptr = mmap(ptr, size, PROT_READ | PROT_EXEC, MAP_ANON | MAP_SHARED | MAP_FIXED, -1, 0);
 //	void* ptr = mmap(map_hint, size, PROT_READ | PROT_WRITE, MAP_ANON | MAP_SHARED
 //#if defined(_M_X86_64) && defined(MAP_32BIT)
 //		| (low ? MAP_32BIT : 0)
