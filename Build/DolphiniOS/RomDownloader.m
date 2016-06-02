@@ -73,11 +73,7 @@
 
 - (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
     NSString *fileExtension = request.URL.pathExtension.lowercaseString;
-#ifdef UseRarKit
     if ([fileExtension isEqualToString:@"iso"]  || [fileExtension isEqualToString:@"dol"] || [fileExtension isEqualToString:@"rar"] || [fileExtension isEqualToString:@"zip"] || [fileExtension isEqualToString:@"7z"]) {
-#else
-    if ([fileExtension isEqualToString:@"iso"]  || [fileExtension isEqualToString:@"dol"] || [fileExtension isEqualToString:@"zip"] || [fileExtension isEqualToString:@"7z"]) {
-#endif
         NSLog(@"Downloading %@", request.URL);
         lastProgress = 0.0;
         [ZAActivityBar showSuccessWithStatus:[NSString stringWithFormat:@"Downloading started: %@", request.URL.lastPathComponent] duration:5];
@@ -89,12 +85,6 @@
         //[self dismissViewControllerAnimated:YES completion:nil];
         
         return NO;
-    } else if ([fileExtension isEqualToString:@"rar"]) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            SCLAlertView * alertView = [[SCLAlertView alloc] init];
-            alertView.shouldDismissOnTapOutside = YES;
-            [alertView showError:self title:@"Error!" subTitle:@"Rar support has been disabled for iNDS. Support will return in a future update." closeButtonTitle:@"Okay" duration:0.0];
-        });
     } else {
         //NSLog(@"Ignore: %@", request.URL);
     }
