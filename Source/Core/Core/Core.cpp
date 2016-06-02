@@ -456,7 +456,7 @@ void EmuThread()
 	if (!g_controller_interface.IsInit())
 	{
 		Pad::Initialize(s_window_handle);
-		Keyboard::Initialize(s_window_handle);
+        Keyboard::Initialize(s_window_handle);
 		init_controllers = true;
 	}
 	else

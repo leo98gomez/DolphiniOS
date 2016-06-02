@@ -52,8 +52,8 @@ bool cInterfaceIGL::Create(void *window_handle, bool core)
     glkView = (GLKView *)window_handle;
     glkView.context = context;
     
-    CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
-    eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
+    //CAEAGLLayer * eaglLayer = (CAEAGLLayer*) glkView.layer;
+    //eaglLayer.drawableProperties = @{kEAGLDrawablePropertyRetainedBacking : @(YES)};
     
     s_backbuffer_width = glkView.frame.size.width * 2;
     s_backbuffer_height = glkView.frame.size.height * 2;

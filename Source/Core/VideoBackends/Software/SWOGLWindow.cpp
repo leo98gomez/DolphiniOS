@@ -121,9 +121,6 @@ void SWOGLWindow::ShowImage(u8* data, int stride, int width, int height, float a
 	glBindVertexArray(m_image_vao);
 	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
     
-    //Will Edited heavily
-    // Added Draw(...) funtion to GLInterfaceBase.h
-    
                       
 // TODO: implement OSD
 //	for (TextData& text : m_text)

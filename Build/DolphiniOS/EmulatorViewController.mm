@@ -11,10 +11,20 @@
 #import <GLKit/GLKit.h>
 #import <OpenGLES/ES2/gl.h>
 #include "Common/GL/GLInterfaceBase.h"
+#import "GCControllerView.h"
 #import "DolphinGame.h"
 
-@interface EmulatorViewController () <GLKViewDelegate> {
+
+#include "InputCommon/ControllerInterface/iOS/ButtonManager.h"
+#include "InputCommon/ControllerInterface/ControllerInterface.h"
+#include "InputCommon/InputConfig.h"
+#include "Core/HW/GCPadEmu.h"
+
+
+
+@interface EmulatorViewController () <GLKViewDelegate, GCControllerViewDelegate> {
     DolphinBridge *bridge;
+    GCControllerView *controllerView;
     
     GLuint texHandle[1];
     GLint attribPos;
@@ -33,8 +43,9 @@ GLKView *v;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Add GLKView
     CGSize screenSize = [self currentScreenSizeAlwaysLandscape:YES];
-    CGSize emulatorSize = CGSizeMake(screenSize.height * 1.33333, screenSize.height);
+    CGSize emulatorSize = CGSizeMake(screenSize.height * 1.21212, screenSize.height);
     self.glkView = [[GLKView alloc] initWithFrame:CGRectMake((screenSize.width - emulatorSize.width)/2, 0, emulatorSize.width, emulatorSize.height)];
     [self.view addSubview:self.glkView];
     
@@ -44,6 +55,12 @@ GLKView *v;
     NSLog(@"Loaded %@", self.glkView.delegate);
     // Do any additional setup after loading the view, typically from a nib.
     bridge = [DolphinBridge new];
+    
+    //Add controller View
+    controllerView = [[GCControllerView alloc] initWithFrame:CGRectMake(0, 0, screenSize.width, screenSize.height)];
+    controllerView.delegate = self;
+    [self.view addSubview:controllerView];
+    
 }
 
 - (void)launchGame:(DolphinGame *)game
@@ -59,9 +76,48 @@ GLKView *v;
         [bridge copyResources];
         [bridge saveDefaultPreferences];
     }
-    NSLog(@"Bridge %@", bridge);
     [bridge openRomAtPath:game.path];
+    [self initController];
 }
+
+#pragma mark - Controller Delegate
+
+//Create a new class to handle the controller later
+
+u16 buttonState;
+CGPoint joyData[2];
+
+- (void)joystick:(NSInteger)joyid movedToPosition:(CGPoint)joyPosition
+{
+    joyData[joyid] = joyPosition;
+}
+
+- (void)buttonStateChanged:(u16)bState
+{
+    buttonState = bState;
+    //ButtonManager::GamepadEvent("Touchscreen", 1, 1);
+}
+
+- (void)initController
+{
+    
+}
+
+
+////This is a terrible hack. We need to configure dolphin to use a custom controller
+void GCPad::GetInput(GCPadStatus* const pad)
+{
+    //printf("%s\n", this->GetName().c_str());
+    pad->button = buttonState;
+    
+    pad->stickX = joyData[0].x;
+    pad->stickY = joyData[0].y;
+    
+    pad->substickX = joyData[1].x;
+    pad->substickY = joyData[1].y;
+}
+
+#pragma mark - UIFunctions
 
 - (NSUInteger)supportedInterfaceOrientations {
     return UIInterfaceOrientationMaskLandscape;

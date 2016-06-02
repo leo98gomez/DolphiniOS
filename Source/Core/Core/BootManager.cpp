@@ -182,7 +182,7 @@ void ConfigCache::RestoreConfig(SConfig* config)
 	if (bSetEmulationSpeed)
 		config->m_EmulationSpeed = m_EmulationSpeed;
 
-	//if (bSetFrameSkip)
+	if (bSetFrameSkip)
 	{
 		config->m_FrameSkip = frameSkip;
 		Movie::SetFrameSkipping(frameSkip);
@@ -263,14 +263,15 @@ bool BootCore(const std::string& _rFilename)
 		if (core_section->Get("EmulationSpeed", &SConfig::GetInstance().m_EmulationSpeed, SConfig::GetInstance().m_EmulationSpeed))
 			config_cache.bSetEmulationSpeed = true;
         //Will Edited
-        StartUp.m_strVideoBackend = "SW";
-        printf("Video: %s\n", StartUp.m_strVideoBackend.c_str());
+        SConfig::GetInstance().m_FrameSkip = 1;
+        config_cache.bSetFrameSkip = true;
+        Movie::SetFrameSkipping(2);
         //
-        if (core_section->Get("FrameSkip",    &SConfig::GetInstance().m_FrameSkip))
-		{
-			config_cache.bSetFrameSkip = true;
-			Movie::SetFrameSkipping(SConfig::GetInstance().m_FrameSkip);
-		}
+//        if (core_section->Get("FrameSkip",    &SConfig::GetInstance().m_FrameSkip))
+//		{
+//			config_cache.bSetFrameSkip = true;
+//			Movie::SetFrameSkipping(SConfig::GetInstance().m_FrameSkip);
+//		}
 
 		if (dsp_section->Get("Volume",        &SConfig::GetInstance().m_Volume, SConfig::GetInstance().m_Volume))
 			config_cache.bSetVolume = true;

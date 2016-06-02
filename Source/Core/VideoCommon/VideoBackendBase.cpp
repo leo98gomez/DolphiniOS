@@ -36,8 +36,6 @@ void VideoBackendBase::PopulateList()
 {
 	// OGL > D3D11 > D3D12 > SW
     
-    //Will Edited
-    // Can't seem to get SW so commenting this out forces it
 	g_available_video_backends.push_back(std::make_unique<OGL::VideoBackend>());
 #ifdef _WIN32
 	g_available_video_backends.push_back(std::make_unique<DX11::VideoBackend>());

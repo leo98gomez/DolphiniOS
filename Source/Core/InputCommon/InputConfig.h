@@ -25,6 +25,7 @@ public:
 	template <typename T, typename... Args>
 	void CreateController(Args&&... args)
 	{
+        printf("Creating Controller\n");
 		m_controllers.emplace_back(std::make_unique<T>(std::forward<Args>(args)...));
 	}
 

@@ -271,6 +271,75 @@
 		49051513D9974A75A131C323 /* ControllerInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45F25F16CBDA4F18877AD444 /* ControllerInterface.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		4AEED37FFAD444B396D7C4EA /* pk_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = B2A6F61F122C4F3B830F178F /* pk_wrap.c */; settings = {COMPILER_FLAGS = ""; }; };
 		4B672C2EC4934D8E913A471A /* DSPStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29B1FDF904E04859A932010F /* DSPStacks.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		4C8E6BD91CFF370100D87BC3 /* gcpad_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B871CFF370100D87BC3 /* gcpad_a@2x.png */; };
+		4C8E6BDA1CFF370100D87BC3 /* gcpad_a_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B881CFF370100D87BC3 /* gcpad_a_pressed@2x.png */; };
+		4C8E6BDB1CFF370100D87BC3 /* gcpad_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B891CFF370100D87BC3 /* gcpad_b@2x.png */; };
+		4C8E6BDC1CFF370100D87BC3 /* gcpad_b_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B8A1CFF370100D87BC3 /* gcpad_b_pressed@2x.png */; };
+		4C8E6BDD1CFF370100D87BC3 /* gcpad_c@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B8B1CFF370100D87BC3 /* gcpad_c@2x.png */; };
+		4C8E6BDE1CFF370100D87BC3 /* gcpad_c_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B8C1CFF370100D87BC3 /* gcpad_c_pressed@2x.png */; };
+		4C8E6BDF1CFF370100D87BC3 /* gcpad_dpad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B8D1CFF370100D87BC3 /* gcpad_dpad@2x.png */; };
+		4C8E6BE01CFF370100D87BC3 /* gcpad_dpad_pressed_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B8E1CFF370100D87BC3 /* gcpad_dpad_pressed_down@2x.png */; };
+		4C8E6BE11CFF370100D87BC3 /* gcpad_dpad_pressed_downleft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B8F1CFF370100D87BC3 /* gcpad_dpad_pressed_downleft@2x.png */; };
+		4C8E6BE21CFF370100D87BC3 /* gcpad_dpad_pressed_downright@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B901CFF370100D87BC3 /* gcpad_dpad_pressed_downright@2x.png */; };
+		4C8E6BE31CFF370100D87BC3 /* gcpad_dpad_pressed_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B911CFF370100D87BC3 /* gcpad_dpad_pressed_left@2x.png */; };
+		4C8E6BE41CFF370100D87BC3 /* gcpad_dpad_pressed_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B921CFF370100D87BC3 /* gcpad_dpad_pressed_right@2x.png */; };
+		4C8E6BE51CFF370100D87BC3 /* gcpad_dpad_pressed_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B931CFF370100D87BC3 /* gcpad_dpad_pressed_up@2x.png */; };
+		4C8E6BE61CFF370100D87BC3 /* gcpad_dpad_pressed_upleft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B941CFF370100D87BC3 /* gcpad_dpad_pressed_upleft@2x.png */; };
+		4C8E6BE71CFF370100D87BC3 /* gcpad_dpad_pressed_upright@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B951CFF370100D87BC3 /* gcpad_dpad_pressed_upright@2x.png */; };
+		4C8E6BE81CFF370100D87BC3 /* gcpad_joystick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B961CFF370100D87BC3 /* gcpad_joystick@2x.png */; };
+		4C8E6BE91CFF370100D87BC3 /* gcpad_joystick_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B971CFF370100D87BC3 /* gcpad_joystick_pressed@2x.png */; };
+		4C8E6BEA1CFF370100D87BC3 /* gcpad_joystick_range@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B981CFF370100D87BC3 /* gcpad_joystick_range@2x.png */; };
+		4C8E6BEB1CFF370100D87BC3 /* gcpad_l@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B991CFF370100D87BC3 /* gcpad_l@2x.png */; };
+		4C8E6BEC1CFF370100D87BC3 /* gcpad_l_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B9A1CFF370100D87BC3 /* gcpad_l_pressed@2x.png */; };
+		4C8E6BED1CFF370100D87BC3 /* gcpad_r@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B9B1CFF370100D87BC3 /* gcpad_r@2x.png */; };
+		4C8E6BEE1CFF370100D87BC3 /* gcpad_r_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B9C1CFF370100D87BC3 /* gcpad_r_pressed@2x.png */; };
+		4C8E6BEF1CFF370100D87BC3 /* gcpad_start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B9D1CFF370100D87BC3 /* gcpad_start@2x.png */; };
+		4C8E6BF01CFF370100D87BC3 /* gcpad_start_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B9E1CFF370100D87BC3 /* gcpad_start_pressed@2x.png */; };
+		4C8E6BF11CFF370100D87BC3 /* gcpad_x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6B9F1CFF370100D87BC3 /* gcpad_x@2x.png */; };
+		4C8E6BF21CFF370100D87BC3 /* gcpad_x_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA01CFF370100D87BC3 /* gcpad_x_pressed@2x.png */; };
+		4C8E6BF31CFF370100D87BC3 /* gcpad_y@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA11CFF370100D87BC3 /* gcpad_y@2x.png */; };
+		4C8E6BF41CFF370100D87BC3 /* gcpad_y_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA21CFF370100D87BC3 /* gcpad_y_pressed@2x.png */; };
+		4C8E6BF51CFF370100D87BC3 /* gcpad_z@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA31CFF370100D87BC3 /* gcpad_z@2x.png */; };
+		4C8E6BF61CFF370100D87BC3 /* gcpad_z_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA41CFF370100D87BC3 /* gcpad_z_pressed@2x.png */; };
+		4C8E6BF71CFF370100D87BC3 /* ic_gamecube.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA51CFF370100D87BC3 /* ic_gamecube.png */; };
+		4C8E6BF81CFF370100D87BC3 /* ic_wii.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA61CFF370100D87BC3 /* ic_wii.png */; };
+		4C8E6BF91CFF370100D87BC3 /* gcpad_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA81CFF370100D87BC3 /* gcpad_a.png */; };
+		4C8E6BFA1CFF370100D87BC3 /* gcpad_a_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BA91CFF370100D87BC3 /* gcpad_a_pressed.png */; };
+		4C8E6BFB1CFF370100D87BC3 /* gcpad_b.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BAA1CFF370100D87BC3 /* gcpad_b.png */; };
+		4C8E6BFC1CFF370100D87BC3 /* gcpad_b_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BAB1CFF370100D87BC3 /* gcpad_b_pressed.png */; };
+		4C8E6BFD1CFF370100D87BC3 /* gcpad_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BAC1CFF370100D87BC3 /* gcpad_c.png */; };
+		4C8E6BFE1CFF370100D87BC3 /* gcpad_c_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BAD1CFF370100D87BC3 /* gcpad_c_pressed.png */; };
+		4C8E6BFF1CFF370100D87BC3 /* gcpad_dpad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BAE1CFF370100D87BC3 /* gcpad_dpad.png */; };
+		4C8E6C001CFF370100D87BC3 /* gcpad_dpad_pressed_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BAF1CFF370100D87BC3 /* gcpad_dpad_pressed_down.png */; };
+		4C8E6C011CFF370100D87BC3 /* gcpad_dpad_pressed_downleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB01CFF370100D87BC3 /* gcpad_dpad_pressed_downleft.png */; };
+		4C8E6C021CFF370100D87BC3 /* gcpad_dpad_pressed_downright.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB11CFF370100D87BC3 /* gcpad_dpad_pressed_downright.png */; };
+		4C8E6C031CFF370100D87BC3 /* gcpad_dpad_pressed_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB21CFF370100D87BC3 /* gcpad_dpad_pressed_left.png */; };
+		4C8E6C041CFF370100D87BC3 /* gcpad_dpad_pressed_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB31CFF370100D87BC3 /* gcpad_dpad_pressed_right.png */; };
+		4C8E6C051CFF370100D87BC3 /* gcpad_dpad_pressed_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB41CFF370100D87BC3 /* gcpad_dpad_pressed_up.png */; };
+		4C8E6C061CFF370100D87BC3 /* gcpad_dpad_pressed_upleft.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB51CFF370100D87BC3 /* gcpad_dpad_pressed_upleft.png */; };
+		4C8E6C071CFF370100D87BC3 /* gcpad_dpad_pressed_upright.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB61CFF370100D87BC3 /* gcpad_dpad_pressed_upright.png */; };
+		4C8E6C081CFF370100D87BC3 /* gcpad_joystick.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB71CFF370100D87BC3 /* gcpad_joystick.png */; };
+		4C8E6C091CFF370100D87BC3 /* gcpad_joystick_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB81CFF370100D87BC3 /* gcpad_joystick_pressed.png */; };
+		4C8E6C0A1CFF370100D87BC3 /* gcpad_joystick_range.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BB91CFF370100D87BC3 /* gcpad_joystick_range.png */; };
+		4C8E6C0B1CFF370100D87BC3 /* gcpad_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BBA1CFF370100D87BC3 /* gcpad_l.png */; };
+		4C8E6C0C1CFF370100D87BC3 /* gcpad_l_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BBB1CFF370100D87BC3 /* gcpad_l_pressed.png */; };
+		4C8E6C0D1CFF370100D87BC3 /* gcpad_r.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BBC1CFF370100D87BC3 /* gcpad_r.png */; };
+		4C8E6C0E1CFF370100D87BC3 /* gcpad_r_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BBD1CFF370100D87BC3 /* gcpad_r_pressed.png */; };
+		4C8E6C0F1CFF370100D87BC3 /* gcpad_start.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BBE1CFF370100D87BC3 /* gcpad_start.png */; };
+		4C8E6C101CFF370100D87BC3 /* gcpad_start_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BBF1CFF370100D87BC3 /* gcpad_start_pressed.png */; };
+		4C8E6C111CFF370100D87BC3 /* gcpad_x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC01CFF370100D87BC3 /* gcpad_x.png */; };
+		4C8E6C121CFF370100D87BC3 /* gcpad_x_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC11CFF370100D87BC3 /* gcpad_x_pressed.png */; };
+		4C8E6C131CFF370100D87BC3 /* gcpad_y.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC21CFF370100D87BC3 /* gcpad_y.png */; };
+		4C8E6C141CFF370100D87BC3 /* gcpad_y_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC31CFF370100D87BC3 /* gcpad_y_pressed.png */; };
+		4C8E6C151CFF370100D87BC3 /* gcpad_z.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC41CFF370100D87BC3 /* gcpad_z.png */; };
+		4C8E6C161CFF370100D87BC3 /* gcpad_z_pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC51CFF370100D87BC3 /* gcpad_z_pressed.png */; };
+		4C8E6C171CFF370100D87BC3 /* ic_date.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C8E6BC61CFF370100D87BC3 /* ic_date.png */; };
+		4C8E6C1F1CFF390300D87BC3 /* GCControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E6C1A1CFF390300D87BC3 /* GCControllerView.m */; };
+		4C8E6C201CFF390300D87BC3 /* WCButtonControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E6C1C1CFF390300D87BC3 /* WCButtonControl.m */; };
+		4C8E6C211CFF390300D87BC3 /* WCDirectionalControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E6C1E1CFF390300D87BC3 /* WCDirectionalControl.m */; };
+		4C8E6C231CFF521400D87BC3 /* GCAdapteriOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA53A2C21CEFCA3D005937F5 /* GCAdapteriOS.cpp */; };
+		4C8E6C261CFF642B00D87BC3 /* iOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E6C251CFF642B00D87BC3 /* iOS.mm */; };
+		4C8E6C2F1CFF78FC00D87BC3 /* ButtonManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E6C2D1CFF78FC00D87BC3 /* ButtonManager.cpp */; };
 		4C9E2FD4982B4322BDFAABA6 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DAF3BD052470B8BA7A064 /* debug.c */; settings = {COMPILER_FLAGS = ""; }; };
 		4CEE3576168A47ABB6EEA537 /* DSPIntMisc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9482BCE608FC411180AC707E /* DSPIntMisc.cpp */; settings = {COMPILER_FLAGS = ""; }; };
 		4F946DBE84C74244BE1E8127 /* havege.c in Sources */ = {isa = PBXBuildFile; fileRef = 5DA2F9CB5DD34D28B253B684 /* havege.c */; settings = {COMPILER_FLAGS = ""; }; };
@@ -629,7 +698,6 @@
 		CA53A2BD1CEFC7E1005937F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA53A2BC1CEFC7E1005937F5 /* UIKit.framework */; };
 		CA53A2BF1CEFC7F2005937F5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA53A2BE1CEFC7F2005937F5 /* OpenGLES.framework */; };
 		CA53A2C11CEFC8A4005937F5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA53A2C01CEFC8A4005937F5 /* OpenAL.framework */; };
-		CA53A2C31CEFCA3D005937F5 /* GCAdapter_iOS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CA53A2C21CEFCA3D005937F5 /* GCAdapter_iOS.cpp */; };
 		CA53A2C41CEFCB41005937F5 /* JitArm64_BackPatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90EDBF238DBA4BC8926DF595 /* JitArm64_BackPatch.cpp */; };
 		CA53A3361CEFD2CF005937F5 /* GC in Resources */ = {isa = PBXBuildFile; fileRef = CA53A3341CEFD2CF005937F5 /* GC */; };
 		CA53A3371CEFD2CF005937F5 /* Shaders in Resources */ = {isa = PBXBuildFile; fileRef = CA53A3351CEFD2CF005937F5 /* Shaders */; };
@@ -3273,7 +3341,6 @@
 		272D584C7C294FFA83401BCF /* ControllerEmu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ControllerEmu.cpp; path = Source/Core/InputCommon/ControllerEmu.cpp; sourceTree = SOURCE_ROOT; };
 		2753E3D3A68D407380ED41E3 /* SI_DeviceGCController.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = SI_DeviceGCController.cpp; path = Source/Core/Core/HW/SI_DeviceGCController.cpp; sourceTree = SOURCE_ROOT; };
 		2769D8F9D96B4B6C9716FF55 /* DVDInterface.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DVDInterface.cpp; path = Source/Core/Core/HW/DVDInterface.cpp; sourceTree = SOURCE_ROOT; };
-		2793CCD8FCD34B72BA7BF5B0 /* ButtonManager.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ButtonManager.cpp; path = Source/Android/jni/ButtonManager.cpp; sourceTree = SOURCE_ROOT; };
 		2825F4E87800402E8915B3CB /* StubHost.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StubHost.cpp; path = Source/UnitTests/TestUtils/StubHost.cpp; sourceTree = SOURCE_ROOT; };
 		2840A8BD181A4F3084AF8FFE /* VideoState.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = VideoState.cpp; path = Source/Core/VideoCommon/VideoState.cpp; sourceTree = SOURCE_ROOT; };
 		28830D56DE7B46778E09F797 /* Classic.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Classic.cpp; path = Source/Core/Core/HW/WiimoteEmu/Attachment/Classic.cpp; sourceTree = SOURCE_ROOT; };
@@ -3364,6 +3431,79 @@
 		4A52BBDB0AB1471F9EA24570 /* StubHost.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StubHost.cpp; path = Source/UnitTests/TestUtils/StubHost.cpp; sourceTree = SOURCE_ROOT; };
 		4AB1B637D67042D4A841B705 /* Nunchuk.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Nunchuk.cpp; path = Source/Core/Core/HW/WiimoteEmu/Attachment/Nunchuk.cpp; sourceTree = SOURCE_ROOT; };
 		4B8E32EE762B40AC9C16C147 /* peer.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 4; name = peer.c; path = Externals/enet/peer.c; sourceTree = SOURCE_ROOT; };
+		4C8E6B871CFF370100D87BC3 /* gcpad_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_a@2x.png"; sourceTree = "<group>"; };
+		4C8E6B881CFF370100D87BC3 /* gcpad_a_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_a_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B891CFF370100D87BC3 /* gcpad_b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_b@2x.png"; sourceTree = "<group>"; };
+		4C8E6B8A1CFF370100D87BC3 /* gcpad_b_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_b_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B8B1CFF370100D87BC3 /* gcpad_c@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_c@2x.png"; sourceTree = "<group>"; };
+		4C8E6B8C1CFF370100D87BC3 /* gcpad_c_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_c_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B8D1CFF370100D87BC3 /* gcpad_dpad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad@2x.png"; sourceTree = "<group>"; };
+		4C8E6B8E1CFF370100D87BC3 /* gcpad_dpad_pressed_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_down@2x.png"; sourceTree = "<group>"; };
+		4C8E6B8F1CFF370100D87BC3 /* gcpad_dpad_pressed_downleft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_downleft@2x.png"; sourceTree = "<group>"; };
+		4C8E6B901CFF370100D87BC3 /* gcpad_dpad_pressed_downright@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_downright@2x.png"; sourceTree = "<group>"; };
+		4C8E6B911CFF370100D87BC3 /* gcpad_dpad_pressed_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_left@2x.png"; sourceTree = "<group>"; };
+		4C8E6B921CFF370100D87BC3 /* gcpad_dpad_pressed_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_right@2x.png"; sourceTree = "<group>"; };
+		4C8E6B931CFF370100D87BC3 /* gcpad_dpad_pressed_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_up@2x.png"; sourceTree = "<group>"; };
+		4C8E6B941CFF370100D87BC3 /* gcpad_dpad_pressed_upleft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_upleft@2x.png"; sourceTree = "<group>"; };
+		4C8E6B951CFF370100D87BC3 /* gcpad_dpad_pressed_upright@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_dpad_pressed_upright@2x.png"; sourceTree = "<group>"; };
+		4C8E6B961CFF370100D87BC3 /* gcpad_joystick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_joystick@2x.png"; sourceTree = "<group>"; };
+		4C8E6B971CFF370100D87BC3 /* gcpad_joystick_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_joystick_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B981CFF370100D87BC3 /* gcpad_joystick_range@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_joystick_range@2x.png"; sourceTree = "<group>"; };
+		4C8E6B991CFF370100D87BC3 /* gcpad_l@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_l@2x.png"; sourceTree = "<group>"; };
+		4C8E6B9A1CFF370100D87BC3 /* gcpad_l_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_l_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B9B1CFF370100D87BC3 /* gcpad_r@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_r@2x.png"; sourceTree = "<group>"; };
+		4C8E6B9C1CFF370100D87BC3 /* gcpad_r_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_r_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B9D1CFF370100D87BC3 /* gcpad_start@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_start@2x.png"; sourceTree = "<group>"; };
+		4C8E6B9E1CFF370100D87BC3 /* gcpad_start_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_start_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6B9F1CFF370100D87BC3 /* gcpad_x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_x@2x.png"; sourceTree = "<group>"; };
+		4C8E6BA01CFF370100D87BC3 /* gcpad_x_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_x_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6BA11CFF370100D87BC3 /* gcpad_y@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_y@2x.png"; sourceTree = "<group>"; };
+		4C8E6BA21CFF370100D87BC3 /* gcpad_y_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_y_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6BA31CFF370100D87BC3 /* gcpad_z@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_z@2x.png"; sourceTree = "<group>"; };
+		4C8E6BA41CFF370100D87BC3 /* gcpad_z_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gcpad_z_pressed@2x.png"; sourceTree = "<group>"; };
+		4C8E6BA51CFF370100D87BC3 /* ic_gamecube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_gamecube.png; sourceTree = "<group>"; };
+		4C8E6BA61CFF370100D87BC3 /* ic_wii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_wii.png; sourceTree = "<group>"; };
+		4C8E6BA81CFF370100D87BC3 /* gcpad_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_a.png; sourceTree = "<group>"; };
+		4C8E6BA91CFF370100D87BC3 /* gcpad_a_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_a_pressed.png; sourceTree = "<group>"; };
+		4C8E6BAA1CFF370100D87BC3 /* gcpad_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_b.png; sourceTree = "<group>"; };
+		4C8E6BAB1CFF370100D87BC3 /* gcpad_b_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_b_pressed.png; sourceTree = "<group>"; };
+		4C8E6BAC1CFF370100D87BC3 /* gcpad_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_c.png; sourceTree = "<group>"; };
+		4C8E6BAD1CFF370100D87BC3 /* gcpad_c_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_c_pressed.png; sourceTree = "<group>"; };
+		4C8E6BAE1CFF370100D87BC3 /* gcpad_dpad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad.png; sourceTree = "<group>"; };
+		4C8E6BAF1CFF370100D87BC3 /* gcpad_dpad_pressed_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_down.png; sourceTree = "<group>"; };
+		4C8E6BB01CFF370100D87BC3 /* gcpad_dpad_pressed_downleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_downleft.png; sourceTree = "<group>"; };
+		4C8E6BB11CFF370100D87BC3 /* gcpad_dpad_pressed_downright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_downright.png; sourceTree = "<group>"; };
+		4C8E6BB21CFF370100D87BC3 /* gcpad_dpad_pressed_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_left.png; sourceTree = "<group>"; };
+		4C8E6BB31CFF370100D87BC3 /* gcpad_dpad_pressed_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_right.png; sourceTree = "<group>"; };
+		4C8E6BB41CFF370100D87BC3 /* gcpad_dpad_pressed_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_up.png; sourceTree = "<group>"; };
+		4C8E6BB51CFF370100D87BC3 /* gcpad_dpad_pressed_upleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_upleft.png; sourceTree = "<group>"; };
+		4C8E6BB61CFF370100D87BC3 /* gcpad_dpad_pressed_upright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_dpad_pressed_upright.png; sourceTree = "<group>"; };
+		4C8E6BB71CFF370100D87BC3 /* gcpad_joystick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_joystick.png; sourceTree = "<group>"; };
+		4C8E6BB81CFF370100D87BC3 /* gcpad_joystick_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_joystick_pressed.png; sourceTree = "<group>"; };
+		4C8E6BB91CFF370100D87BC3 /* gcpad_joystick_range.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_joystick_range.png; sourceTree = "<group>"; };
+		4C8E6BBA1CFF370100D87BC3 /* gcpad_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_l.png; sourceTree = "<group>"; };
+		4C8E6BBB1CFF370100D87BC3 /* gcpad_l_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_l_pressed.png; sourceTree = "<group>"; };
+		4C8E6BBC1CFF370100D87BC3 /* gcpad_r.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_r.png; sourceTree = "<group>"; };
+		4C8E6BBD1CFF370100D87BC3 /* gcpad_r_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_r_pressed.png; sourceTree = "<group>"; };
+		4C8E6BBE1CFF370100D87BC3 /* gcpad_start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_start.png; sourceTree = "<group>"; };
+		4C8E6BBF1CFF370100D87BC3 /* gcpad_start_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_start_pressed.png; sourceTree = "<group>"; };
+		4C8E6BC01CFF370100D87BC3 /* gcpad_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_x.png; sourceTree = "<group>"; };
+		4C8E6BC11CFF370100D87BC3 /* gcpad_x_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_x_pressed.png; sourceTree = "<group>"; };
+		4C8E6BC21CFF370100D87BC3 /* gcpad_y.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_y.png; sourceTree = "<group>"; };
+		4C8E6BC31CFF370100D87BC3 /* gcpad_y_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_y_pressed.png; sourceTree = "<group>"; };
+		4C8E6BC41CFF370100D87BC3 /* gcpad_z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_z.png; sourceTree = "<group>"; };
+		4C8E6BC51CFF370100D87BC3 /* gcpad_z_pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gcpad_z_pressed.png; sourceTree = "<group>"; };
+		4C8E6BC61CFF370100D87BC3 /* ic_date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_date.png; sourceTree = "<group>"; };
+		4C8E6C191CFF390300D87BC3 /* GCControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCControllerView.h; sourceTree = "<group>"; };
+		4C8E6C1A1CFF390300D87BC3 /* GCControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCControllerView.m; sourceTree = "<group>"; };
+		4C8E6C1B1CFF390300D87BC3 /* WCButtonControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCButtonControl.h; sourceTree = "<group>"; };
+		4C8E6C1C1CFF390300D87BC3 /* WCButtonControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCButtonControl.m; sourceTree = "<group>"; };
+		4C8E6C1D1CFF390300D87BC3 /* WCDirectionalControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDirectionalControl.h; sourceTree = "<group>"; };
+		4C8E6C1E1CFF390300D87BC3 /* WCDirectionalControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCDirectionalControl.m; sourceTree = "<group>"; };
+		4C8E6C241CFF642B00D87BC3 /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOS.h; path = Source/Core/InputCommon/ControllerInterface/iOS/iOS.h; sourceTree = "<group>"; };
+		4C8E6C251CFF642B00D87BC3 /* iOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iOS.mm; path = Source/Core/InputCommon/ControllerInterface/iOS/iOS.mm; sourceTree = "<group>"; };
+		4C8E6C2D1CFF78FC00D87BC3 /* ButtonManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ButtonManager.cpp; path = Source/Core/InputCommon/ControllerInterface/iOS/ButtonManager.cpp; sourceTree = "<group>"; };
+		4C8E6C2E1CFF78FC00D87BC3 /* ButtonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonManager.h; path = Source/Core/InputCommon/ControllerInterface/iOS/ButtonManager.h; sourceTree = "<group>"; };
 		4C96155D1F744AE1A8FED35D /* Tests/BitSetTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = Tests/BitSetTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC0089481F14BE9A0D10D3D /* PixelEngine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PixelEngine.cpp; path = Source/Core/VideoCommon/PixelEngine.cpp; sourceTree = SOURCE_ROOT; };
 		4CE423BB1CFDDE030054EB82 /* DolphiniOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DolphiniOS copy-Info.plist"; path = "/Users/sc-wcobb-osx/Dropbox/Xcode/dolphinIOS/DolphiniOS copy-Info.plist"; sourceTree = "<absolute>"; };
@@ -3794,7 +3934,7 @@
 		CA53A2BC1CEFC7E1005937F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CA53A2BE1CEFC7F2005937F5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		CA53A2C01CEFC8A4005937F5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		CA53A2C21CEFCA3D005937F5 /* GCAdapter_iOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GCAdapter_iOS.cpp; sourceTree = "<group>"; };
+		CA53A2C21CEFCA3D005937F5 /* GCAdapteriOS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GCAdapteriOS.cpp; path = ../GCAdapteriOS.cpp; sourceTree = "<group>"; };
 		CA53A3341CEFD2CF005937F5 /* GC */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GC; path = Build/DolphiniOS/GC; sourceTree = "<group>"; };
 		CA53A3351CEFD2CF005937F5 /* Shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Shaders; path = Build/DolphiniOS/Shaders; sourceTree = "<group>"; };
 		CA53A3381CEFD322005937F5 /* starfield.dol */ = {isa = PBXFileReference; lastKnownFileType = file; path = starfield.dol; sourceTree = "<group>"; };
@@ -4220,9 +4360,118 @@
 			name = "Source Files";
 			sourceTree = "<group>";
 		};
+		4C8E6B711CFF370100D87BC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E6B851CFF370100D87BC3 /* GameCube */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C8E6B851CFF370100D87BC3 /* GameCube */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E6B861CFF370100D87BC3 /* drawable-hdpi */,
+				4C8E6BA71CFF370100D87BC3 /* drawable-ldpi */,
+			);
+			path = GameCube;
+			sourceTree = "<group>";
+		};
+		4C8E6B861CFF370100D87BC3 /* drawable-hdpi */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E6B871CFF370100D87BC3 /* gcpad_a@2x.png */,
+				4C8E6B881CFF370100D87BC3 /* gcpad_a_pressed@2x.png */,
+				4C8E6B891CFF370100D87BC3 /* gcpad_b@2x.png */,
+				4C8E6B8A1CFF370100D87BC3 /* gcpad_b_pressed@2x.png */,
+				4C8E6B8B1CFF370100D87BC3 /* gcpad_c@2x.png */,
+				4C8E6B8C1CFF370100D87BC3 /* gcpad_c_pressed@2x.png */,
+				4C8E6B8D1CFF370100D87BC3 /* gcpad_dpad@2x.png */,
+				4C8E6B8E1CFF370100D87BC3 /* gcpad_dpad_pressed_down@2x.png */,
+				4C8E6B8F1CFF370100D87BC3 /* gcpad_dpad_pressed_downleft@2x.png */,
+				4C8E6B901CFF370100D87BC3 /* gcpad_dpad_pressed_downright@2x.png */,
+				4C8E6B911CFF370100D87BC3 /* gcpad_dpad_pressed_left@2x.png */,
+				4C8E6B921CFF370100D87BC3 /* gcpad_dpad_pressed_right@2x.png */,
+				4C8E6B931CFF370100D87BC3 /* gcpad_dpad_pressed_up@2x.png */,
+				4C8E6B941CFF370100D87BC3 /* gcpad_dpad_pressed_upleft@2x.png */,
+				4C8E6B951CFF370100D87BC3 /* gcpad_dpad_pressed_upright@2x.png */,
+				4C8E6B961CFF370100D87BC3 /* gcpad_joystick@2x.png */,
+				4C8E6B971CFF370100D87BC3 /* gcpad_joystick_pressed@2x.png */,
+				4C8E6B981CFF370100D87BC3 /* gcpad_joystick_range@2x.png */,
+				4C8E6B991CFF370100D87BC3 /* gcpad_l@2x.png */,
+				4C8E6B9A1CFF370100D87BC3 /* gcpad_l_pressed@2x.png */,
+				4C8E6B9B1CFF370100D87BC3 /* gcpad_r@2x.png */,
+				4C8E6B9C1CFF370100D87BC3 /* gcpad_r_pressed@2x.png */,
+				4C8E6B9D1CFF370100D87BC3 /* gcpad_start@2x.png */,
+				4C8E6B9E1CFF370100D87BC3 /* gcpad_start_pressed@2x.png */,
+				4C8E6B9F1CFF370100D87BC3 /* gcpad_x@2x.png */,
+				4C8E6BA01CFF370100D87BC3 /* gcpad_x_pressed@2x.png */,
+				4C8E6BA11CFF370100D87BC3 /* gcpad_y@2x.png */,
+				4C8E6BA21CFF370100D87BC3 /* gcpad_y_pressed@2x.png */,
+				4C8E6BA31CFF370100D87BC3 /* gcpad_z@2x.png */,
+				4C8E6BA41CFF370100D87BC3 /* gcpad_z_pressed@2x.png */,
+				4C8E6BA51CFF370100D87BC3 /* ic_gamecube.png */,
+				4C8E6BA61CFF370100D87BC3 /* ic_wii.png */,
+			);
+			path = "drawable-hdpi";
+			sourceTree = "<group>";
+		};
+		4C8E6BA71CFF370100D87BC3 /* drawable-ldpi */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E6BA81CFF370100D87BC3 /* gcpad_a.png */,
+				4C8E6BA91CFF370100D87BC3 /* gcpad_a_pressed.png */,
+				4C8E6BAA1CFF370100D87BC3 /* gcpad_b.png */,
+				4C8E6BAB1CFF370100D87BC3 /* gcpad_b_pressed.png */,
+				4C8E6BAC1CFF370100D87BC3 /* gcpad_c.png */,
+				4C8E6BAD1CFF370100D87BC3 /* gcpad_c_pressed.png */,
+				4C8E6BAE1CFF370100D87BC3 /* gcpad_dpad.png */,
+				4C8E6BAF1CFF370100D87BC3 /* gcpad_dpad_pressed_down.png */,
+				4C8E6BB01CFF370100D87BC3 /* gcpad_dpad_pressed_downleft.png */,
+				4C8E6BB11CFF370100D87BC3 /* gcpad_dpad_pressed_downright.png */,
+				4C8E6BB21CFF370100D87BC3 /* gcpad_dpad_pressed_left.png */,
+				4C8E6BB31CFF370100D87BC3 /* gcpad_dpad_pressed_right.png */,
+				4C8E6BB41CFF370100D87BC3 /* gcpad_dpad_pressed_up.png */,
+				4C8E6BB51CFF370100D87BC3 /* gcpad_dpad_pressed_upleft.png */,
+				4C8E6BB61CFF370100D87BC3 /* gcpad_dpad_pressed_upright.png */,
+				4C8E6BB71CFF370100D87BC3 /* gcpad_joystick.png */,
+				4C8E6BB81CFF370100D87BC3 /* gcpad_joystick_pressed.png */,
+				4C8E6BB91CFF370100D87BC3 /* gcpad_joystick_range.png */,
+				4C8E6BBA1CFF370100D87BC3 /* gcpad_l.png */,
+				4C8E6BBB1CFF370100D87BC3 /* gcpad_l_pressed.png */,
+				4C8E6BBC1CFF370100D87BC3 /* gcpad_r.png */,
+				4C8E6BBD1CFF370100D87BC3 /* gcpad_r_pressed.png */,
+				4C8E6BBE1CFF370100D87BC3 /* gcpad_start.png */,
+				4C8E6BBF1CFF370100D87BC3 /* gcpad_start_pressed.png */,
+				4C8E6BC01CFF370100D87BC3 /* gcpad_x.png */,
+				4C8E6BC11CFF370100D87BC3 /* gcpad_x_pressed.png */,
+				4C8E6BC21CFF370100D87BC3 /* gcpad_y.png */,
+				4C8E6BC31CFF370100D87BC3 /* gcpad_y_pressed.png */,
+				4C8E6BC41CFF370100D87BC3 /* gcpad_z.png */,
+				4C8E6BC51CFF370100D87BC3 /* gcpad_z_pressed.png */,
+				4C8E6BC61CFF370100D87BC3 /* ic_date.png */,
+			);
+			path = "drawable-ldpi";
+			sourceTree = "<group>";
+		};
+		4C8E6C181CFF390300D87BC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CA53A2C21CEFCA3D005937F5 /* GCAdapteriOS.cpp */,
+				4C8E6C191CFF390300D87BC3 /* GCControllerView.h */,
+				4C8E6C1A1CFF390300D87BC3 /* GCControllerView.m */,
+				4C8E6C1B1CFF390300D87BC3 /* WCButtonControl.h */,
+				4C8E6C1C1CFF390300D87BC3 /* WCButtonControl.m */,
+				4C8E6C1D1CFF390300D87BC3 /* WCDirectionalControl.h */,
+				4C8E6C1E1CFF390300D87BC3 /* WCDirectionalControl.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		4CE423BC1CFDE4E90054EB82 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4C8E6B711CFF370100D87BC3 /* Controllers */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -4710,6 +4959,10 @@
 				3FFE38C98A474E8CBC5553FA /* Pipes.cpp */,
 				B70A22F8234A48D7B223CB94 /* GCAdapter_Android.cpp */,
 				0581D2B83EBA4EBD84B5DA2B /* InputConfig.cpp */,
+				4C8E6C241CFF642B00D87BC3 /* iOS.h */,
+				4C8E6C251CFF642B00D87BC3 /* iOS.mm */,
+				4C8E6C2E1CFF78FC00D87BC3 /* ButtonManager.h */,
+				4C8E6C2D1CFF78FC00D87BC3 /* ButtonManager.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -5069,6 +5322,7 @@
 		CA53A23C1CEFA30E005937F5 /* DolphiniOS */ = {
 			isa = PBXGroup;
 			children = (
+				4C8E6C181CFF390300D87BC3 /* Controller */,
 				CA53A2B01CEFB44D005937F5 /* Bridge */,
 				CA53A2401CEFA30E005937F5 /* AppDelegate.h */,
 				CA53A2411CEFA30E005937F5 /* AppDelegate.m */,
@@ -5131,7 +5385,6 @@
 				CA53A2781CEFA426005937F5 /* DolphinBridge.mm */,
 				CA1249601CFE7766004C11C5 /* DolphinGame.h */,
 				CA1249611CFE7766004C11C5 /* DolphinGame.m */,
-				CA53A2C21CEFCA3D005937F5 /* GCAdapter_iOS.cpp */,
 				CA53A2B11CEFB485005937F5 /* MainiOS.cpp */,
 			);
 			name = Bridge;
@@ -5449,7 +5702,6 @@
 		E8D29A050946438CB8BD6BE3 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				2793CCD8FCD34B72BA7BF5B0 /* ButtonManager.cpp */,
 				2728693AFAE44FA699B22197 /* MainAndroid.cpp */,
 			);
 			name = "Source Files";
@@ -6594,16 +6846,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8E6BEF1CFF370100D87BC3 /* gcpad_start@2x.png in Resources */,
+				4C8E6BDA1CFF370100D87BC3 /* gcpad_a_pressed@2x.png in Resources */,
+				4C8E6C0A1CFF370100D87BC3 /* gcpad_joystick_range.png in Resources */,
+				4C8E6C0C1CFF370100D87BC3 /* gcpad_l_pressed.png in Resources */,
+				4C8E6C011CFF370100D87BC3 /* gcpad_dpad_pressed_downleft.png in Resources */,
+				4C8E6BD91CFF370100D87BC3 /* gcpad_a@2x.png in Resources */,
+				4C8E6BEB1CFF370100D87BC3 /* gcpad_l@2x.png in Resources */,
+				4C8E6C041CFF370100D87BC3 /* gcpad_dpad_pressed_right.png in Resources */,
+				4C8E6C121CFF370100D87BC3 /* gcpad_x_pressed.png in Resources */,
+				4C8E6BE51CFF370100D87BC3 /* gcpad_dpad_pressed_up@2x.png in Resources */,
+				4C8E6BF21CFF370100D87BC3 /* gcpad_x_pressed@2x.png in Resources */,
 				CA124A1E1CFE7FED004C11C5 /* mute.caf in Resources */,
+				4C8E6BEA1CFF370100D87BC3 /* gcpad_joystick_range@2x.png in Resources */,
+				4C8E6C161CFF370100D87BC3 /* gcpad_z_pressed.png in Resources */,
+				4C8E6BEE1CFF370100D87BC3 /* gcpad_r_pressed@2x.png in Resources */,
+				4C8E6BE71CFF370100D87BC3 /* gcpad_dpad_pressed_upright@2x.png in Resources */,
+				4C8E6C091CFF370100D87BC3 /* gcpad_joystick_pressed.png in Resources */,
+				4C8E6C101CFF370100D87BC3 /* gcpad_start_pressed.png in Resources */,
+				4C8E6BF11CFF370100D87BC3 /* gcpad_x@2x.png in Resources */,
+				4C8E6BF41CFF370100D87BC3 /* gcpad_y_pressed@2x.png in Resources */,
+				4C8E6BDC1CFF370100D87BC3 /* gcpad_b_pressed@2x.png in Resources */,
+				4C8E6C071CFF370100D87BC3 /* gcpad_dpad_pressed_upright.png in Resources */,
+				4C8E6BF01CFF370100D87BC3 /* gcpad_start_pressed@2x.png in Resources */,
+				4C8E6BF71CFF370100D87BC3 /* ic_gamecube.png in Resources */,
+				4C8E6BE01CFF370100D87BC3 /* gcpad_dpad_pressed_down@2x.png in Resources */,
+				4C8E6BF51CFF370100D87BC3 /* gcpad_z@2x.png in Resources */,
+				4C8E6BE61CFF370100D87BC3 /* gcpad_dpad_pressed_upleft@2x.png in Resources */,
+				4C8E6BF81CFF370100D87BC3 /* ic_wii.png in Resources */,
+				4C8E6BDD1CFF370100D87BC3 /* gcpad_c@2x.png in Resources */,
+				4C8E6BFC1CFF370100D87BC3 /* gcpad_b_pressed.png in Resources */,
+				4C8E6BDB1CFF370100D87BC3 /* gcpad_b@2x.png in Resources */,
+				4C8E6BFA1CFF370100D87BC3 /* gcpad_a_pressed.png in Resources */,
+				4C8E6BE31CFF370100D87BC3 /* gcpad_dpad_pressed_left@2x.png in Resources */,
 				CA76E1911CFCDDE20009BB8E /* Entitlements.plist in Resources */,
+				4C8E6BF91CFF370100D87BC3 /* gcpad_a.png in Resources */,
+				4C8E6C0B1CFF370100D87BC3 /* gcpad_l.png in Resources */,
+				4C8E6BDF1CFF370100D87BC3 /* gcpad_dpad@2x.png in Resources */,
+				4C8E6C0F1CFF370100D87BC3 /* gcpad_start.png in Resources */,
+				4C8E6BED1CFF370100D87BC3 /* gcpad_r@2x.png in Resources */,
+				4C8E6BFD1CFF370100D87BC3 /* gcpad_c.png in Resources */,
 				CA53A3391CEFD330005937F5 /* starfield.dol in Resources */,
+				4C8E6BF61CFF370100D87BC3 /* gcpad_z_pressed@2x.png in Resources */,
+				4C8E6C001CFF370100D87BC3 /* gcpad_dpad_pressed_down.png in Resources */,
+				4C8E6C0E1CFF370100D87BC3 /* gcpad_r_pressed.png in Resources */,
+				4C8E6BE81CFF370100D87BC3 /* gcpad_joystick@2x.png in Resources */,
 				CA53A3361CEFD2CF005937F5 /* GC in Resources */,
+				4C8E6BDE1CFF370100D87BC3 /* gcpad_c_pressed@2x.png in Resources */,
+				4C8E6C031CFF370100D87BC3 /* gcpad_dpad_pressed_left.png in Resources */,
+				4C8E6C0D1CFF370100D87BC3 /* gcpad_r.png in Resources */,
+				4C8E6BE11CFF370100D87BC3 /* gcpad_dpad_pressed_downleft@2x.png in Resources */,
+				4C8E6C061CFF370100D87BC3 /* gcpad_dpad_pressed_upleft.png in Resources */,
 				CA53A3371CEFD2CF005937F5 /* Shaders in Resources */,
+				4C8E6C021CFF370100D87BC3 /* gcpad_dpad_pressed_downright.png in Resources */,
 				CA124A521CFE852B004C11C5 /* ZAActivityBar.bundle in Resources */,
+				4C8E6BEC1CFF370100D87BC3 /* gcpad_l_pressed@2x.png in Resources */,
+				4C8E6BFF1CFF370100D87BC3 /* gcpad_dpad.png in Resources */,
 				CA53A24D1CEFA30E005937F5 /* LaunchScreen.storyboard in Resources */,
+				4C8E6C111CFF370100D87BC3 /* gcpad_x.png in Resources */,
+				4C8E6BFB1CFF370100D87BC3 /* gcpad_b.png in Resources */,
 				CA1249671CFE7C0D004C11C5 /* Roms in Resources */,
+				4C8E6C151CFF370100D87BC3 /* gcpad_z.png in Resources */,
+				4C8E6BF31CFF370100D87BC3 /* gcpad_y@2x.png in Resources */,
+				4C8E6C141CFF370100D87BC3 /* gcpad_y_pressed.png in Resources */,
+				4C8E6BE21CFF370100D87BC3 /* gcpad_dpad_pressed_downright@2x.png in Resources */,
 				CA53A24A1CEFA30E005937F5 /* Assets.xcassets in Resources */,
+				4C8E6BFE1CFF370100D87BC3 /* gcpad_c_pressed.png in Resources */,
+				4C8E6C081CFF370100D87BC3 /* gcpad_joystick.png in Resources */,
+				4C8E6BE91CFF370100D87BC3 /* gcpad_joystick_pressed@2x.png in Resources */,
 				CA53A2481CEFA30E005937F5 /* Main.storyboard in Resources */,
+				4C8E6C051CFF370100D87BC3 /* gcpad_dpad_pressed_up.png in Resources */,
+				4C8E6C131CFF370100D87BC3 /* gcpad_y.png in Resources */,
+				4C8E6BE41CFF370100D87BC3 /* gcpad_dpad_pressed_right@2x.png in Resources */,
+				4C8E6C171CFF370100D87BC3 /* ic_date.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -6908,6 +7223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C8E6C231CFF521400D87BC3 /* GCAdapteriOS.cpp in Sources */,
 				205863DE03DD4B80B2B7FCAD /* ControllerEmu.cpp in Sources */,
 				49051513D9974A75A131C323 /* ControllerInterface.cpp in Sources */,
 				35E820AF2F324947B6EBA746 /* Device.cpp in Sources */,
@@ -7472,6 +7788,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA124A221CFE7FED004C11C5 /* NSString+CompareToVersion.m in Sources */,
+				4C8E6C261CFF642B00D87BC3 /* iOS.mm in Sources */,
 				CA1249DF1CFE7F7D004C11C5 /* Ppmd7.c in Sources */,
 				CA124A421CFE8237004C11C5 /* WCEasySettingsSegment.m in Sources */,
 				CA1249DD1CFE7F7D004C11C5 /* LzmaDec.c in Sources */,
@@ -7482,12 +7799,12 @@
 				CA1249D51CFE7F7D004C11C5 /* 7zDec.c in Sources */,
 				CA124A431CFE8237004C11C5 /* WCEasySettingsSlider.m in Sources */,
 				CA53A2451CEFA30E005937F5 /* EmulatorViewController.mm in Sources */,
+				4C8E6C2F1CFF78FC00D87BC3 /* ButtonManager.cpp in Sources */,
 				CA1249E61CFE7FAD004C11C5 /* 7zAlloc.c in Sources */,
 				CA1249D91CFE7F7D004C11C5 /* Alloc.c in Sources */,
 				CA1249701CFE7D0E004C11C5 /* RomTableViewController.m in Sources */,
 				CA124A1F1CFE7FED004C11C5 /* UIDevice+Private.m in Sources */,
 				CA124A1D1CFE7FED004C11C5 /* SharkfoodMuteSwitchDetector.m in Sources */,
-				CA53A2C31CEFCA3D005937F5 /* GCAdapter_iOS.cpp in Sources */,
 				CA1249DB1CFE7F7D004C11C5 /* Delta.c in Sources */,
 				CA1249DC1CFE7F7D004C11C5 /* Lzma2Dec.c in Sources */,
 				CA1249F81CFE7FCF004C11C5 /* unzip.c in Sources */,
@@ -7513,7 +7830,9 @@
 				CA124A201CFE7FED004C11C5 /* RBVolumeButtons.m in Sources */,
 				CA124A541CFE852B004C11C5 /* SKBounceAnimation.m in Sources */,
 				CA53A2791CEFA426005937F5 /* DolphinBridge.mm in Sources */,
+				4C8E6C1F1CFF390300D87BC3 /* GCControllerView.m in Sources */,
 				CA1249EA1CFE7FBD004C11C5 /* MHWDirectoryWatcher.m in Sources */,
+				4C8E6C211CFF390300D87BC3 /* WCDirectionalControl.m in Sources */,
 				CA1249FA1CFE7FCF004C11C5 /* SSZipArchive.m in Sources */,
 				CA1249721CFE7D0E004C11C5 /* RomDownloader.m in Sources */,
 				CA124A441CFE8237004C11C5 /* WCEasySettingsOption.m in Sources */,
@@ -7521,6 +7840,7 @@
 				CA124A451CFE8237004C11C5 /* WCEasySettingsOptionViewController.m in Sources */,
 				CA1249731CFE7D0E004C11C5 /* RomDownloadManager.m in Sources */,
 				CA124A0B1CFE7FDC004C11C5 /* SCLAlertView.m in Sources */,
+				4C8E6C201CFF390300D87BC3 /* WCButtonControl.m in Sources */,
 				CA1249711CFE7D0E004C11C5 /* GameTableView.m in Sources */,
 				CA124A0F1CFE7FDC004C11C5 /* SCLTimerDisplay.m in Sources */,
 				CA1249E21CFE7F7D004C11C5 /* Ppmd8Dec.c in Sources */,
@@ -9496,6 +9816,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -9504,7 +9825,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -9571,6 +9892,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -9640,6 +9962,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -9713,6 +10036,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -9794,6 +10118,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -9802,7 +10127,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -10589,6 +10914,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -10664,6 +10990,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11057,6 +11384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11123,6 +11451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11196,6 +11525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11269,6 +11599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11277,7 +11608,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11629,6 +11960,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11637,7 +11970,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -11985,6 +12318,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -11993,7 +12327,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12051,6 +12385,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -12059,7 +12394,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12132,6 +12467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -12140,7 +12476,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12203,6 +12539,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -12211,7 +12548,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12278,6 +12615,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -12286,7 +12624,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12404,6 +12742,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -12412,7 +12751,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12860,6 +13199,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -12868,7 +13208,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -12933,6 +13273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13165,6 +13506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13173,7 +13515,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13246,6 +13588,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13254,7 +13597,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13317,6 +13660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13398,6 +13742,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13406,7 +13751,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -13585,6 +13930,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13862,6 +14208,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -13941,6 +14288,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14007,6 +14355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14088,6 +14437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14161,6 +14511,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14169,7 +14520,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14243,6 +14594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14544,6 +14896,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14613,6 +14966,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14694,6 +15048,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14702,7 +15057,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -14875,6 +15230,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -14883,7 +15239,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15196,6 +15552,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -15499,6 +15856,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -15507,7 +15865,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15572,6 +15930,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -15580,7 +15939,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15645,6 +16004,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -15718,6 +16078,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -15913,6 +16274,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -15921,7 +16284,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -15994,6 +16357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -16183,6 +16547,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -16191,7 +16556,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -16599,6 +16964,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -16665,6 +17031,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -16731,6 +17098,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -16739,7 +17107,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17195,6 +17563,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -17203,7 +17572,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17429,6 +17798,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -17437,7 +17807,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17624,6 +17994,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -17632,7 +18003,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17828,6 +18199,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -17836,7 +18208,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -17894,6 +18266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -17975,6 +18348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -18056,6 +18430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -18135,6 +18510,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -18243,6 +18619,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -18251,7 +18628,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -18479,6 +18856,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -18607,6 +18985,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -18928,6 +19307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -19213,6 +19593,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -19221,7 +19602,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19294,6 +19675,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -19302,7 +19684,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19709,6 +20091,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -19717,7 +20100,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -19790,6 +20173,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -19989,6 +20373,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -19997,7 +20382,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -20132,6 +20517,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -20555,6 +20942,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -20750,6 +21138,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -20823,6 +21212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -21049,6 +21439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -21057,7 +21448,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21232,6 +21623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -21240,7 +21632,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21526,6 +21918,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -21534,7 +21927,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21607,6 +22000,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -21615,7 +22009,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -21686,6 +22080,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -21752,6 +22147,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -22177,7 +22573,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -22202,7 +22598,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -22236,7 +22632,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -22260,6 +22656,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Build/Source/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -22290,7 +22687,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -22314,6 +22711,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Build/Source/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -22344,7 +22742,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -22368,6 +22766,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Build/Source/**";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Build/DolphiniOS/Dolphin-prefix.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -22837,6 +23236,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -22845,7 +23245,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -22903,6 +23303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -23420,6 +23821,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -23428,7 +23830,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -23735,6 +24137,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -23743,7 +24146,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24205,6 +24608,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24213,7 +24617,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24286,6 +24690,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24294,7 +24699,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24590,6 +24995,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24672,6 +25078,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24753,6 +25160,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24761,7 +25169,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24819,6 +25227,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++1y";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24827,7 +25236,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24900,6 +25309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24908,7 +25318,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -24967,6 +25377,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -24975,7 +25386,7 @@
 				EXECUTABLE_SUFFIX = .a;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
 					"'DATA_DIR=\"/usr/local/share/dolphin-emu/\"'",
@@ -25036,6 +25447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -25117,6 +25529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;
@@ -25256,6 +25669,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Build/Libraries";
 				COPY_PHASE_STRIP = NO;

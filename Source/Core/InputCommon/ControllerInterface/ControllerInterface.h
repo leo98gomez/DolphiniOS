@@ -16,28 +16,30 @@
 #include "InputCommon/ControllerInterface/ExpressionParser.h"
 
 // enable disable sources
-#ifdef _WIN32
-	#define CIFACE_USE_XINPUT
-	#define CIFACE_USE_DINPUT
-#endif
-#if defined(HAVE_X11) && HAVE_X11
-	#define CIFACE_USE_XLIB
-	#if defined(HAVE_X11_XINPUT2) && HAVE_X11_XINPUT2
-		#define CIFACE_USE_X11_XINPUT2
-	#endif
-#endif
-#if defined(__APPLE__)
-	#define CIFACE_USE_OSX
-#endif
-#if defined(HAVE_SDL) && HAVE_SDL
-	#define CIFACE_USE_SDL
-#endif
-#if defined(HAVE_LIBEVDEV) && defined(HAVE_LIBUDEV)
-	#define CIFACE_USE_EVDEV
-#endif
-#if defined(USE_PIPES)
-	#define CIFACE_USE_PIPES
-#endif
+//#ifdef _WIN32
+//	#define CIFACE_USE_XINPUT
+//	#define CIFACE_USE_DINPUT
+//#endif
+//#if defined(HAVE_X11) && HAVE_X11
+//	#define CIFACE_USE_XLIB
+//	#if defined(HAVE_X11_XINPUT2) && HAVE_X11_XINPUT2
+//		#define CIFACE_USE_X11_XINPUT2
+//	#endif
+//#endif
+//#if defined(__APPLE__)
+//	#define CIFACE_USE_OSX
+//#endif
+//#if defined(HAVE_SDL) && HAVE_SDL
+//	#define CIFACE_USE_SDL
+//#endif
+//#if defined(HAVE_LIBEVDEV) && defined(HAVE_LIBUDEV)
+//	#define CIFACE_USE_EVDEV
+//#endif
+//#if defined(USE_PIPES)
+//	#define CIFACE_USE_PIPES
+//#endif
+
+#define CIFACE_USE_iOS
 
 //
 // ControllerInterface

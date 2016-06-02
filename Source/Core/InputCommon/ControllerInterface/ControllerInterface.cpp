@@ -17,6 +17,9 @@
 		#include "InputCommon/ControllerInterface/Xlib/XInput2.h"
 	#endif
 #endif
+#ifdef CIFACE_USE_iOS
+    #include "InputCommon/ControllerInterface/iOS/iOS.h"
+#endif
 #ifdef CIFACE_USE_OSX
 	#include "InputCommon/ControllerInterface/OSX/OSX.h"
 #endif
@@ -24,7 +27,7 @@
 	#include "InputCommon/ControllerInterface/SDL/SDL.h"
 #endif
 #ifdef CIFACE_USE_ANDROID
-	#include "InputCommon/ControllerInterface/Android/Android.h"
+	//#include "InputCommon/ControllerInterface/Android/Android.h"
 #endif
 #ifdef CIFACE_USE_EVDEV
 	#include "InputCommon/ControllerInterface/evdev/evdev.h"
@@ -66,6 +69,9 @@ void ControllerInterface::Initialize(void* const hwnd)
 	ciface::XInput2::Init(m_devices, hwnd);
 	#endif
 #endif
+#ifdef CIFACE_USE_iOS
+    ciface::iOS::Init(m_devices);
+#endif
 #ifdef CIFACE_USE_OSX
 	//ciface::OSX::Init(m_devices, hwnd);
 #endif
@@ -79,8 +85,10 @@ void ControllerInterface::Initialize(void* const hwnd)
 	ciface::evdev::Init(m_devices);
 #endif
 #ifdef CIFACE_USE_PIPES
-	ciface::Pipes::Init(m_devices);
+	//ciface::Pipes::Init(m_devices);
 #endif
+    //iOS
+    
 
 	m_is_init = true;
 }
@@ -124,6 +132,9 @@ void ControllerInterface::Shutdown()
 #endif
 #ifdef CIFACE_USE_XLIB
 	// nothing needed
+#endif
+#ifdef CIFACE_USE_iOS
+    
 #endif
 #ifdef CIFACE_USE_OSX
 	//ciface::OSX::DeInit();

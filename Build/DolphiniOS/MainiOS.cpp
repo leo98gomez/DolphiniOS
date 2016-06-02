@@ -37,7 +37,6 @@
 #include "VideoCommon/RenderBase.h"
 #include "VideoCommon/VideoBackendBase.h"
 
-//GetCurrentColorTexture()
 
 #define DOLPHIN_TAG "DolphinEmuNative"
 

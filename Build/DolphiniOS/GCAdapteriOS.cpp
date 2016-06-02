@@ -266,6 +266,7 @@ void StopScanThread()
 
 void Input(int chan, GCPadStatus* pad)
 {
+    printf("Input!\n");
 //	if (!UseAdapter() || !s_detected || !s_fd)
 //		return;
 //
@@ -334,6 +335,7 @@ void Input(int chan, GCPadStatus* pad)
 
 void Output(int chan, u8 rumble_command)
 {
+    printf("Output!\n");
 //	if (!UseAdapter() || !s_detected || !s_fd)
 //		return;
 //

@@ -726,7 +726,7 @@ static void SetWiiInputDisplayString(int remoteID, u8* const data, const Wiimote
 
 	s_InputDisplay[controllerID].append("\n");
 }
-
+    
 void CheckPadStatus(GCPadStatus* PadStatus, int controllerID)
 {
 	s_padState.A         = ((PadStatus->button & PAD_BUTTON_A) != 0);
@@ -734,7 +734,7 @@ void CheckPadStatus(GCPadStatus* PadStatus, int controllerID)
 	s_padState.X         = ((PadStatus->button & PAD_BUTTON_X) != 0);
 	s_padState.Y         = ((PadStatus->button & PAD_BUTTON_Y) != 0);
 	s_padState.Z         = ((PadStatus->button & PAD_TRIGGER_Z) != 0);
-	s_padState.Start     = ((PadStatus->button & PAD_BUTTON_START) != 0);
+    s_padState.Start     = ((PadStatus->button & PAD_BUTTON_START) != 0);
 
 	s_padState.DPadUp    = ((PadStatus->button & PAD_BUTTON_UP) != 0);
 	s_padState.DPadDown  = ((PadStatus->button & PAD_BUTTON_DOWN) != 0);

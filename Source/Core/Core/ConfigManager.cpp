@@ -271,6 +271,7 @@ void SConfig::SaveCoreSettings(IniFile& ini)
 	core->Set("GPUDeterminismMode", m_strGPUDeterminismMode);
 	core->Set("PerfMapDir", m_perfDir);
     bFastmem = false; //Will Edited
+    m_FrameSkip = 2;
 }
 
 void SConfig::SaveMovieSettings(IniFile& ini)

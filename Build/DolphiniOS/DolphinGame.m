@@ -23,11 +23,17 @@ NSString * const DolphinGameSaveStatesChangedNotification = @"DolphinGameSaveSta
 {
     NSMutableArray *games = [NSMutableArray new];
     NSArray *files = [[NSFileManager defaultManager] contentsOfDirectoryAtPath:gamesPath error:NULL];
-    NSLog(@"A %@ %@", gamesPath, files);
     for(NSString *file in files) {
         if ([file.pathExtension isEqualToString:@"iso"] || [file.pathExtension isEqualToString:@"dol"]) {
             DolphinGame *game = [DolphinGame gameWithPath:[gamesPath stringByAppendingPathComponent:file] saveStateDirectoryPath:saveStatePath];
             if (game) [games addObject:game];
+        } else { //Recurse
+            BOOL isDirectory;
+            if ([[NSFileManager defaultManager] fileExistsAtPath:[gamesPath stringByAppendingPathComponent:file] isDirectory:&isDirectory]) {
+                if (isDirectory) {
+                    [games addObjectsFromArray:[DolphinGame gamesAtPath:[gamesPath stringByAppendingPathComponent:file] saveStateDirectoryPath:saveStatePath]];
+                }
+            }
         }
     }
     

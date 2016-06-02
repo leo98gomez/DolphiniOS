@@ -557,7 +557,7 @@ namespace ButtonManager
 	}
 	bool GamepadEvent(const std::string& dev, int button, int action)
 	{
-		auto it = m_controllers.find(dev);
+        auto it = m_controllers[0];//.find(dev);
 		if (it != m_controllers.end())
 			return it->second->PressEvent(button, action);
 		return false;
